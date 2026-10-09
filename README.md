@@ -2,7 +2,7 @@
 
 This project continues [KLS500](https://github.com/HongruZhao/KLS500), which recorded the earlier upper bound 500.
 
-Lean 4 formalization of a dimension-free Poincaré bound for every isotropic log-concave probability measure $\mu$ on $\mathbb{R}^n$, $n\ge1$:
+Lean 4 formalization of the Poincaré formulation of the **Kannan–Lovász–Simonovits (KLS) conjecture**, with the explicit dimension-free constant **15**. For every isotropic log-concave probability measure $\mu$ on $\mathbb{R}^n$, $n\ge1$:
 
 ```math
 \mathrm{Var}_{\mu}(f)\le15\int\lVert\nabla f\rVert^2\,d\mu.
