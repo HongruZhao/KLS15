@@ -39,12 +39,14 @@ A_\beta=\frac{4}{1-\beta}-2,\qquad
 | Estimate and paper v2 location | Paper v2 | This Lean release |
 |---|---|---|
 | Rank-two loss $L_\beta$: (3.14) specialized to $j=2$, on $1/3\le\beta<1$ | $24/(1-\beta)-18$ | $64/[3(1-\beta)]-18$, using full cubic symmetry. [Proof](ActualSymmetricQuadraticNoise.lean). |
-| Adjacent terminal cost at the quotient maximum, §3.4 and Proposition 3.1 | $2x(1+uq)$ | $x(1+uq)$, using variance centering. [Heat inequality](ActualCenteredAdjacentHeat.lean) and [cancellation](ActualCenteredAdjacentTerminal.lean). |
+| Adjacent terminal cost at the quotient maximum: [Proposition 3.1 proof, §3.6, page 14](https://arxiv.org/pdf/2610.07728v2#page=14) | $2x(1+uq)$ | $x(1+uq)$, using variance centering. [Heat inequality](ActualCenteredAdjacentHeat.lean) and [cancellation](ActualCenteredAdjacentTerminal.lean). |
 | Cubic coefficient, Theorem 4.1 proof, (4.2)–(4.3) | $b_3^2\le121/4=30.25$ | $b_3^2\le49/2=24.5$, using a centered joint barrier. [Seed](ActualSymmetricCenteredCubicSeed245.lean) and [cap](ActualSymmetricCubicSeed245Cap.lean). |
 | Graded integration operator, Proposition 7.3 applied to $J$ | $\lVert J\rVert^2\le24$ | $\lVert J\rVert^2\le139963/10000=13.9963$, retaining separate quadratic and cubic observation caps. [Endgame](TwoHeadObservationOperatorEndgame.lean) and [parameters](CoupledSub15Numerics.lean). |
 | Poincaré constant, Theorem 1.1 | $C_P(\mu)\le25$ | $C_P(\mu)\le149963/10000<15$. [Endpoint](ActualKLS149963Endpoints.lean). |
 
-In the terminal-cost row, $x=E_3$, $u=E_2/8$ and $q=-\phi'(u)/\phi(u)$ for the adjacent barrier $\phi$. In the operator row, $J$ denotes the same centered graded integration operator in both columns.
+The terminal-cost row refers to the **unnumbered display** immediately after “We obtain” and before “Divide by $x>0$” in the [proof on page 14](https://arxiv.org/pdf/2610.07728v2#page=14). Its signed term is $-2x(1+uq)$; the table records the positive cost $2x(1+uq)$. The centered Lean inequality has $-x(1+uq)$. In the cubic specialization, $x=E_3$, $u=E_2/8$ and $q=-\phi'(u)/\phi(u)$ for the adjacent barrier $\phi$.
+
+In the operator row, $J$ denotes the same centered graded integration operator in both columns.
 
 The all-degree estimates have different forms and are therefore stated separately. The paper's Theorem 4.1 and (4.1) give the individual bounds $b_d^2\le(121/4)(223/10)^{d-3}$ for $d\ge3$. Exact triangular contractions and degree-dependent Young allocations instead give the following [joint bound](ActualWeightedAppellInductionSub15.lean), for the same unit test function and every finite $N$:
 
