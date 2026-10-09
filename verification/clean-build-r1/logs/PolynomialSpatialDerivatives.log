@@ -1,0 +1,17 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolynomialSpatialDerivatives.lean:58:61: warning: This simp argument is unused:
+  MvPolynomial.pderiv_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coordinateDerivative, polynomialEval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeNext.polynomialEval_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.coordinateDerivative_polynomialEval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.memLp_coordinateDerivative_polynomialEval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.exists_actualAppellPolynomial_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

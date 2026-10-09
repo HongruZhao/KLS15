@@ -1,0 +1,14 @@
+{
+  "status": "EXECUTED_AND_FUTURE_LAUNCHERS_DISTINGUISHED",
+  "clean_build_receipt_sha256": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba",
+  "executed_launcher": "clean-build-r1/executed-rebuild.py",
+  "executed_launcher_sha256": "016f676311bb954594bb49834efe6bf164778232d9c37bfac1f5c7f3e5361a24",
+  "future_launcher": "rebuild.py",
+  "future_launcher_sha256": "2d8309b9ffed45d4220444034a9356191b7ac8a3f19883955bf375e7ad00d6d5",
+  "future_launcher_full_build_run": false,
+  "unchanged_compilation_scheduler_and_endpoint_audit": true,
+  "change_scope": "Future reproduction resolves the actual project-pinned Elan compiler, checks exact version and commit, and makes a platform-specific binary hash optional. The completed proof build used the preserved executed launcher and explicit pinned macOS compiler.",
+  "preflight_test_receipt_sha256": "300e10a3609a2e766ddb80f48893e57bba5b61ef812a77100cfd57500828e0d9",
+  "installed_default_preflight": "launcher-preflight-final/receipt.json",
+  "installed_default_preflight_sha256": "8f0d596cb83be790e38e6920dd725c300a035229c8e2c75cff773517fc912cdb"
+}

@@ -1,0 +1,1446 @@
+{
+  "status": "RUNNING",
+  "started_utc": "2026-10-09T20:55:45.168932+00:00",
+  "source_modules": 1654,
+  "project_objects_reused": false,
+  "full_project_source_rebuild": true,
+  "external_mathlib_sources_rebuilt": false,
+  "dependency_pins": [
+    {
+      "name": "mathlib",
+      "revision": "4beb549110aa44b87d699166cece6e3642bddf34",
+      "object_cache_present": true
+    },
+    {
+      "name": "plausible",
+      "revision": "afc2695efcb6855264d85a45632db1ddc56c8774",
+      "object_cache_present": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "50cd21bc62f2c8357c4f269d1185921cbfcdfc90",
+      "object_cache_present": true
+    },
+    {
+      "name": "importGraph",
+      "revision": "d05821707c1db7c14cbfc064594c8c8ebe84b0e8",
+      "object_cache_present": true
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "87dfe779d5dfd03142ee4fe158911b8eb553ec98",
+      "object_cache_present": true
+    },
+    {
+      "name": "aesop",
+      "revision": "36cb0105a76ff3de70add8ae91afb6cfc57fafe3",
+      "object_cache_present": true
+    },
+    {
+      "name": "Qq",
+      "revision": "d93a8a0622807953d1e424f0fe2a5f5b5520c12e",
+      "object_cache_present": true
+    },
+    {
+      "name": "batteries",
+      "revision": "0947ec649687a40668db7722257c33e31493b7a2",
+      "object_cache_present": true
+    },
+    {
+      "name": "Cli",
+      "revision": "843844fa601dd56767b1eb22b7ada5b64d5e567a",
+      "object_cache_present": false
+    }
+  ],
+  "compiler_sha256": "d1d9c26a539f54fe839d2aa7760bf1ac1dd76a30b26e2c9684bebf2900038fcf",
+  "flags": [
+    "-j1",
+    "-M12288",
+    "-t0",
+    "-DmaxSynthPendingDepth=3"
+  ],
+  "workers": 4,
+  "LEAN_PATH": [
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/verification/clean-build-r1/project-objects",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/lib/lean"
+  ],
+  "external_direct_imports": {
+    "Mathlib": {
+      "object_sha256": "82cf1abcc72c1a65240ca565f3fa8d671176a7c53553634871c4eaf49d1081f7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib.olean"
+    },
+    "Mathlib.Algebra.BigOperators.Group.List.Basic": {
+      "object_sha256": "a0fb2816f8e729c482bf6de2e0529f6aa302b64eb9c1632ddee32ead9b812342",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Group/List/Basic.olean"
+    },
+    "Mathlib.Algebra.Group.Pointwise.Set.Scalar": {
+      "object_sha256": "9fe6253868a54dec8bd48cf6731c3f5dfd42ec4e0059c834be849f65be6107fc",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Group/Pointwise/Set/Scalar.olean"
+    },
+    "Mathlib.Algebra.Module.LinearMap.DivisionRing": {
+      "object_sha256": "e855e4deda9c5593f247cc8f40928688173f44a8263e2eb2df88e77bb6e7666d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Module/LinearMap/DivisionRing.olean"
+    },
+    "Mathlib.Algebra.MvPolynomial.Degrees": {
+      "object_sha256": "9c54df4e853adf3eb6cec64fb74dea2c01779104aaf7478279134c468e74e3fc",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/MvPolynomial/Degrees.olean"
+    },
+    "Mathlib.Algebra.MvPolynomial.Funext": {
+      "object_sha256": "2eaf1648ca824c4c7065b70902ce97c7839fb99767214a261dcc2706a46752d9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/MvPolynomial/Funext.olean"
+    },
+    "Mathlib.Algebra.MvPolynomial.PDeriv": {
+      "object_sha256": "0a9a16f7944e04db2731dbbbb3a26cab591e173489b382f62ae04a02f7b5f1b2",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/MvPolynomial/PDeriv.olean"
+    },
+    "Mathlib.Algebra.Order.Chebyshev": {
+      "object_sha256": "f94da50928b32456864471d99182562f605fdc2ccf9222f83a303909af600694",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Order/Chebyshev.olean"
+    },
+    "Mathlib.Algebra.Order.Floor.Extended": {
+      "object_sha256": "bd181694737af1ba4aeb7c752de4901bd911b765bab929ce6aa6635135e540eb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Order/Floor/Extended.olean"
+    },
+    "Mathlib.Algebra.Order.Floor.Semiring": {
+      "object_sha256": "794ca9c15af506e15813067ddec42c6a3232034a24433d3016ebe18534cdd516",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Order/Floor/Semiring.olean"
+    },
+    "Mathlib.Algebra.Order.Ring.Abs": {
+      "object_sha256": "86140af40b94a959cae9cdb66b5b0b0eeab3aa5a3c63979a8b54ac1953b95487",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Order/Ring/Abs.olean"
+    },
+    "Mathlib.Algebra.Order.Ring.Star": {
+      "object_sha256": "6f69f37361a924e8fc0811a7645a1a250240da322a0be53dc08281af4f4c37b0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Order/Ring/Star.olean"
+    },
+    "Mathlib.Algebra.QuadraticDiscriminant": {
+      "object_sha256": "aa8f90eee8dd5139141db3b64833545c6cd56c2a5659bec489f2568b8fb4752d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/QuadraticDiscriminant.olean"
+    },
+    "Mathlib.Analysis.Analytic.CPolynomialDef": {
+      "object_sha256": "ddaa951588814bf48e17a81072baf4d12a7349a125e0e932e2cfcb3e15388b38",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Analytic/CPolynomialDef.olean"
+    },
+    "Mathlib.Analysis.Analytic.Polynomial": {
+      "object_sha256": "42fac80b6fb7c08f384c9d6b812fa5d62338f2406cdc759772982fe9e95fa663",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Analytic/Polynomial.olean"
+    },
+    "Mathlib.Analysis.Analytic.Uniqueness": {
+      "object_sha256": "d577678ac230e9a385c698abd7f27267eb4b48a25b033bc7cac07546e50d4a1e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Analytic/Uniqueness.olean"
+    },
+    "Mathlib.Analysis.Asymptotics.Lemmas": {
+      "object_sha256": "71b6d6f739a3166e950c61fccfb0a1b3088493b04cf4d752983d0705bedf1454",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Asymptotics/Lemmas.olean"
+    },
+    "Mathlib.Analysis.Calculus.AddTorsor.AffineMap": {
+      "object_sha256": "93224cde4331203fa000ab8edb94cecc7bb5db3434ddebcf7030dc6b12fdd5fd",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/AddTorsor/AffineMap.olean"
+    },
+    "Mathlib.Analysis.Calculus.BumpFunction.Basic": {
+      "object_sha256": "df00877f3c7bfc2a7eedf2eaf3131ba3b69fe12283174a840234185016122032",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/BumpFunction/Basic.olean"
+    },
+    "Mathlib.Analysis.Calculus.BumpFunction.Convolution": {
+      "object_sha256": "aa75817941fbc52841aca09836483d776357b3b34b514f6dddbe9012dc4274e0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/BumpFunction/Convolution.olean"
+    },
+    "Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension": {
+      "object_sha256": "2382959fde76912b3c347748c7c1cb8d4b0fee09a5ec6e12447966c314a027ba",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/BumpFunction/FiniteDimension.olean"
+    },
+    "Mathlib.Analysis.Calculus.BumpFunction.Normed": {
+      "object_sha256": "110b8e6161d0a213045258b24caad145db5af7da2d6c199910e7418232451aff",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/BumpFunction/Normed.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Basic": {
+      "object_sha256": "c56529c8d6ec61161d8ae5004ffe76e6f2469bc2ad80db9b58530ecbff312213",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/Basic.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Comp": {
+      "object_sha256": "a9f1aa23748d850003f57f530eaf28d1c20ade65978c0c762ca4febf45989104",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/Comp.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Convolution": {
+      "object_sha256": "3f7329deb63f74409f13c4ca885846582213c4162e4290b7322bf8c066529e83",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/Convolution.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Defs": {
+      "object_sha256": "6f2db5e803c596c1153b1cf9ba9f7d26f869389b9cfbc72b83810ae9cb6883d0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/Defs.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Deriv": {
+      "object_sha256": "a29084a3a1a964d951b4229a6e3f8c9a362137d27140707f1b27acf203503d42",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/Deriv.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.Operations": {
+      "object_sha256": "f6dd89d7bc7ff35d2cc01828031fdf369f71e7956b3a7480c99f99893f675ac7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/Operations.olean"
+    },
+    "Mathlib.Analysis.Calculus.ContDiff.RCLike": {
+      "object_sha256": "63a7f0669897cd6643a8268acd6480991deffdbeea2c3fb895dc614870eb262b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ContDiff/RCLike.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Add": {
+      "object_sha256": "995d57b5af91499f775b66353e5f8f8ac029b73dad20920f50b3db166b49c9a7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Add.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.AffineMap": {
+      "object_sha256": "060831c1543e172b16451fb857304601a853d046f4740a414b1522224791e660",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/AffineMap.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Comp": {
+      "object_sha256": "58c3060e2ca48ce00fc2934856b431a12b0e3d5a4c3e985d7366e6202e381151",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Comp.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.CompMul": {
+      "object_sha256": "296899e47fe922103f72da0ac4d8eb1ddd99b65849557a03cd625e8451dbec0e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/CompMul.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.MeanValue": {
+      "object_sha256": "9e8ce9fcde4fe6bd51d5a76c12727d8a38a2039b7cb5e5df7f7018290200e2d7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/MeanValue.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Mul": {
+      "object_sha256": "32eb70c548291d5082ef80309b7430e621c1a7d0c63b5ecc79d51ba918506cfa",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Mul.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Pow": {
+      "object_sha256": "19c85c4b29c5bb6a6a149a81c3e4d465a38fb3df101a6d35a609d9d89503b22a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Pow.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Shift": {
+      "object_sha256": "789b0f469a8933185182589679f22e82ee0e0bef8ecc5a6a3c230e851e9252cd",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Shift.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Slope": {
+      "object_sha256": "cacf2af487045f98da4c09e06608da3011a67ec7e19fead8ea83513feb4642f7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Slope.olean"
+    },
+    "Mathlib.Analysis.Calculus.Deriv.Support": {
+      "object_sha256": "dcb2d48587339949d7416ac4282778bb4b998abd9d7eb5d4ddf3a82db0381bb4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Deriv/Support.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Add": {
+      "object_sha256": "dfe0871632fe9802d3080f4e8dad314197c1f58b433a4f03e0c70da21228db6c",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Add.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Basic": {
+      "object_sha256": "e8bd684b1aa10ac0f99404f0973a2f7bf0e5b9d0fd10d963c27c6e08a92cc55b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Basic.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Comp": {
+      "object_sha256": "f732a5ad46c5cfb16d98b968237cecbc44d275f3f4b1e502b1edcf27db87d400",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Comp.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.CompCLM": {
+      "object_sha256": "05de03282924ab3b29e9484b1eb254812f6f8530c0d7e5f0308a1d6e4a6f3934",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/CompCLM.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Const": {
+      "object_sha256": "e6875a8f5302301d56a7e9e175454f9b01032585b5132917c44fb70f9a1a743f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Const.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Equiv": {
+      "object_sha256": "9a48f79747ae77fa6e7c6c264fb5e14625380b207ea4d7d0da1673d74a97a1cb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Equiv.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Measurable": {
+      "object_sha256": "548612175d177a434a5a5264d2e30e5a0852310b69d133a35f5a1c693473abb2",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Measurable.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Mul": {
+      "object_sha256": "261c5b6298cdb183f53cd04b0a5a1dd1a5eafa2d175fbf746cbbebaa06860c37",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Mul.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.OfCompLeft": {
+      "object_sha256": "f285853dd32ddb1dc4fdbc41228ff47c9bda789071c634b67f83bddf672c1989",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/OfCompLeft.olean"
+    },
+    "Mathlib.Analysis.Calculus.FDeriv.Symmetric": {
+      "object_sha256": "1aada217d6de51d1a93a25922aa2abb91720b4b10408229be8d9565e435d0cab",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/FDeriv/Symmetric.olean"
+    },
+    "Mathlib.Analysis.Calculus.Gradient.Basic": {
+      "object_sha256": "06218c242824dbf064e3caebd9550662dbf7413332fffeb04afbbba1a5ef0f71",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Gradient/Basic.olean"
+    },
+    "Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff": {
+      "object_sha256": "edf75dde56b5863dc1d693ebf3b22e956a21b10698789f698557caefb22388ed",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/InverseFunctionTheorem/ContDiff.olean"
+    },
+    "Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts": {
+      "object_sha256": "a42dd25eccf57a50f0659a81726f654878cdbb5ce11b9275875227d14aef762a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/LineDeriv/IntegrationByParts.olean"
+    },
+    "Mathlib.Analysis.Calculus.LineDeriv.Measurable": {
+      "object_sha256": "69410864c3c48e37c6daafd6a42c267f5f6f6de0b36ce93e8da982b0e93d5741",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/LineDeriv/Measurable.olean"
+    },
+    "Mathlib.Analysis.Calculus.LocalExtr.Basic": {
+      "object_sha256": "ea15cd4d52722666b1af396dc1fb486087e839c04b18aae404ed2fc9ee1fb246",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/LocalExtr/Basic.olean"
+    },
+    "Mathlib.Analysis.Calculus.MeanValue": {
+      "object_sha256": "d45a8586429140b29c1368cf4161d6e0d87e656802c357b8c4ea7e1cb34441d9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/MeanValue.olean"
+    },
+    "Mathlib.Analysis.Calculus.ParametricIntegral": {
+      "object_sha256": "e6cb993ef31923251aa4025dd1945af63e541aa5336b71e8dadead9e5e01aaed",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/ParametricIntegral.olean"
+    },
+    "Mathlib.Analysis.Calculus.Rademacher": {
+      "object_sha256": "1100e95420624509347a0d3817bb1e498ac6e802406f3fd803669479d4ce5973",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Rademacher.olean"
+    },
+    "Mathlib.Analysis.Calculus.Taylor": {
+      "object_sha256": "09a25b407e0d61f15414b2b0e063abcc282f0bf61653fd46a9e09bb0609e8065",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/Taylor.olean"
+    },
+    "Mathlib.Analysis.Calculus.TaylorIntegral": {
+      "object_sha256": "d928e71c4f23d638bf2c1cdb8f1d5265086819020f7ef17c1919fe5077b27c33",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/TaylorIntegral.olean"
+    },
+    "Mathlib.Analysis.Calculus.UniformLimitsDeriv": {
+      "object_sha256": "d63a0b752400e27adb31e7c9c7045b2fed58062308c5fd852c18c8caa9d3574e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Calculus/UniformLimitsDeriv.olean"
+    },
+    "Mathlib.Analysis.Complex.AbsMax": {
+      "object_sha256": "280da2882880fca025ba9923147c4e4815dadd6b92026ad0078f425d629000d5",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Complex/AbsMax.olean"
+    },
+    "Mathlib.Analysis.Convex.Approximation": {
+      "object_sha256": "4aa1b1bc6b729e5c1f5b928bf241501ccf2a1e64a5a2cb45c3b21275b0ffdfb4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Approximation.olean"
+    },
+    "Mathlib.Analysis.Convex.Continuous": {
+      "object_sha256": "0e94f12f6f72251cb0547f8b77434a334c542b79e907bfa53ba85aefbaa926d0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Continuous.olean"
+    },
+    "Mathlib.Analysis.Convex.Deriv": {
+      "object_sha256": "15f3ceacb6f48227326ddf6acc4a5626aacc089ca9ec01f9d98f5434cb347eb3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Deriv.olean"
+    },
+    "Mathlib.Analysis.Convex.Extrema": {
+      "object_sha256": "230d8d8bdd827d21e090c57d0a03f7430f33b87c876be3372bedd4b8146902d5",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Extrema.olean"
+    },
+    "Mathlib.Analysis.Convex.Function": {
+      "object_sha256": "9ab25ffd5b5d03299db8fdc431c5a5152979c332671242b66f15ec5a0beb794a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Function.olean"
+    },
+    "Mathlib.Analysis.Convex.FunctionTopology": {
+      "object_sha256": "35ca547cf93e75c99c37e06bb229d042fd9a013ee051bdcfa1e57d9f36f8c995",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/FunctionTopology.olean"
+    },
+    "Mathlib.Analysis.Convex.Integral": {
+      "object_sha256": "8a6c9c2fb4696e691d28e9ff70331b94d0954d0598416a6e8882e76e692f5964",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Integral.olean"
+    },
+    "Mathlib.Analysis.Convex.Measure": {
+      "object_sha256": "3476ae6a0469562a7edd6639f20e0ef045e58f046123fa6546714e98bb6a87a4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Measure.olean"
+    },
+    "Mathlib.Analysis.Convex.SpecificFunctions.Basic": {
+      "object_sha256": "bbab7d2b588296915bac63102e7af2a5e294dfb37a98c0574efff3b6623edaef",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/SpecificFunctions/Basic.olean"
+    },
+    "Mathlib.Analysis.Convex.StdSimplex": {
+      "object_sha256": "0eeab9d12e3779b1880af306219594ea233c5ba72e8ef57694be154e50301285",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/StdSimplex.olean"
+    },
+    "Mathlib.Analysis.Convex.Strong": {
+      "object_sha256": "3e4c42c6b732dcca4021c2c208ad97ffff7bdd53b43b53a0afae0d4d43f4db6d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Strong.olean"
+    },
+    "Mathlib.Analysis.Convex.Topology": {
+      "object_sha256": "617d4b74869397d5b2bc8d165ac635a89b14b20a878d41111285cef7c2483c60",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convex/Topology.olean"
+    },
+    "Mathlib.Analysis.Convolution": {
+      "object_sha256": "112e820487ae9f54dde8c638719baecd3328f9801dbdd7b5b0d3046c7791c44f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Convolution.olean"
+    },
+    "Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff": {
+      "object_sha256": "b040461de41d95d7b95955cadfb5e3a4e6f6b03f66454be2fbab7f30a37aefc9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Distribution/AEEqOfIntegralContDiff.olean"
+    },
+    "Mathlib.Analysis.Distribution.Distribution": {
+      "object_sha256": "b3b8f24fd0b7a96802f38eee453e2b197690daa88e5b717bb45816927a593e0e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Distribution/Distribution.olean"
+    },
+    "Mathlib.Analysis.Distribution.Sobolev": {
+      "object_sha256": "aafe6a1e1575b7ab6c8dca68652c98423a29599a36244f6309565ea45fd4bc51",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Distribution/Sobolev.olean"
+    },
+    "Mathlib.Analysis.Distribution.TestFunction": {
+      "object_sha256": "4acb662643f6e698c2af42ef1a5962db4f14fc565426071c24dcc13d437f4c59",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Distribution/TestFunction.olean"
+    },
+    "Mathlib.Analysis.FunctionalSpaces.SobolevInequality": {
+      "object_sha256": "b041d32ce2d0a4a1f561395bf8f21721b82f4e9463670a13a238add9b42572a3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/FunctionalSpaces/SobolevInequality.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Adjoint": {
+      "object_sha256": "160e7d49ca4faa9b7392c3ba6e773db3cc22cc1646b748f405bdea643cc91ff6",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Adjoint.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Basic": {
+      "object_sha256": "086a575f2fcd498342e443b0fcbb0bc0f2a3f43e78e628eaf171a0e083a52896",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Basic.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Calculus": {
+      "object_sha256": "7838930d842618f169121f9c031c440ecfb4609bf4324a8f4ea8afa8c41b3e4b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Calculus.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Dual": {
+      "object_sha256": "cfd8e75e3f8a3d5e0fe3c3b0438d11ef08ef747fd2d1a05fc58045b8a95565f4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Dual.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.EuclideanDist": {
+      "object_sha256": "2157d2053f0ff863bc4a8f15b10155567cadc93216e7aab2c5360c139d5037e4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/EuclideanDist.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.GramMatrix": {
+      "object_sha256": "1b4466603053433fb1831549699398f329f18ac29dd230cf33dc5aadb2e147ce",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/GramMatrix.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.GramSchmidtOrtho": {
+      "object_sha256": "87cdf5559079fe5de49af57f22f4fb77dba990a7409f7dff7e47f444f0c7b0a1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/GramSchmidtOrtho.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.LaxMilgram": {
+      "object_sha256": "38b627f3a25ac1854d5acd0b110c16c272288a2709f5a69c819910fd0524add9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/LaxMilgram.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.LinearPMap": {
+      "object_sha256": "4e21475599a6db76e4cd2ff67831754b14ddccfb31467fbff959312dd81b7351",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/LinearPMap.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Orthogonal": {
+      "object_sha256": "41dd6a2cce412f8d7e2b284516f85282cc5fdbe13ac45c25dd9bdd9b916b0b44",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Orthogonal.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.PiL2": {
+      "object_sha256": "f880a1ec7e4ef9d2fa970c44997a323028a4d5a384673e2d302f18cd0a848073",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/PiL2.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Projection.Basic": {
+      "object_sha256": "df1454eee3724e2999378187eccb1b313a3ffc2b4a2e69acb5480f994caa75ee",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Projection/Basic.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional": {
+      "object_sha256": "f637dd13ef12489bf2b5ec85c12a4e00f3b28541a6b3c32250374229a87d567e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Projection/FiniteDimensional.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Projection.Reflection": {
+      "object_sha256": "d0dadf08362b337091dace3ad97b4222e787071df4a6bfc06640bf77ec02b372",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Projection/Reflection.olean"
+    },
+    "Mathlib.Analysis.InnerProductSpace.Subspace": {
+      "object_sha256": "8c29a1babf7d17692b10a2860c4239c10cbc38e7441582a757447b6e57cf3232",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Subspace.olean"
+    },
+    "Mathlib.Analysis.LocallyConvex.HahnBanach": {
+      "object_sha256": "b8b46e15de89f079ed35a297eb337c1b608da0f4d035b6f78a045f16224e9780",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/LocallyConvex/HahnBanach.olean"
+    },
+    "Mathlib.Analysis.LocallyConvex.SeparatingDual": {
+      "object_sha256": "8c243803815a5755e4bf7d8e79746422302150fef6e43817d3f561b460856460",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/LocallyConvex/SeparatingDual.olean"
+    },
+    "Mathlib.Analysis.LocallyConvex.Separation": {
+      "object_sha256": "05142eaab8633fe0fd3a04e2f92cd90cd32dd79d6cc2ec450499f05dc66d603c",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/LocallyConvex/Separation.olean"
+    },
+    "Mathlib.Analysis.Matrix.Hermitian": {
+      "object_sha256": "6562ef2b8a3cac502aff68223bc6ad87d57c0c3df9492a2d08a6855769965d53",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Matrix/Hermitian.olean"
+    },
+    "Mathlib.Analysis.Matrix.Normed": {
+      "object_sha256": "cb3aba0cc5b421cfa707ffe5c64e40031665789327da211ed28a6cc2cf128120",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Matrix/Normed.olean"
+    },
+    "Mathlib.Analysis.Matrix.Order": {
+      "object_sha256": "6a99ecf98ba2c3ec09f0b711f92354d2c88090028ccebbf1710bf37f1afe37d3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Matrix/Order.olean"
+    },
+    "Mathlib.Analysis.Matrix.PosDef": {
+      "object_sha256": "df57355e9438a5ed28297e90a7a06c67c01a6473953368d153b67e92ec5b5ef8",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Matrix/PosDef.olean"
+    },
+    "Mathlib.Analysis.Matrix.Spectrum": {
+      "object_sha256": "b8114edf68c372180a18d9eaca8656b8d14acd95f25331ac724c26c4dfc1666f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Matrix/Spectrum.olean"
+    },
+    "Mathlib.Analysis.MeanInequalities": {
+      "object_sha256": "52786c45b48950c73e42241bac3e2156087b462b65a8150253e71bd6ff25fa6d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/MeanInequalities.olean"
+    },
+    "Mathlib.Analysis.Normed.Algebra.GelfandFormula": {
+      "object_sha256": "f3c7b42c0ef1aeae044d986a9fe5cf1caaf2761102b53c8aa0612b33139b5310",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Algebra/GelfandFormula.olean"
+    },
+    "Mathlib.Analysis.Normed.Group.Bounded": {
+      "object_sha256": "308a8f4ddbc4682ea1f7930e2219e1051891c2518cbf0b9b2ba6a7b465619f53",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Group/Bounded.olean"
+    },
+    "Mathlib.Analysis.Normed.Group.Constructions": {
+      "object_sha256": "06b1718358d8bb9c18d052cb90a489bb0c4fa0fa5540da072e5732196730d2e9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Group/Constructions.olean"
+    },
+    "Mathlib.Analysis.Normed.Group.Continuity": {
+      "object_sha256": "f31674989f02f78a9690f0fa3cc2f821b15c53ec80dd69e09a9c3c6392ad5858",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Group/Continuity.olean"
+    },
+    "Mathlib.Analysis.Normed.Lp.SmoothApprox": {
+      "object_sha256": "cf2b514f151a8dfcaf1eb5afd9fa4dc4b6ae97cbf580d91824e127d9b74696fc",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Lp/SmoothApprox.olean"
+    },
+    "Mathlib.Analysis.Normed.Module.Ball.Pointwise": {
+      "object_sha256": "3484b23f28ca77106dbb8eb5482ba4d871edfd5422e43f1472ce30e1052d9f68",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Module/Ball/Pointwise.olean"
+    },
+    "Mathlib.Analysis.Normed.Module.ContinuousInverse": {
+      "object_sha256": "89805f753553eb0961a8af5a7a914ce07994f973c6225d766f1c8d7cc0cc4fc6",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Module/ContinuousInverse.olean"
+    },
+    "Mathlib.Analysis.Normed.Module.FiniteDimension": {
+      "object_sha256": "0e7c6341e59b9240361a68bb9a46910a77b1575bcfc5c8bf0bd93c25c55d3f48",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Module/FiniteDimension.olean"
+    },
+    "Mathlib.Analysis.Normed.Module.HahnBanach": {
+      "object_sha256": "87058270a41f8a03e7b831248a18c5f76d9d63333a8fec1108ddf0af1b58bb49",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Module/HahnBanach.olean"
+    },
+    "Mathlib.Analysis.Normed.Module.WeakDual": {
+      "object_sha256": "435efeedc09498121242e97beeb23a0644e2d350220de567aac9ea65f1167c6c",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Module/WeakDual.olean"
+    },
+    "Mathlib.Analysis.Normed.Operator.Compact.Basic": {
+      "object_sha256": "f01cabdc591a231aadf9a2e9eeaf6ddd5d2923fcb19944fcb951bcebfa3a35af",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Operator/Compact/Basic.olean"
+    },
+    "Mathlib.Analysis.Normed.Operator.LinearIsometry": {
+      "object_sha256": "62223d8cb1781c208f4d37f324d71bf85f19472da0df1d8e76dd481936498591",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Operator/LinearIsometry.olean"
+    },
+    "Mathlib.Analysis.Normed.Operator.NNNorm": {
+      "object_sha256": "1aad42bfdb91093ba097e3660cf4588c98f569c0f97cd638bdd9135f60406116",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Operator/NNNorm.olean"
+    },
+    "Mathlib.Analysis.Normed.Operator.NormedSpace": {
+      "object_sha256": "299bc20164847a03cdd2314c0089a1cc79f940d1a03d5eae06d72557fc682fa7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Operator/NormedSpace.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus.Rpow.Isometric": {
+      "object_sha256": "8b8a61ca3888e0760caae636a80f4d3669335c71509144fb5901c70459fd2c06",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/ContinuousFunctionalCalculus/Rpow/Isometric.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals": {
+      "object_sha256": "f72eff7a57e5d25e6318c597309139f2297341cec0a201276819389b1977c5d7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/ImproperIntegrals.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Integrals.Basic": {
+      "object_sha256": "9ecdc2ba0791f8c396bd1a15cbc4ee8452cb8b50ee0be901d0c7c2b5bf4d33f7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Integrals/Basic.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Log.Base": {
+      "object_sha256": "31a56c7f82ed47df4148eb6db9a4bc6c45053fbd356598f00923e94cbaaa08c2",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Log/Base.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Log.Basic": {
+      "object_sha256": "9983882ba3828910bc694f4ac54d387564bc50f759413634c54df9346788ac51",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Log/Basic.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Pow.Continuity": {
+      "object_sha256": "8b492e764141b4485f9fb1a021a30d5da499735f39e5e1e5cb194f45f4aa71a1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Pow/Continuity.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Pow.Integral": {
+      "object_sha256": "b9501e0e59f90bc6e08eed9dc5d816c3bacbeac9db97b8e8882d8f277f3ac2d3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Pow/Integral.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Pow.NNReal": {
+      "object_sha256": "f6f926b5cabf73192be5193ac4497fb10671fb7fe32874d01cb49aa5aab03bb3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Pow/NNReal.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real": {
+      "object_sha256": "0cdfec631c3b9b2bf49c7f8b433a0dcae40a619906c9b7902e28a1cce7e58a55",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Pow/Real.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.SmoothTransition": {
+      "object_sha256": "f59e52a4fb5884459e8269432b214310196cc235ed9fbb191faf95654b9e209a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/SmoothTransition.olean"
+    },
+    "Mathlib.Analysis.SpecialFunctions.Sqrt": {
+      "object_sha256": "931756bfab882bdd8a0f1f724d04183678b4f061e2ad3bfcda414ca8281bf7ea",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecialFunctions/Sqrt.olean"
+    },
+    "Mathlib.Analysis.SpecificLimits.Basic": {
+      "object_sha256": "a93882bcdce04f4e5deeb490c3bebfb103108cae4a3b981eb5eda9ff8e88d854",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/SpecificLimits/Basic.olean"
+    },
+    "Mathlib.Basic.Real.Basic": {
+      "object_sha256": "c4786781f07e4d15c499d02fc484f49d31b4fbb6da8f4653e0436d5a55fece70",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Basic/Real/Basic.olean"
+    },
+    "Mathlib.Data.Fin.Tuple.Basic": {
+      "object_sha256": "6a5676aacdd62b1aa0049473123831ba5301db4c13de23a9fe77204e581206cb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Fin/Tuple/Basic.olean"
+    },
+    "Mathlib.Data.Finset.Max": {
+      "object_sha256": "a4fb1143c255a151d17f8679bde2866fdcfccc3a437cbd5ce3aeefde159f3a80",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Finset/Max.olean"
+    },
+    "Mathlib.Data.Finset.Powerset": {
+      "object_sha256": "91094986c3f27f662e30a0d8219c282778166ede57e890f82f6639c799f93fa3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Finset/Powerset.olean"
+    },
+    "Mathlib.Data.Finsupp.Weight": {
+      "object_sha256": "517b145ecafe0a8217b4cfaebcb7b582028aca1a1f8fded35eb06f02945e2f34",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Finsupp/Weight.olean"
+    },
+    "Mathlib.Data.Fintype.Sort": {
+      "object_sha256": "3aa35a3ed60462943e12c15cc7b3e66b420abecfa9e68b5a5d345f5822b3105b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Fintype/Sort.olean"
+    },
+    "Mathlib.Data.List.FinRange": {
+      "object_sha256": "5d7b0d836e6a8eb72c605061b85aec8def0b5ba034ec557bdcc3ebb7e9f54274",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/List/FinRange.olean"
+    },
+    "Mathlib.Data.List.GetD": {
+      "object_sha256": "2144990f0d5cc2126470cef0a4027642e89b192e066af968ed3bb194339a2082",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/List/GetD.olean"
+    },
+    "Mathlib.Data.List.OfFn": {
+      "object_sha256": "3e4cc734b6acd8bf3aea1df45e7632e4aa627cd1dfa029e50472d0f4f4f5b175",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/List/OfFn.olean"
+    },
+    "Mathlib.Data.List.Perm.Basic": {
+      "object_sha256": "8b329b15a5e84986dfb22abf4fafb1ec3173fc35d507006ec38e13a461b65b79",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/List/Perm/Basic.olean"
+    },
+    "Mathlib.Data.NNReal.Basic": {
+      "object_sha256": "67b15ab2fff856eff1c23f7a7c8388f81e70c70dab4f98a25384304fd7583edb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/NNReal/Basic.olean"
+    },
+    "Mathlib.Data.Nat.Choose.Bounds": {
+      "object_sha256": "1383d34b4f013d15646022beadcc01d1e52343198154229e670637034002ebea",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Nat/Choose/Bounds.olean"
+    },
+    "Mathlib.Data.Nat.Choose.Cast": {
+      "object_sha256": "c469be387df06533f897abbafa215c00adb5a4ec59ffe3be8a779f3d728bc6c9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Nat/Choose/Cast.olean"
+    },
+    "Mathlib.Data.Nat.Choose.Vandermonde": {
+      "object_sha256": "903e9a35a7d0c72cdfdf67cf1ffb5ce1243f82d2869434df04663304e7688734",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Nat/Choose/Vandermonde.olean"
+    },
+    "Mathlib.Data.Rat.Denumerable": {
+      "object_sha256": "fd5b93bb793d72d412ebea464a37ed9f6f026b0951a22f46457561f5ef49d819",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Rat/Denumerable.olean"
+    },
+    "Mathlib.Data.Real.Basic": {
+      "object_sha256": "b775f9f5029bea94b6e5f98c5f98340524081d42fa76b642653e29ef36378f62",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Real/Basic.olean"
+    },
+    "Mathlib.Data.Set.Finite.Lattice": {
+      "object_sha256": "f62bfba9cd46f5b9a2fc1668b1772ca9f3a1337df67d3a05d1d28fb7c4d6aca7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Set/Finite/Lattice.olean"
+    },
+    "Mathlib.Data.Set.Finite.List": {
+      "object_sha256": "01322391ebc2f29afebf3ad2d89cc877818082710aa60a20cc45ad0929bec705",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Set/Finite/List.olean"
+    },
+    "Mathlib.Data.Set.FiniteExhaustion": {
+      "object_sha256": "6e047b10e24587fb8cbf8f5dccd3e8447519d8fa970a0cd6c37cb0e68a8bd56f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Set/FiniteExhaustion.olean"
+    },
+    "Mathlib.Data.Setoid.Partition": {
+      "object_sha256": "6c64d6ca55664fbdcdf4182162022b04b750a023234f8bf54fa36a31be12ef42",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Setoid/Partition.olean"
+    },
+    "Mathlib.Dynamics.Ergodic.MeasurePreserving": {
+      "object_sha256": "0da5896644b2af4ec6bfe4bb7a3374b21a6f4a4bca8961f0ea887e28957ac665",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Dynamics/Ergodic/MeasurePreserving.olean"
+    },
+    "Mathlib.Geometry.Manifold.ContMDiff.NormedSpace": {
+      "object_sha256": "e1a79748cbaa94a16b213d5f08c49656b42d9f3bd7662b93c1b6a987afc488ab",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Geometry/Manifold/ContMDiff/NormedSpace.olean"
+    },
+    "Mathlib.Geometry.Manifold.PartitionOfUnity": {
+      "object_sha256": "25eab4afdccd574e8405c58697ee7e95142b3ac71a7b511b149fb8b277e4f09f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Geometry/Manifold/PartitionOfUnity.olean"
+    },
+    "Mathlib.GroupTheory.Perm.Fin": {
+      "object_sha256": "ec103ae2d21cfe10b1ba21a3622a39e896c71bbed3a20e87fa7bc156db10cbe0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/Perm/Fin.olean"
+    },
+    "Mathlib.GroupTheory.Perm.Finite": {
+      "object_sha256": "3cc40bad9235ee08deb3eb224ab0f384f75fe4281a3961dc93cd589b51e16da9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/Perm/Finite.olean"
+    },
+    "Mathlib.GroupTheory.Perm.Sign": {
+      "object_sha256": "61b5e329c8b444f2e5669453881c2ca5f6dba367d0db64fb14443def1cc6bc7c",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/Perm/Sign.olean"
+    },
+    "Mathlib.LinearAlgebra.Basis.Basic": {
+      "object_sha256": "add1a0df2fbd949693edfa898c876463f2c59d40f9208db5d8f6f9d82a3caf33",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Basis/Basic.olean"
+    },
+    "Mathlib.LinearAlgebra.Dimension.Finite": {
+      "object_sha256": "2f6b1bae6f8baa80e681e5712c687f418673d16be7cfea2ad74a99eb9b95fe7f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Dimension/Finite.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.Adjugate": {
+      "object_sha256": "dfb310b60d07c72ae03af0de4b79608e09958bac1fe7fc9fa202b8b740c13b2d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/Adjugate.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.BilinearForm": {
+      "object_sha256": "20327d182da55489fea4367f7deaecab52585392c3d71cef7d7288905753a690",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/BilinearForm.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff": {
+      "object_sha256": "d008f50bc97ef120e00dc96c1ba3b3f8e95bd5e5f0bf2a10fcdb11b65fb318a3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/Charpoly/Coeff.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.NonsingularInverse": {
+      "object_sha256": "39a474b7917ef399856908c34948a9bc131fe97749c0ae6b06f050c29300e300",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.PosDef": {
+      "object_sha256": "cfba9c4ae24c6be0ad512aa77705ea2f2dd9a65195136ec55906957b23dc37e7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/PosDef.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.SchurComplement": {
+      "object_sha256": "4873e4ca09f728eb4652eed3101b492b2c25f7ad0782d2f8bdb9cd4a14229189",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/SchurComplement.olean"
+    },
+    "Mathlib.LinearAlgebra.Matrix.Trace": {
+      "object_sha256": "fd6871fe9d68016b1b3162b4bd1e62bd40b37799d091692571469481fbd31cbd",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/Trace.olean"
+    },
+    "Mathlib.LinearAlgebra.SesquilinearForm.Star": {
+      "object_sha256": "80683498ded3dd9bd190e7e7c8784338f7cb8e183384fe30f399a35c37bb0073",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/SesquilinearForm/Star.olean"
+    },
+    "Mathlib.Logic.Equiv.Basic": {
+      "object_sha256": "203af7b914fbd3e32c78676a5a4967098411b3fbc7e70f48960dadf52891c34d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Logic/Equiv/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap": {
+      "object_sha256": "1f6b4987db2a26704da3859bc1801af4c9d188cb3e4ba86285a38990c8565e0c",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/BorelSpace/ContinuousLinearMap.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.BorelSpace.Metric": {
+      "object_sha256": "02e4a26a574d5ddcd797b34b84b1f3116b47409c30473b2bb9b190cd9bfda5e9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/BorelSpace/Metric.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.BorelSpace.Order": {
+      "object_sha256": "adceb84d5c64f4f002f57f2cf83ac392f3f28371838aa62261a2824602a7e890",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/BorelSpace/Order.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.ClosedCompactCylinders": {
+      "object_sha256": "0601a7b80ef9f19498a0c4cd76b2dfba5d97602d9833eb58de1aa38a3a2d6636",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/ClosedCompactCylinders.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.HaarToSphere": {
+      "object_sha256": "cf2604d7dafdb9443a6042a1c1ad5c464b31620d4808194116dd55a2b1368b2d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/HaarToSphere.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.Pi": {
+      "object_sha256": "7e88017f1eadff2f56f5897b7a8d8b81f3fd1411692f9669eedd179fbea2fbd1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/Pi.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.Polish.Basic": {
+      "object_sha256": "4cbd326968fe18877d50e167b16d33f09bd30783a3ec6558b5b761df2cbcf7a4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/Polish/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Constructions.ProjectiveFamilyContent": {
+      "object_sha256": "818e58a0b6b9822bde7b54d414ca3604a6082ddb35f125af16941a5d6aad5e00",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Constructions/ProjectiveFamilyContent.olean"
+    },
+    "Mathlib.MeasureTheory.Covering.BesicovitchVectorSpace": {
+      "object_sha256": "abf6e850c1fd4b28e46ae3f672305a97663dc236a34a94dee07b736a9fb9158d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Covering/BesicovitchVectorSpace.olean"
+    },
+    "Mathlib.MeasureTheory.Covering.DensityTheorem": {
+      "object_sha256": "5b0e772d2c994a01b7ef07b3271c1ba70d50b57db2fd9f1c580fd28767051948",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Covering/DensityTheorem.olean"
+    },
+    "Mathlib.MeasureTheory.Function.ConditionalExpectation.CondJensen": {
+      "object_sha256": "062a558237416e3326eabc392bcf6b56cf2a5e63141f386d881d932ca662c951",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/ConditionalExpectation/CondJensen.olean"
+    },
+    "Mathlib.MeasureTheory.Function.ConditionalExpectation.PullOut": {
+      "object_sha256": "82af6ca4310e103d53e3c11d70e85ee14a23dc6d349d8d77f76d0bb2c86f3da9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/ConditionalExpectation/PullOut.olean"
+    },
+    "Mathlib.MeasureTheory.Function.ConditionalExpectation.Real": {
+      "object_sha256": "b659bc2966837a5a02af14bfca4f16f2fbb7a23e6085d3c98de67912b362336a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/ConditionalExpectation/Real.olean"
+    },
+    "Mathlib.MeasureTheory.Function.ConvergenceInMeasure": {
+      "object_sha256": "22f9fc19dff7d79f234afdf562a61f061357e2d6f1528eb999213e83f744ece1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/ConvergenceInMeasure.olean"
+    },
+    "Mathlib.MeasureTheory.Function.Floor": {
+      "object_sha256": "4caa1c5027a19d5176e8848353532d9e68f5e9c45ee2a4dffa6167a727ee9bb3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/Floor.olean"
+    },
+    "Mathlib.MeasureTheory.Function.Holder": {
+      "object_sha256": "3054297b72d046dcc5f588f173fd19b0bda713cfbf5318e1b0c62606d0b63483",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/Holder.olean"
+    },
+    "Mathlib.MeasureTheory.Function.Jacobian": {
+      "object_sha256": "3541308aeb2169207464c58b13e88ad8e7926ff1aac69672a0d123b00d372fa3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/Jacobian.olean"
+    },
+    "Mathlib.MeasureTheory.Function.L2Space": {
+      "object_sha256": "7b546825d1acad3134d07832fb3c46e4ee088bd2a84f149fb8aa33ea9c4435f1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/L2Space.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LocallyIntegrable": {
+      "object_sha256": "9e12c0f6f9173246423b5d56b4c11a5aaa6e1ce8e69b968dfdeaacccc91b64be",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LocallyIntegrable.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.Basic": {
+      "object_sha256": "59501847226ec1cc5cf4ddb1647cf56d8325a18469f62f67d4eaf802e8f5c5d6",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSeminorm/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.Indicator": {
+      "object_sha256": "944e9712697d35b68e6c649919495c1a84db1b3809dcfc2bb6bc32e91b3a3fb4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSeminorm/Indicator.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm": {
+      "object_sha256": "5aac46052c7b714da57793639aee02cc8c2d38a93fbd39cf0c7293bf83baa02b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSeminorm/LpNorm.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.Monotonicity": {
+      "object_sha256": "56ed64fdd3c98055532264b7601c50e00daa9668729b86d1857e459e92cd89df",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSeminorm/Monotonicity.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality": {
+      "object_sha256": "5b9750613524f310cc3d0a4749344dc321498aa696b627ab301e68a76afe9292",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSeminorm/TriangleInequality.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Basic": {
+      "object_sha256": "7ce38b64909462be63f8588e94854a4280713f029473f6b4de18257efde3117f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSpace/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Complete": {
+      "object_sha256": "3942cbe1ef89c4ed03000c35525249e57896ecd644c9594095aa54265cb833ec",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSpace/Complete.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.ContinuousCompMeasurePreserving": {
+      "object_sha256": "92076c9f297e7c9f39ea70e769c48f076ffefc7f168d1e99b3bf54a5b9fda7bd",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSpace/ContinuousCompMeasurePreserving.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.DomAct.Continuous": {
+      "object_sha256": "9bfc588db9322e15b39b3ad2bbf0b62ccafc398513ec77576db279bbcc0f1eb3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSpace/DomAct/Continuous.olean"
+    },
+    "Mathlib.MeasureTheory.Function.LpSpace.Indicator": {
+      "object_sha256": "e095bc6bd68a795bb07fef9f962c56e48780bfe25b1c06fbb56f8ff6b929bb37",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/LpSpace/Indicator.olean"
+    },
+    "Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic": {
+      "object_sha256": "d4934d3e77a0ca376ecb7ef4e63f1358154e555dc95976b19bea219cd413e0a6",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/StronglyMeasurable/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Function.UniformIntegrable": {
+      "object_sha256": "c4c6c881703acdda7a9fd0477ed8f956ac54d50b24eaa58b16ae3567b94d1f27",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/UniformIntegrable.olean"
+    },
+    "Mathlib.MeasureTheory.Group.Arithmetic": {
+      "object_sha256": "7f4a7a0d3c6f6bfe8e22a1820429ebf2d7b82ba7f4d0b46b80b0a29c1b11ac37",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Group/Arithmetic.olean"
+    },
+    "Mathlib.MeasureTheory.Group.Integral": {
+      "object_sha256": "4154eea4ee800f859cd9bb14620e2e7effb6f9290955d42fdc4f48b6e28e35e3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Group/Integral.olean"
+    },
+    "Mathlib.MeasureTheory.Group.LIntegral": {
+      "object_sha256": "1d6a5ab5fe9280d7617a243a9f1f2e34417d34fb52cbdbfd08cb2fc5cc1475c6",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Group/LIntegral.olean"
+    },
+    "Mathlib.MeasureTheory.Group.Prod": {
+      "object_sha256": "cc79e9406dadf086df8892ea4283acfb5c7b1389a3c8570ab8d96d9701fe6371",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Group/Prod.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Average": {
+      "object_sha256": "3de3fac3d78b65e3edcf0c40cc433aaf30626b60a9adb66defab327a3e685244",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Average.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Bochner.Basic": {
+      "object_sha256": "0553e1c67244de5400da11e060eaaad049000ab1e0cb2d5fa726be1e9ce0ef2d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Bochner/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap": {
+      "object_sha256": "5b53e962d0db71a5858ff16a8cef0bdab0c4bd5afc9262c895848637899dd7b1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Bochner/ContinuousLinearMap.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Bochner.Set": {
+      "object_sha256": "dde84b5360994bd1cdb28c44cff27700ca245cc1c6133966470db3865e90aea1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Bochner/Set.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.DominatedConvergence": {
+      "object_sha256": "d9817a291bcb581ab7ed010e71c51e21e461ee7b2dd607a1980b43b3bbf10b2a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/DominatedConvergence.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun": {
+      "object_sha256": "8d6a222a55f6ab0b28d18dd8c96b3ce61c33eca4280ba03788d8785fc8e7b20d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/IntervalIntegral/AbsolutelyContinuousFun.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic": {
+      "object_sha256": "a20ae8f178214df94dfa16bd7b133ec2c2b2b83f4c55d0e4c4a72fcbf360f30d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/IntervalIntegral/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff": {
+      "object_sha256": "0692392e12f704f199c5b9085f16fbea3e75f293a7a1835f22fdb0890d3f18fc",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/IntervalIntegral/ContDiff.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus": {
+      "object_sha256": "4b00737c73e84dffc6b4d189cc148e2d14dea7c3272d5d7c4050df721597e416",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/IntervalIntegral/FundThmCalculus.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts": {
+      "object_sha256": "80615c3406c320f4549d59c8b4f563ea71d6aad210a1e3f3d5a7614ab56b8c6b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/IntervalIntegral/IntegrationByParts.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Layercake": {
+      "object_sha256": "fd5544ea930f95ad2cc56d35981c1ae232505ae2ab542ea360ae9dcab6e3e53e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Layercake.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Lebesgue.Add": {
+      "object_sha256": "294ee28769318f51f1bf135883f2c2fb295d76575134eb85f0bc1fac7ab57afe",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Lebesgue/Add.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.MeanInequalities": {
+      "object_sha256": "922667119be9bd37b2d3b7105b8e7568ba00d814603d8237069e9a31913b5f98",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/MeanInequalities.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Pi": {
+      "object_sha256": "6d41ac20a5c6d467d03895067b469c27886a87e894b8a79f6d38f8880616fe0a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Pi.olean"
+    },
+    "Mathlib.MeasureTheory.Integral.Prod": {
+      "object_sha256": "e7137431a61d3024a1e9904e0e81b9393256ba1c5c742e5631a8f8c7d4ec5eaf",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Integral/Prod.olean"
+    },
+    "Mathlib.MeasureTheory.MeasurableSpace.Constructions": {
+      "object_sha256": "6454a3ad186bcf78113ce1d89143925227f3405b6b82816d9762504791fdbf39",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/MeasurableSpace/Constructions.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.AddContent": {
+      "object_sha256": "20123b2159867c76ffdb3d73b6c9358a1d7da66fe1cafddf5a5ebb8ff7ac3fe4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/AddContent.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.CharacteristicFunction.Basic": {
+      "object_sha256": "8729e8bb148e4864be9b4c25befbeadf0339efab6d9b4902e62f01ef3c928843",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/CharacteristicFunction/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace": {
+      "object_sha256": "6841c549c6daface50abf1a4fac1bdb0013e08e50a212cf31cbb8123f14f859f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Haar/InnerProductSpace.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Haar.NormedSpace": {
+      "object_sha256": "79949d4d0553bc7cbf08cbfcbe9a82f1a3d61d6faaa6f470fc824e437659b341",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Haar/NormedSpace.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Haar.Unique": {
+      "object_sha256": "aca244ac1c56848b572b0920c2f4e98c0699db6451154e4fef1e9a77161935c3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Haar/Unique.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.HasOuterApproxClosed": {
+      "object_sha256": "2e8cd7327a4e3b6c1690e0207c462d7b4f44cd3f53a758290b1e956690582e3a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/HasOuterApproxClosed.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Hausdorff": {
+      "object_sha256": "96084ec72f1db58ab0ec64e96766f668684e93230a7ea1754d240413efbf8718",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Hausdorff.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Lebesgue.Basic": {
+      "object_sha256": "3ce98d389ae88b3bb9c09f75e75d623d8df3a740c4225ac020976099a752fefb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Lebesgue/Basic.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar": {
+      "object_sha256": "a9068e1aff989e0d015ce80af13a35324b8cc0ac3662615e268ce25cff7814ba",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Lebesgue/EqHaar.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls": {
+      "object_sha256": "3e458510cba8bfc512123363b249eeb09604e8c136bf036e0a9687f465e814e3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Lebesgue/VolumeOfBalls.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.MeasureSpace": {
+      "object_sha256": "f491f2d7c73b22fa2f06aea4937250a1793bfecb7b57ab8df287f97bfaf53093",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/MeasureSpace.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.MeasureSpaceDef": {
+      "object_sha256": "8855ae5d4807bbbe30244ada9c2ce3cc16d96270b58bbb6d5ad73d70679b4dc3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/MeasureSpaceDef.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.NullMeasurable": {
+      "object_sha256": "754c45cb39b3a340a8aaf10916188616d4497af6c4339aa9d9f890fbf2eb061d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/NullMeasurable.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.OpenPos": {
+      "object_sha256": "c7a6dd9e66041908a28475e9f592efe4788c0b374404ec750e2e9eeeaf825ef3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/OpenPos.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Portmanteau": {
+      "object_sha256": "b2bbfed33fecad5560fa0634f05fd05db742028b73f9a584aead2c16957b7072",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Portmanteau.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Prod": {
+      "object_sha256": "2bf3687155d58176f2a9b4b0199ecd7c65669dff1481d77e96c5fe2d15c9256b",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Prod.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Prokhorov": {
+      "object_sha256": "cfddb1fb0d7598513a4f4a267e1e1c22e7eac18b0bde52cdecab800f82551709",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Prokhorov.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.QuasiMeasurePreserving": {
+      "object_sha256": "337dc05af06e5e296732793311f0823ecab17233ea7378a8317310b6b1703006",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/QuasiMeasurePreserving.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.RegularityCompacts": {
+      "object_sha256": "edf392e5f6caad93e6f1615679e6a77c243dea9fbeb0f8dbcb3e7b5cc5892af4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/RegularityCompacts.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.SeparableMeasure": {
+      "object_sha256": "3cce59bec27b036ea89350e00c11403de92d4e6a5a46c30696dabbe74592a3c4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/SeparableMeasure.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Tilted": {
+      "object_sha256": "ef1c6118ebc93171b17def3cfd7ebb9c12b8bba19bdf572062353e598a67978d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Tilted.olean"
+    },
+    "Mathlib.MeasureTheory.Measure.Typeclasses.Probability": {
+      "object_sha256": "0a8ad6ff8338b8150b9c26d8a0c9cfee377cb0f735608dbedf6f8d0ab5aad6c3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Measure/Typeclasses/Probability.olean"
+    },
+    "Mathlib.MeasureTheory.Order.Group.Lattice": {
+      "object_sha256": "027e27cad315611855ba8c02af931f635ac028fe87ff5724a048c186d1c34c6e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Order/Group/Lattice.olean"
+    },
+    "Mathlib.MeasureTheory.OuterMeasure.OfAddContent": {
+      "object_sha256": "07d3287ed09cff45d074efa158e88b08b75163369c286ec44f8340a2af3f8d01",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/OuterMeasure/OfAddContent.olean"
+    },
+    "Mathlib.MeasureTheory.SetSemiring": {
+      "object_sha256": "3e041ff928e58e85db7fcf0378abf2d7326a4f49059acdf2b2af8c005755d7a8",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/SetSemiring.olean"
+    },
+    "Mathlib.MeasureTheory.SpecificCodomains.Pi": {
+      "object_sha256": "5121dc356d7d2974bb6f37587f7e84166b63bc27c8ca806e881dfa8022d8358e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/SpecificCodomains/Pi.olean"
+    },
+    "Mathlib.MeasureTheory.SpecificCodomains.WithLp": {
+      "object_sha256": "385ef380eceae28a414bbd6c541b351766c02801cce056a82ac0bdd262676100",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/SpecificCodomains/WithLp.olean"
+    },
+    "Mathlib.Order.CompleteLattice.Group": {
+      "object_sha256": "496fe7714584f1eac9663235951224395cdadd11e178e5cf39acf345ad489696",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Order/CompleteLattice/Group.olean"
+    },
+    "Mathlib.Order.CompletePartialOrder": {
+      "object_sha256": "b8c4b2f877a76e083c668eecfd957c20d5b41677f5e651b5c7000ff89e2204e1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Order/CompletePartialOrder.olean"
+    },
+    "Mathlib.Order.ConditionallyCompleteLattice.Finset": {
+      "object_sha256": "c21fdf278687fe0b7aa3da358a1eb745a1b1a0d99502c4db9aafdd4d8a17515f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Order/ConditionallyCompleteLattice/Finset.olean"
+    },
+    "Mathlib.Order.ConditionallyCompletePartialOrder.Indexed": {
+      "object_sha256": "0534c1fc0766c11e5156eb4f8de1a279d8f6f8c05afa1fa3d7b9bbc30716ab69",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Order/ConditionallyCompletePartialOrder/Indexed.olean"
+    },
+    "Mathlib.Probability.BrownianMotion.Basic": {
+      "object_sha256": "d99f266c166b3c65a32370b286d801e45957b0e37f480527387244a48c2ef6bb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/BrownianMotion/Basic.olean"
+    },
+    "Mathlib.Probability.ConditionalExpectation": {
+      "object_sha256": "2548ad0e0b98769e2d20685c0158df0cfbeb0d8069255ade3652e104b7f6be6d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/ConditionalExpectation.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.Basic": {
+      "object_sha256": "128dcc49261437b91f04ba0c0dbb86278f082bdb9dd1baab833eba8a5752d6e3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/Basic.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.CharFun": {
+      "object_sha256": "377bce60f9ce6a390deac9ff2c2cd896750539e66b46e28892cbdfcd01cb053d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/CharFun.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.Fernique": {
+      "object_sha256": "3dd1ea6b3020769cdd874116d348caf004437d98b9dff5e445bbbcd31d550c30",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/Fernique.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.HasGaussianLaw.Basic": {
+      "object_sha256": "1e16ddbecf34c3af1b3a46bae5923eb2c488db21b1f24ad360046506ba29f840",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/HasGaussianLaw/Basic.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.HasGaussianLaw.Independence": {
+      "object_sha256": "146a0e5664507baad3733feb19b75fcd9b942d3dc63d6639f3314d6c6123ad4d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/HasGaussianLaw/Independence.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.IsGaussianProcess.Basic": {
+      "object_sha256": "586018fa15d98fa5071a10cf22a9f824953a74224b5e1326b20f8fd4f899e376",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/IsGaussianProcess/Basic.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.IsGaussianProcess.Independence": {
+      "object_sha256": "9b131643c274a20ad7dcab4c0c77369d800329e9cdbfc2f0d1873f268894d4c7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/IsGaussianProcess/Independence.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.Multivariate": {
+      "object_sha256": "78fffd6c5ea7f185bd672389c1a932ba24170674019e2639460d257ff89f14c0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/Multivariate.olean"
+    },
+    "Mathlib.Probability.Distributions.Gaussian.Real": {
+      "object_sha256": "322014e312ae9396c1eea1af7e144ea9710f8a20b5b1d8b522c08268eb1818a7",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Gaussian/Real.olean"
+    },
+    "Mathlib.Probability.Distributions.Poisson.Basic": {
+      "object_sha256": "3d5037872bbcd16399302448df2c02d8901dda3d4747c82c25efcd0de68397a0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Distributions/Poisson/Basic.olean"
+    },
+    "Mathlib.Probability.Independence.Basic": {
+      "object_sha256": "56c14a31f5bc44981da23df1d29cfa92e6be6475073b2ef18daf65e42815b9ec",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/Basic.olean"
+    },
+    "Mathlib.Probability.Independence.BoundedContinuousFunction": {
+      "object_sha256": "d510fcaba9ecdeeaa5f9ae5acec6c6de85cf01d161c558b5a8c2b3f75ddf2928",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/BoundedContinuousFunction.olean"
+    },
+    "Mathlib.Probability.Independence.CharacteristicFunction": {
+      "object_sha256": "ece80d54b6db13db49efc8d0ebbb019c518b5a4a226d5691a07b719246389213",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/CharacteristicFunction.olean"
+    },
+    "Mathlib.Probability.Independence.InfinitePi": {
+      "object_sha256": "18f53bf6222745e47a8885a7d6f048be096a8c48b8e8ef4bb448b12ed998c7be",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/InfinitePi.olean"
+    },
+    "Mathlib.Probability.Independence.Integration": {
+      "object_sha256": "89ba3307f977c8669536beb3d40e6562fbc25a03fcc0c0d2efa68079d453eca2",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/Integration.olean"
+    },
+    "Mathlib.Probability.Independence.Process.HasIndepIncrements.Basic": {
+      "object_sha256": "c6d5a73a46ff8ba5b2c85c2cd778510fd9f35d554ab6dd31a987b699e526f8a2",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/Process/HasIndepIncrements/Basic.olean"
+    },
+    "Mathlib.Probability.Independence.ZeroOne": {
+      "object_sha256": "a5832f3bbcec139e92b0a53efc3dd135692af650c3475dcb0ae862ba6850d43d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Independence/ZeroOne.olean"
+    },
+    "Mathlib.Probability.Kernel.Defs": {
+      "object_sha256": "7583e870eee7ca838a4c493b0ee4b027463f1af233ebd0dfcac96653b4159c4c",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Kernel/Defs.olean"
+    },
+    "Mathlib.Probability.Martingale.Basic": {
+      "object_sha256": "463f52d8337362becb748a3ff8497718e3c2554ba03f5281386ca9f0230ff241",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Martingale/Basic.olean"
+    },
+    "Mathlib.Probability.Martingale.OptionalSampling": {
+      "object_sha256": "b26b6be6632da13230dd8efb17c2a468b0083553fab21d47a58a3345eadcc4c5",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Martingale/OptionalSampling.olean"
+    },
+    "Mathlib.Probability.Martingale.OptionalStopping": {
+      "object_sha256": "85b79a29cedd2c405f617cf6470a6140b998434ca6af8a97af4c767d26019021",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Martingale/OptionalStopping.olean"
+    },
+    "Mathlib.Probability.Martingale.Upcrossing": {
+      "object_sha256": "5d1ab8df74ac2fccb0a19b86ff57d9cb3e052a41df391f0c4796879348fe2d26",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Martingale/Upcrossing.olean"
+    },
+    "Mathlib.Probability.Moments.Covariance": {
+      "object_sha256": "578bb7d5b164af28c78da8220559d5b4b349cb9775b0190a40805dcd3a4467f9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Moments/Covariance.olean"
+    },
+    "Mathlib.Probability.Moments.CovarianceBilin": {
+      "object_sha256": "67cc7ee67eda904734b9c3d3f43f0af2a52ec47ac3c1d4e03be346137f2bfad9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Moments/CovarianceBilin.olean"
+    },
+    "Mathlib.Probability.Moments.Variance": {
+      "object_sha256": "9a9062cb23e5a26e19f8c5156343375216d686e1a7b697401786f7fccd1ddb95",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Moments/Variance.olean"
+    },
+    "Mathlib.Probability.Notation": {
+      "object_sha256": "389cb02d60ea9069d81f6aaa63937c34aa131d565701d1ade0f3e18c7fac1d30",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Notation.olean"
+    },
+    "Mathlib.Probability.Process.Adapted": {
+      "object_sha256": "b29d08cd6f3e24b3c423e4debe8f9a1ced9190a9afbcf6c98ff05691c102321f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/Adapted.olean"
+    },
+    "Mathlib.Probability.Process.Filtration": {
+      "object_sha256": "a4b7c2a2e489bcd6b1749acd99ab1ffc2e5ae8302afff2705b216c2d269bd861",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/Filtration.olean"
+    },
+    "Mathlib.Probability.Process.Indistinguishable": {
+      "object_sha256": "5793df2ebd1ca83ca98f455cf1bf7d0cd5fb91f9c146274607097bf2bedb08aa",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/Indistinguishable.olean"
+    },
+    "Mathlib.Probability.Process.Kolmogorov": {
+      "object_sha256": "dc41eb9ad6005cd5e3c2eae51613b9048318931358941570e0d2a7a43f4c52d0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/Kolmogorov.olean"
+    },
+    "Mathlib.Probability.Process.LimitProcess": {
+      "object_sha256": "bb7b380edccf70697ab611a734e9ff7caddc42cd568ea3dde2c83a26cfce9076",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/LimitProcess.olean"
+    },
+    "Mathlib.Probability.Process.Predictable": {
+      "object_sha256": "aa9b7def9dcfb7341e215d06d249d4dc6f0d3741fec6ee77233569de8aabb3f4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/Predictable.olean"
+    },
+    "Mathlib.Probability.Process.Stopping": {
+      "object_sha256": "2e6e9438ece375fb7646cbce36095863c919ebe8f91b7c5e92b0308028a42d67",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Probability/Process/Stopping.olean"
+    },
+    "Mathlib.RingTheory.Polynomial.Bernstein": {
+      "object_sha256": "c127c0ae9c4cc35627c6edb5d722ee4869096ba4befcd98343e404d4b6a793fd",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Polynomial/Bernstein.olean"
+    },
+    "Mathlib.Tactic": {
+      "object_sha256": "073e72f74817b9ab511005f872ea08a73f4aca4c744865e875f308a5d3f1627d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic.olean"
+    },
+    "Mathlib.Tactic.FieldSimp": {
+      "object_sha256": "2ce0717d5dc18d2427fde27e16a1ccbd82bcd4cf138d1eb6f5d4fdc94f55bb10",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/FieldSimp.olean"
+    },
+    "Mathlib.Tactic.FunProp": {
+      "object_sha256": "f78aa672eb171d1d582e17f7b5c2446a3106b7f5d8f341ecbc5dc51786f798ae",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/FunProp.olean"
+    },
+    "Mathlib.Tactic.Linarith": {
+      "object_sha256": "517e0a27a676e4b21666ace66318b8db5dc6963e9e16fc29899d39297b20ff15",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Linarith.olean"
+    },
+    "Mathlib.Tactic.Module": {
+      "object_sha256": "0eb85a359c78f3f36f9e22e0ce857c74f990d642975029a6faae4ab19492de81",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Module.olean"
+    },
+    "Mathlib.Tactic.NormNum": {
+      "object_sha256": "fe84859827ef024d030588dc3889122b15cffb434ed5f24784a3a49be83a4596",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum.olean"
+    },
+    "Mathlib.Tactic.Positivity": {
+      "object_sha256": "b6bc7bd97b66d7d0186f9e2b866b70bc47600084c20c34d6d7c81e179378cb5a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Positivity.olean"
+    },
+    "Mathlib.Tactic.Ring": {
+      "object_sha256": "946b08739e954ba30374eaba5fcd940cc07573a89fd1e7d67efa871759d0a0b3",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Ring.olean"
+    },
+    "Mathlib.Topology.Algebra.ContinuousAffineEquiv": {
+      "object_sha256": "7d963ac7a867790ec154638d89456692181453680deb3433972e0e1cd731f431",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/ContinuousAffineEquiv.olean"
+    },
+    "Mathlib.Topology.Algebra.InfiniteSum.Real": {
+      "object_sha256": "458cdd487883774887db4f99400faa0e4e9635dd87d43b0c4fb8434955b50e49",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/InfiniteSum/Real.olean"
+    },
+    "Mathlib.Topology.Algebra.MetricSpace.Lipschitz": {
+      "object_sha256": "9ded9ce89b7d5c27d5b3b40ec4dbba9438aa7a347b718b138bdec756453ac661",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/MetricSpace/Lipschitz.olean"
+    },
+    "Mathlib.Topology.Algebra.MulAction": {
+      "object_sha256": "d89c3ce9ddd1c783e12c0a270609d6a0805f31168bfba78d0d747f5e81765b27",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/MulAction.olean"
+    },
+    "Mathlib.Topology.Algebra.MvPolynomial": {
+      "object_sha256": "d4dba980bc519995a0a183b6cf8ed2310487d2673c6511400c8c94aba34fcf04",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/MvPolynomial.olean"
+    },
+    "Mathlib.Topology.Algebra.Support": {
+      "object_sha256": "d72017078ba45e1e334455977df31d7e8ec31d135d2dd7a8b3367cdfa08ab4d9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/Support.olean"
+    },
+    "Mathlib.Topology.Bases": {
+      "object_sha256": "0a403d8ea8681cc596803438e7edead7e728fbd3dba3d0e81827a0bb2d96289f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Bases.olean"
+    },
+    "Mathlib.Topology.CompactOpen": {
+      "object_sha256": "04a00cc1e95face7441474197a8f12b8f93b9a732dfe3c68d56219dcf1887649",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/CompactOpen.olean"
+    },
+    "Mathlib.Topology.Compactness.CompactSystem": {
+      "object_sha256": "6cc3a94910e66da595e3e9e818457f9ab5cf6408fe10f2bd925687742b4f4c73",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Compactness/CompactSystem.olean"
+    },
+    "Mathlib.Topology.Compactness.Lindelof": {
+      "object_sha256": "c62d6e125dfd1122a660d03b82ad224a51e043707b879103150a3752eb4d06d8",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Compactness/Lindelof.olean"
+    },
+    "Mathlib.Topology.Compactness.SigmaCompact": {
+      "object_sha256": "a5e72f7a7af82a7bd2c221e93967e584a964e67ae690f365d7d7045c108ce453",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Compactness/SigmaCompact.olean"
+    },
+    "Mathlib.Topology.ContinuousMap.Bounded.Basic": {
+      "object_sha256": "8eb366bf75802eb94d78b6a469681e7a23156be8a630ab47d9042c6637a4c30e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/ContinuousMap/Bounded/Basic.olean"
+    },
+    "Mathlib.Topology.ContinuousMap.SecondCountableSpace": {
+      "object_sha256": "75e6b709c2f7cfc814998b42183b775d1be556580d86371ec76de037b0e2890d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/ContinuousMap/SecondCountableSpace.olean"
+    },
+    "Mathlib.Topology.EMetricSpace.Lipschitz": {
+      "object_sha256": "32ab3646c636d08d911f0d4b671223900c7e42bc85da766a26bce583076fb217",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/EMetricSpace/Lipschitz.olean"
+    },
+    "Mathlib.Topology.EMetricSpace.PairReduction": {
+      "object_sha256": "59cfe3140f970b81855aca23a11a0b876299958ca8739cc5bde32f472ce91d00",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/EMetricSpace/PairReduction.olean"
+    },
+    "Mathlib.Topology.Instances.ENNReal.Lemmas": {
+      "object_sha256": "a687d0bc4cce2473274a92be5f4a2132aa1ee3fa93808774a0c7548d9380184a",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Instances/ENNReal/Lemmas.olean"
+    },
+    "Mathlib.Topology.IsClosedRestrict": {
+      "object_sha256": "cf790c01b4cc1eae8f2ea4ae7b0404957820bb281728e0cc6c065805009528a4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/IsClosedRestrict.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Basic": {
+      "object_sha256": "d244e5f17d62b26bb6c565c0879687776758a9bb045e13f50a645b1da13d9c91",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Basic.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Bounded": {
+      "object_sha256": "3c27774c3f439b780d60ca913954fb7b23fc36dc9aafd2a20cea120694ecedcb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Bounded.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Contracting": {
+      "object_sha256": "6de77c2a85ba3c5a7715f1209b94f5188b86e35f68999f643bfc04febee76e07",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Contracting.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Cover": {
+      "object_sha256": "4e55adc31b8eb4011af6805633e27d1248828e223d8ed8923a8506a5754240de",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Cover.olean"
+    },
+    "Mathlib.Topology.MetricSpace.CoveringNumbers": {
+      "object_sha256": "0d6127a375ccfbd0da154f629f7baf8f0a07020c0955cca46d1c4692a0cd9c80",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/CoveringNumbers.olean"
+    },
+    "Mathlib.Topology.MetricSpace.HausdorffDimension": {
+      "object_sha256": "47e10dedee1b12cb89d2048812809463c9409bc33d17589b505a68e5c00c66ed",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/HausdorffDimension.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Holder": {
+      "object_sha256": "7efc3035297d9ecd037bb43e8bec39e13cb6b7460dd55ffdc2df4c02a51131d1",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Holder.olean"
+    },
+    "Mathlib.Topology.MetricSpace.HolderNorm": {
+      "object_sha256": "b8c2e84a6382bf49a26434813093b47894fcd1b1bca4056a92b4e0e68493cca0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/HolderNorm.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Lipschitz": {
+      "object_sha256": "c15fb3122ef9fcae783e2c2edb68601106584130e704199acc562764bc6b8e22",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Lipschitz.olean"
+    },
+    "Mathlib.Topology.MetricSpace.MetricSeparated": {
+      "object_sha256": "d55a772fc8bdd17e1f03dcfcafcad34ccc87501ee18f85a5c8ea9556f14ba55f",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/MetricSeparated.olean"
+    },
+    "Mathlib.Topology.MetricSpace.ProperSpace.Lemmas": {
+      "object_sha256": "32f2dc42b4f76e7b8314807af47c1f44f43281bb582c96db98f94913fe703e59",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/ProperSpace/Lemmas.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Pseudo.Lemmas": {
+      "object_sha256": "a285642cadd23e541667f45be236d81ecf0bacaf21072273e45bb74e532518de",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Pseudo/Lemmas.olean"
+    },
+    "Mathlib.Topology.MetricSpace.Thickening": {
+      "object_sha256": "aef5d2131066223904d62f61651d549a41cbcdb77051d8c596f48e95c9943b4e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/Thickening.olean"
+    },
+    "Mathlib.Topology.MetricSpace.UniformConvergence": {
+      "object_sha256": "05dca35090c944b01a6c16deb2396a73bb5de261d5767ac3c02ae1640e642e2e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/MetricSpace/UniformConvergence.olean"
+    },
+    "Mathlib.Topology.Order.Cadlag": {
+      "object_sha256": "a2931c653d4d9ca50eb8b9e5cc3caad1f7b70c93d3293f3e7f98299dad3c4ba9",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/Cadlag.olean"
+    },
+    "Mathlib.Topology.Order.Compact": {
+      "object_sha256": "6977acfb41c52a166518739e57508de47b9f89520342fee7e8786957d238596d",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/Compact.olean"
+    },
+    "Mathlib.Topology.Order.DenselyOrdered": {
+      "object_sha256": "374d6ba122a06a39fdbd72fb2de96a1e96a706d93750f2ef0f37f420699ad861",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/DenselyOrdered.olean"
+    },
+    "Mathlib.Topology.Order.IntermediateValue": {
+      "object_sha256": "aec24c7824e02fdb4ee76169dfc00ecbfebb19c0f6251de0b6d804c472c03f27",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/IntermediateValue.olean"
+    },
+    "Mathlib.Topology.Order.LeftRight": {
+      "object_sha256": "14c4acad695fc656638a1e342035c88a7ed342a01ebf4ec91c12f29dbee4c1df",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/LeftRight.olean"
+    },
+    "Mathlib.Topology.Order.LeftRightLim": {
+      "object_sha256": "8533f948225e2462de0317127fbc9916e99d90fd59e426c04d0ebe8a168da363",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/LeftRightLim.olean"
+    },
+    "Mathlib.Topology.Order.LiminfLimsup": {
+      "object_sha256": "38b5a7040c2ed2d76ef1a978202efff9d6cee4b5b7bc4fa508d988b843b99ccb",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/LiminfLimsup.olean"
+    },
+    "Mathlib.Topology.Order.Monotone": {
+      "object_sha256": "749ba4ec649a625f4486be65073d21952b7408953c26e702fabe33d41c281628",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/Monotone.olean"
+    },
+    "Mathlib.Topology.Order.MonotoneContinuity": {
+      "object_sha256": "82b68323dfcd4e9d97ae684b8607e4c570cead57efd06123ba6ec6c48efa1eee",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/MonotoneContinuity.olean"
+    },
+    "Mathlib.Topology.Order.ProjIcc": {
+      "object_sha256": "bc4b196899b6a290c7e9bbba07c61eaf1389ae80f348857754ac8f8f4bf03838",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Order/ProjIcc.olean"
+    },
+    "Mathlib.Topology.Semicontinuity.Basic": {
+      "object_sha256": "4cba4e86a195cd7cb98ef6616579d37b774fcd021282233abc90eee0946634f0",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Semicontinuity/Basic.olean"
+    },
+    "Mathlib.Topology.Separation.Regular": {
+      "object_sha256": "5af9b8737a8203c4d776cdddbf22bb4ac69f87c10017b305468b6d0f54bca778",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Separation/Regular.olean"
+    },
+    "Mathlib.Topology.UniformSpace.Ascoli": {
+      "object_sha256": "fef8a515b5c747b3812cf4134aa6c91c5f6c36602e1b159c9870be093e601378",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/Ascoli.olean"
+    },
+    "Mathlib.Topology.UniformSpace.Cauchy": {
+      "object_sha256": "7e597cc0efe210c101ca1c17b1061ec508bec637b827618579d192e8e912b043",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/Cauchy.olean"
+    },
+    "Mathlib.Topology.UniformSpace.CompactConvergence": {
+      "object_sha256": "46d7b0ed37164b7b457277459a1a444502575eba351e3de8d7d92b8c6d9a955e",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/CompactConvergence.olean"
+    },
+    "Mathlib.Topology.UniformSpace.HeineCantor": {
+      "object_sha256": "636926586dae35e36d3920cb5d3c8331adc4e703ba2445491f9ea3b9561e0123",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/HeineCantor.olean"
+    },
+    "Mathlib.Topology.UniformSpace.LocallyUniformConvergence": {
+      "object_sha256": "c18f09e6ecbf9d6241981166602bac7909d46ca36fc62556ff646c91cfc05d20",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/LocallyUniformConvergence.olean"
+    },
+    "Mathlib.Topology.UniformSpace.UniformConvergence": {
+      "object_sha256": "ef52a9d062a49678c8a56e7b7a4b139146d75593df5f1716093fe78434b84acd",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/UniformConvergence.olean"
+    },
+    "Mathlib.Topology.UniformSpace.UniformEmbedding": {
+      "object_sha256": "508ec9bf1c3092368f52b913e7930362967e1ec49c6f5f106b90ae4693299ff4",
+      "location": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/UniformSpace/UniformEmbedding.olean"
+    }
+  },
+  "source_manifest_sha256": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17"
+}

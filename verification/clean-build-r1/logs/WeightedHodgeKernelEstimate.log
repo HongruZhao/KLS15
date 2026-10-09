@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.weightedHodge_kernel_cutoff_estimate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

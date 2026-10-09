@@ -1,0 +1,4 @@
+'KLSBelow25.GradedHilbert.norm_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.GradedHilbert.diagonal_adjoint_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.GradedHilbert.shift_adjoint_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.GradedHilbert.shift_adjoint_succ' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,47 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorRankZeroCurvatureCoupling.lean:73:85: warning: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [PiLp.inner_apply, RCLike.inner_apply, conj_trivial, Fintype.sum_prod_type]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorRankZeroCurvatureCoupling.lean:118:5: warning: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [add_mul, Finset.sum_sub_distrib, Finset.sum_add_distrib, tensorCurvatureCurlZero, PiLp.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorRankZeroCurvatureCoupling.lean:179:22: warning: This simp argument is unused:
+  Finset.sum_ite_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, Matrix.one_apply, smul_eq_mul, mul_ite, mul_one, mul_zero, ite_mul, zero_mul,
+    Finset.mem_univ, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorRankZeroCurvatureCoupling.lean:179:40: warning: This simp argument is unused:
+  Finset.mem_univ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, Matrix.one_apply, smul_eq_mul, mul_ite, mul_one, mul_zero, ite_mul, zero_mul,
+    Finset.sum_ite_eq, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorRankZeroCurvatureCoupling.lean:179:56: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_apply, Matrix.one_apply, smul_eq_mul, mul_ite, mul_one, mul_zero, ite_mul, zero_mul,
+    Finset.sum_ite_eq, Finset.mem_univ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.tensorCurvatureCouplingZero_rank_one_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCurvatureCouplingFormZero_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCurvatureCurlZero_pairing_sub_correction_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

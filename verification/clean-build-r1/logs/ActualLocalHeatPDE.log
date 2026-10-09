@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.actualDampingResponse_add_half_laplacian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

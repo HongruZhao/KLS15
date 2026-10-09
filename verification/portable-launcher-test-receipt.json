@@ -1,0 +1,66 @@
+{
+  "status": "PASS portable launcher preflight and negative tests; no new full build performed",
+  "created_utc": "2026-10-09T21:28:40.199250+00:00",
+  "launcher_sha256": "2d8309b9ffed45d4220444034a9356191b7ac8a3f19883955bf375e7ad00d6d5",
+  "original_running_launcher_sha256": "016f676311bb954594bb49834efe6bf164778232d9c37bfac1f5c7f3e5361a24",
+  "original_running_launcher_unchanged": true,
+  "proof_or_manifest_sources_edited": false,
+  "syntax_check": "in-memory compile PASS; no bytecode cache required",
+  "preflight_source_modules": 1654,
+  "compiler_version": "4.35.0-rc3",
+  "compiler_commit": "470d5ce1400764999581fd26d5d72b00d990b0f4",
+  "compiler_sha256": "d1d9c26a539f54fe839d2aa7760bf1ac1dd76a30b26e2c9684bebf2900038fcf",
+  "default_does_not_pin_platform_binary_hash": true,
+  "compiler_scheduler_endpoint_audit_and_post_source_block_byte_identical": true,
+  "full_build_run_with_new_launcher": false,
+  "tests": [
+    {
+      "name": "portable-optional-hash-pass",
+      "exit_status": 0,
+      "expected_success": true,
+      "seconds": 0.848713416,
+      "log": "portable-optional-hash-pass.log",
+      "log_sha256": "b3e91bc370b9e05d75cbdeca826fe968c72757698215acc5ca977d1ce99517ab"
+    },
+    {
+      "name": "portable-wrong-hash-rejected",
+      "exit_status": 1,
+      "expected_success": false,
+      "seconds": 0.14913129199999997,
+      "log": "portable-wrong-hash-rejected.log",
+      "log_sha256": "301f05e4113946c20d39a869b02b7679fa61cb946c907629f178a1e747f19644"
+    },
+    {
+      "name": "portable-existing-output-rejected",
+      "exit_status": 1,
+      "expected_success": false,
+      "seconds": 0.1500694589999998,
+      "log": "portable-existing-output-rejected.log",
+      "log_sha256": "ebceae92eaedbfdf4a7d7178c97eedb4b8f0679da6f00cabcc7fc21dc6b49962"
+    },
+    {
+      "name": "portable-wrong-version-rejected",
+      "exit_status": 1,
+      "expected_success": false,
+      "seconds": 0.23353004199999994,
+      "log": "portable-wrong-version-rejected.log",
+      "log_sha256": "75d71c2f234193cdd0656e9b5da760b75fa35cb67c12e3966735212bd22b9641"
+    },
+    {
+      "name": "portable-wrong-commit-rejected",
+      "exit_status": 1,
+      "expected_success": false,
+      "seconds": 0.18763266600000006,
+      "log": "portable-wrong-commit-rejected.log",
+      "log_sha256": "acd565703c2b23263efd320c7154cde1606d3d02ca67ee07e3f8d10bb6856a5f"
+    },
+    {
+      "name": "portable-default-project-root-pass",
+      "exit_status": 0,
+      "expected_success": true,
+      "seconds": 0.6235361659999998,
+      "log": "portable-default-project-root-pass.log",
+      "log_sha256": "ffcb75b7833717e659d3f87fdbbc2e4b128a197fe8aa2023750af9ca269af25f"
+    }
+  ]
+}

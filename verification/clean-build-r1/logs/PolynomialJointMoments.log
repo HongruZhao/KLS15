@@ -1,0 +1,4 @@
+'KLS.DeterministicBridgeNext.polynomialWeightedCoordinateWord_continuousOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.polynomialMean_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]

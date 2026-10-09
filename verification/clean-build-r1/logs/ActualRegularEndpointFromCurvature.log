@@ -1,0 +1,12 @@
+'KLS.DeterministicBridgeNext.actual_regular_poincare_twentyFour886_of_curvature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_full_poincare_twentyFour886_of_regular_curvature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_universal_twentyFive_of_regular_curvature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_openai_twentyFour886_of_regular_curvature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,24 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FiniteGradientPrimitive.lean:42:8: warning: automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.finitePrimitiveValue_apply`:
+  [IsProbabilityMeasure (potentialMeasure φ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure (potentialMeasure φ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FiniteGradientPrimitive.lean:53:8: warning: automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.finitePrimitiveGradient_apply`:
+  [IsProbabilityMeasure (potentialMeasure φ)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure (potentialMeasure φ)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.DeterministicBridgeIntegration.finiteGradientPrimitive_gradient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.finiteGradientPrimitive_reconstruct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.finiteGradientPrimitive_value_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.finiteGradientPrimitive_constant_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

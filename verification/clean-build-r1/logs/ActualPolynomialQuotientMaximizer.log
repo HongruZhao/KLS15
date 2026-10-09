@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.exists_actual_normalized_polynomial_quotient_maximizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

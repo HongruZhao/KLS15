@@ -1,0 +1,118 @@
+{
+  "status": "SOURCE_SCAN_PASS_RUNNING_BUILD",
+  "checked_utc": "2026-10-09T21:06:54.931831+00:00",
+  "source_modules": 1654,
+  "source_manifest_sha256": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+  "scanner": "Nested Lean block comments, line comments and string literals removed while preserving line positions. Token search plus exact warning-header classification.",
+  "patterns": {
+    "proof_hole_or_custom_axiom": "\\b(?:sorry|admit|sorryAx|axiom)\\b",
+    "unsafe_or_foreign_implementation": "\\b(?:unsafe|implemented_by|extern)\\b",
+    "native_reduction": "\\b(?:native_decide|ofReduceBool|trustCompiler)\\b",
+    "partial_definition": "\\bpartial\\s+(?:def|theorem)\\b",
+    "kernel_bypass_option": "^\\s*set_option\\s+(?:debug\\.skipKernelTC|Elab\\.async|compiler\\.trust|kernel\\.)"
+  },
+  "scan_hits": {},
+  "log_proof_hole_hits": [],
+  "warning_categories_snapshot": {
+    "unused simp argument": 17,
+    "proof-irrelevant letI/haveI style": 24,
+    "unused section variable or binder": 20,
+    "deprecated declaration or import": 53,
+    "redundant simp": 3,
+    "unnecessary tactic sequencing": 9
+  },
+  "warning_examples": {
+    "unused simp argument": [
+      {
+        "module": "KLS.AdaptiveFeatureTilt",
+        "message": "This simp argument is unused:"
+      },
+      {
+        "module": "KLS.WeightedGlobalIntegration",
+        "message": "This simp argument is unused:"
+      },
+      {
+        "module": "KLS.WeightedDiffusionRange",
+        "message": "This simp argument is unused:"
+      }
+    ],
+    "proof-irrelevant letI/haveI style": [
+      {
+        "module": "KLS.AdaptiveFeatureTilt",
+        "message": "Try this:"
+      },
+      {
+        "module": "KLS.AdaptiveCoefficients",
+        "message": "Try this:"
+      },
+      {
+        "module": "AdmissibleLawTightness",
+        "message": "Try this:"
+      }
+    ],
+    "unused section variable or binder": [
+      {
+        "module": "KLS.AdaptiveCoefficients",
+        "message": "automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.inverseSqrtCovariance_isSymm`:"
+      },
+      {
+        "module": "KLS.AdaptiveScoreDecomposition",
+        "message": "automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.continuous_projection`:"
+      },
+      {
+        "module": "KLS.AdaptiveScoreDecomposition",
+        "message": "automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.projection_eq_transpose_mulVec`:"
+      }
+    ],
+    "deprecated declaration or import": [
+      {
+        "module": "KolmogorovExtension4.CompactSystem",
+        "message": "`if_pos` has been deprecated: Use `ite_eq_left` instead"
+      },
+      {
+        "module": "KolmogorovExtension4.CompactSystem",
+        "message": "`if_pos` has been deprecated: Use `ite_eq_left` instead"
+      },
+      {
+        "module": "KolmogorovExtension4.CompactSystem",
+        "message": "`if_neg` has been deprecated: Use `ite_eq_right` instead"
+      }
+    ],
+    "redundant simp": [
+      {
+        "module": "ApproximateEigenObservation",
+        "message": "`simp` already closes the goal"
+      },
+      {
+        "module": "KLS.CumulantSubsetPairing",
+        "message": "`simp` already closes the goal"
+      },
+      {
+        "module": "KLS.CumulantSubsetPairing",
+        "message": "`simp` already closes the goal"
+      }
+    ],
+    "unnecessary tactic sequencing": [
+      {
+        "module": "ConcaveBarrierTangent",
+        "message": "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      },
+      {
+        "module": "ConcaveBarrierTangent",
+        "message": "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      },
+      {
+        "module": "KLS.WeightedWeakEnergy",
+        "message": "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      }
+    ]
+  },
+  "unclassified_warnings": [],
+  "build_progress_snapshot": {
+    "status": "RUNNING",
+    "completed": 565,
+    "total": 1654,
+    "elapsed_seconds": 668.9225025
+  },
+  "limitations": "Read-only source scan does not replace kernel compilation, final endpoint axiom audit, or final full clean-build receipt. External pinned libraries are outside this source scan. Receipt warning_count counts text occurrences and can include explanatory hint lines; warning categories here count actual Lean diagnostic headers."
+}

@@ -1,0 +1,1 @@
+'KLS.DeterministicBridgeIntegration.local_word_product_masks' depends on axioms: [propext, Classical.choice, Quot.sound]

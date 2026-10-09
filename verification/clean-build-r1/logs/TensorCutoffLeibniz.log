@@ -1,0 +1,5 @@
+'KLS.DeterministicBridgeIntegration.tensorCutoffJet_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCutoffJet_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCutoffJet_hasWeakCoordinateDerivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

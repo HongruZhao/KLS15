@@ -1,0 +1,9 @@
+'KLSBelow25.BernsteinInterval.bernsteinSum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.BernsteinInterval.scaledBernsteinSum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.BernsteinInterval.positive_of_scaled_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.BernsteinInterval.unnormalizedSum_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.BernsteinInterval.rational_polynomial_positive_of_scaled_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

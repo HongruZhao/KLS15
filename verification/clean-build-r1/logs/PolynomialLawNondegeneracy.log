@@ -1,0 +1,12 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolynomialLawNondegeneracy.lean:57:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.DeterministicBridgeNext.polynomial_eq_zero_of_ae_eval_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.integral_polynomialEval_sq_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

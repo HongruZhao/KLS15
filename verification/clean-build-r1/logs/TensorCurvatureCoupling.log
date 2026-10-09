@@ -1,0 +1,29 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorCurvatureCoupling.lean:121:4: warning: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [PiLp.inner_apply, RCLike.inner_apply, conj_trivial, Fintype.sum_prod_type]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorCurvatureCoupling.lean:186:4: warning: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [add_mul, Finset.sum_sub_distrib, Finset.sum_add_distrib, tensorCurvatureCurl, PiLp.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.tensorTwoFormCurvatureCorrection_rank_one_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorPhysicalCurvatureForm_rank_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCurvatureCoupling_rank_one_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCurvatureCouplingForm_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCurvatureCurl_pairing_sub_correction_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

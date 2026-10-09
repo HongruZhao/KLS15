@@ -1,0 +1,1 @@
+'Quintic24886.finite_rank_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]

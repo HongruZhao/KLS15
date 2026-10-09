@@ -1,0 +1,16 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarComparisonSpectralRadius.lean:17:0: warning: automatically included section variable(s) unused in theorem `KLSBelow25.observation_norm_convergent_subsequence`:
+  [CompleteSpace H]
+  [Nontrivial H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] [Nontrivial H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarComparisonSpectralRadius.lean:28:0: warning: automatically included section variable(s) unused in theorem `KLSBelow25.approximate_eigenvector_norm_tendsto`:
+  [CompleteSpace H]
+  [Nontrivial H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] [Nontrivial H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLSBelow25.spectralRadius_le_of_scalar_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.power_envelope_of_scalar_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

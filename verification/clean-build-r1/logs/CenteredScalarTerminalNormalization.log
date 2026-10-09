@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.centered_weighted_terminal_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.centered_weighted_terminal_excess_contradiction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

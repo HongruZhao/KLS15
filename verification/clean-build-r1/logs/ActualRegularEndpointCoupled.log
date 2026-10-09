@@ -1,0 +1,11 @@
+'KLS.DeterministicBridgeNext.actual_regular_poincare_of_coupled_appell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+KLS.DeterministicBridgeNext.actual_regular_poincare_of_coupled_appell {n : ℕ} {φ : KLS.Space n → ℝ} {κ K C : ℝ}
+  [IsProbabilityMeasure (KLS.potentialMeasure φ)] (hφ : ContDiff ℝ ∞ φ) (hκ : 0 < κ)
+  (hlower : ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ KLS.coordinateHessian φ x *ᵥ a) (hn : 0 < n)
+  (hμ : KLS.admissibleMeasure (KLS.potentialMeasure φ)) (hK : 0 < K) (hC : 0 ≤ C)
+  (hcoupled :
+    ∀ (N : ℕ) (f : ↥(Lp ℝ 2 (KLS.potentialMeasure φ))),
+      KLS.DeterministicBridgeNext.actualWeightedAppellEnergy (KLS.potentialMeasure φ) (↑↑f) K N ≤ C * ‖f‖ ^ 2) :
+  KLS.poincareConstant (KLS.potentialMeasure φ) ≤ ENNReal.ofReal (1 + K * (1 + C))

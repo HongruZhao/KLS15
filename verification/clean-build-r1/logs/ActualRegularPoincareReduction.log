@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.actual_regular_poincare_twentyFive_of_remaining_analytic_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actual_regular_poincare_twentyFour886_of_remaining_analytic_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

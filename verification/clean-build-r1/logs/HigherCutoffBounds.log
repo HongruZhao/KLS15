@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.smoothCutoff_coordinateWord_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.smoothCutoff_coordinateWord_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.polynomial_normalized_quotient_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.normalize_actual_polynomial_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

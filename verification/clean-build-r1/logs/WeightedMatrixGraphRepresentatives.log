@@ -1,0 +1,9 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedMatrixGraphRepresentatives.lean:13:0: warning: automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.HasWeakMatrixDerivative.congr_ae`:
+  [Fintype ρ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ρ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.DeterministicBridgeIntegration.finiteMatrixLp_mem_weightedMatrixFiberGraph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

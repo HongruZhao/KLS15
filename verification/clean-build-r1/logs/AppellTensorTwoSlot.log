@@ -1,0 +1,84 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:48:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:55:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:58:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:85:15: warning: This simp argument is unused:
+  coordinateSlot
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hins, insertOne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:98:46: warning: Variable name `hst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:132:46: warning: Variable name `hst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:138:10: warning: This simp argument is unused:
+  Function.update_of_ne his
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [insertTwo, his]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:147:12: warning: This simp argument is unused:
+  Function.update_of_ne hit
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [insertTwo, his, hit]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:184:23: warning: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:186:25: warning: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:187:12: warning: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Equiv.swap_apply_of_ne_of_ne his hit, insertTwo, his, hit]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AppellTensorTwoSlot.lean:270:42: warning: This simp argument is unused:
+  ← pow_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coordinateSlot_eq_tensorSlot] at hc
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.thirdCumulant_distinct_slot_pairing_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.thirdCumulant_tensorSlotSum_square_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

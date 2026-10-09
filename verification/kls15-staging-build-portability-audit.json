@@ -1,0 +1,42 @@
+{
+  "status": "READ_ONLY_STAGING_AND_RUNNING_BUILD_AUDIT_PASS",
+  "checked_utc": "2026-10-09T20:57:43.637949+00:00",
+  "source_modules": 1654,
+  "endpoint_dependency_closure": 1652,
+  "new_interface_modules": 2,
+  "all_staged_and_origin_hashes_match": true,
+  "all_direct_import_metadata_match": true,
+  "external_direct_imports": 342,
+  "lake_roots_exactly_all_sources": true,
+  "dependency_dag_acyclic": true,
+  "maximum_dependency_depth": 230,
+  "project_objects_copied": 0,
+  "fresh_preflight_checked": true,
+  "project_objects_reused": false,
+  "external_package_caches_reused": true,
+  "full_original_historical_project_rebuilt": false,
+  "completed_build_claim": false,
+  "progress_snapshot": {
+    "status": "RUNNING",
+    "completed": 138,
+    "total": 1654,
+    "elapsed_seconds": 118.059975166,
+    "running": [
+      "EllipticPdes.Extension.C1Boundary",
+      "EllipticPdes.Regularity.Caccioppoli",
+      "EllipticPdes.Regularity.CoeffBridge"
+    ],
+    "pending": 1513
+  },
+  "warnings_so_far": 48,
+  "scope": "Shipped minimal self-contained KLS15 project, not all unused historical branches and not Mathlib source rebuild. A final receipt PASS is still required before claiming this fresh rebuild complete. Historical linter warnings are recorded separately from compilation success.",
+  "hashed_staging_files": {
+    "verification/rebuild.py": "016f676311bb954594bb49834efe6bf164778232d9c37bfac1f5c7f3e5361a24",
+    "verification/source-manifest.json": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+    "lakefile.toml": "01c75cb14b19a623e1452a2a0480caff4fc6ae650d69f24f02e8c8a74a176d1a",
+    "lake-manifest.json": "2481270181d069b9b9463ac64823e5bc76aa726519de8673858176728dd9dbcd",
+    "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
+    "KLS15.lean": "26d10583adad4373cd1e446891b1eedc737e206f4fd026a682b63123aa6b7c57",
+    "Challenge.lean": "0f4130e23bb36d7c5978f1fe0b29487b3316d51000c4bdba58e5112ccb5e217b"
+  }
+}

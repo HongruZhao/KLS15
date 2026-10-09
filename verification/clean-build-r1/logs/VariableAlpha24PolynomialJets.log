@@ -1,0 +1,32 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:11:28: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:12:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:16:37: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:17:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:16:37: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:27:30: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:28:28: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:32:39: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:33:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/VariableAlpha24PolynomialJets.lean:32:39: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'VariableAlpha24.hasDerivAt_seedV' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.hasDerivAt_commonVFirst' depends on axioms: [propext, Classical.choice, Quot.sound]

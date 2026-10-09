@@ -1,0 +1,26 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCenteredAdjacentTangent.lean:31:42: warning: Variable name `hν` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hν
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCenteredAdjacentTangent.lean:108:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCenteredAdjacentTangent.lean:93:53: warning: Variable name `hν` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hν
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.DeterministicBridgeNext.actual_joint_all_law_tangent_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_two_rank_tilt_family_variance_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

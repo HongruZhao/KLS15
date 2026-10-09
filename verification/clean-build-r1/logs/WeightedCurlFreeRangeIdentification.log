@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.weightedGradientProjection_residual_divergenceFree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientRange_eq_curlFreeSubspace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientPrimitive_reconstruct_curlFree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

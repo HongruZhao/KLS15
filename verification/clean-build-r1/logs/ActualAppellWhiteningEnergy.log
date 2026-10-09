@@ -1,0 +1,12 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualAppellWhiteningEnergy.lean:30:36: warning: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+'KLS.DeterministicBridgeNext.actualAppellEnergy_whitening' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actual_whitening_test_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]

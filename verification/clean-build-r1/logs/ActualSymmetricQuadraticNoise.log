@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.actualCovarianceAppellEnergy_generator_lower_two_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

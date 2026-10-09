@@ -1,0 +1,18 @@
+KLS149963.poincare149963_mem {n : ℕ} (hn : 1 ≤ n) {μ : Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ) :
+  149963 / 10000 ∈ KLS.poincareConstants μ
+KLS149963.poincare149963 {n : ℕ} (hn : 1 ≤ n) {μ : Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ)
+  {f : KLS.Space n → ℝ} (hf : KLS.LocallyLipschitzTests μ f) : KLS.variance μ f ≤ 149963 / 10000 * KLS.energy μ f
+KLS149963.universalPoincareUpper149963 : KLS.universalPoincareConstant ≤ 149963 / 10000
+KLS149963.universalPoincareUpper_lt_fifteen : KLS.universalPoincareConstant < 15
+KLS149963.openaiPoincare149963 {n : ℕ} (hn : 1 ≤ n) {ρ : OAI.LeanBlast.KLS.Space n → ℝ}
+  (hρ : OAI.LeanBlast.KLS.IsLogConcaveDensity ρ)
+  (hiso : OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ)) :
+  OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) (149963 / 10000)
+KLS149963.openaiKLS149963 : OAI.LeanBlast.KLS.KLSStatement
+'KLS149963.regularPoincare149963' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS149963.poincare149963_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS149963.poincare149963' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS149963.universalPoincareUpper149963' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS149963.universalPoincareUpper_lt_fifteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS149963.openaiPoincare149963' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS149963.openaiKLS149963' depends on axioms: [propext, Classical.choice, Quot.sound]

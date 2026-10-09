@@ -1,0 +1,134 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "KLS15",
+    "description": "Lean 4 dimension-free Poincare bound 15 and unchanged OpenAI KLSStatement with witness 15.",
+    "authors": [
+      "Hongru Zhao"
+    ],
+    "license": "Apache-2.0"
+  },
+  "sources": [
+    {
+      "title": "OpenAI KLS model",
+      "authors": [
+        "OpenAI"
+      ],
+      "type": "other",
+      "location": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/KLS/Model.lean",
+      "relationship": "formalizes",
+      "note": "The upstream Model.lean is preserved byte-for-byte; the exact KLSStatement is an endpoint."
+    },
+    {
+      "title": "A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures",
+      "authors": [
+        "Krishnakumar Balasubramanian",
+        "Shiva Kasiviswanathan"
+      ],
+      "type": "preprint",
+      "location": "https://arxiv.org/abs/2610.07728v2",
+      "relationship": "formalizes",
+      "note": "Additional quantitative refinements produce 15; the paper itself states 25."
+    }
+  ],
+  "classification": {
+    "arxiv": [
+      "math.PR",
+      "math.FA"
+    ],
+    "msc2020": [
+      "60E15",
+      "52A40"
+    ]
+  },
+  "status": {
+    "scope": "Original admissible isotropic log-concave probability laws and locally Lipschitz L2 tests in positive dimensions; exact unchanged upstream OpenAI Poincare KLSStatement. Complete 1,654-module shipped dependency closure. Fresh project source rebuild passed for all 1,654 shipped modules; external Mathlib cache reused explicitly.",
+    "main_results": [
+      {
+        "declaration": "KLS15.poincare15_mem",
+        "file": "KLS15.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS15.poincare15",
+        "file": "KLS15.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS15.universalPoincareUpper15",
+        "file": "KLS15.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS15.openaiPoincare15",
+        "file": "KLS15.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS15.openaiKLS",
+        "file": "KLS15.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ]
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "framework": "Codex",
+        "tool_setup": "Pinned Lean 4.35.0-rc3 and mathlib; Lean kernel compilation and transitive axiom checks. Comparator and Nanoda not run.",
+        "prompting_notes": "Human-guided formalization, quantitative refinement and source-to-statement audits."
+      }
+    ],
+    "notes": "Three agents assisted the final interface, license and release preparation reviews."
+  },
+  "review": {
+    "status": "self-assessed",
+    "notes": "All 1,654 shipped project sources rebuilt from scratch at kernel trust level zero, with no historical project objects reused. Pinned external Mathlib and Lean caches reused explicitly. Five final declaration and axiom reports passed using only propext, Classical.choice and Quot.sound. Warnings are recorded; no warning-free claim. Independent exact scalar audit of 399 checks and AI-assisted correspondence reviews passed. Challenge is a post-solution proof-bearing statement check. Comparator, lean4export and Nanoda not run; no independent human peer-review claim.",
+    "clean_build_receipt": "verification/clean-build-r1/receipt.json",
+    "clean_build_receipt_sha256": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba"
+  },
+  "alignment": {
+    "namespace": "KLS15",
+    "statements": [
+      {
+        "source": "Universal dimension-free Poincare upper15",
+        "lean": "KLS15.poincare15",
+        "module": "KLS15",
+        "status": "proved; complete shipped-source clean replay passed"
+      },
+      {
+        "source": "Exact unchanged OpenAI KLSStatement with witness15",
+        "lean": "KLS15.openaiKLS",
+        "module": "KLS15",
+        "status": "proved; complete shipped-source clean replay passed"
+      }
+    ]
+  },
+  "acknowledgements": "Lean, mathlib, and bundled proof-library contributors are credited in source headers and preserved licenses/notices. Repository layout and statement interface follow https://github.com/openai/PrimeGaps186/tree/61340d0b74163003b32756bb16e91d9209a5e330."
+}

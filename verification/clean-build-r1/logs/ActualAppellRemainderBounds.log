@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.actualLowerConvolution_eq_subsets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualAppellProperRemainder_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

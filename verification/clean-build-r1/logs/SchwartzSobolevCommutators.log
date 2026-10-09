@@ -1,0 +1,39 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:43:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:43:93: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:68:32: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:68:91: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:62:7: warning: Unused tactic linter: `change _ = _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:125:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:125:74: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:127:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:127:85: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SchwartzSobolevCommutators.lean:111:7: warning: Unused tactic linter: `change _ = _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLS.DeterministicBridgeIntegration.schwartz_mul_memSobolev_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.schwartz_mul_coordinateWord_memSobolev' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.schwartz_mul_wordCommutator_memSobolev' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

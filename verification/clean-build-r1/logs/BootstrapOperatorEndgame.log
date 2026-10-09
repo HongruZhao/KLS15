@@ -1,0 +1,6 @@
+'KLSBelow25.operator_norm_sq_le_of_scalar_orbit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.operator_norm_sq_le_248764_of_power_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.complex_operator_norm_sq_le_248764_of_spectralRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.resolvent_operator_endpoint_twentyFour8764' depends on axioms: [propext, Classical.choice, Quot.sound]

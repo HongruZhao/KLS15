@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.second_derivative_nonpos_of_localMax' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.iteratedDeriv_two_nonpos_of_localMax' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

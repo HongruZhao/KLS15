@@ -1,0 +1,14 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualJointCumulantContraction.lean:33:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.DeterministicBridgeNext.actual_joint_canonical_contraction_square_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_proper_pairing_le_canonical_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

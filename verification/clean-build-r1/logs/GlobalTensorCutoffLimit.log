@@ -1,0 +1,17 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/GlobalTensorCutoffLimit.lean:44:51: warning: This simp argument is unused:
+  List.cons_ne_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [maskedDirections, hb, ↓reduceIte, List.cons_ne_nil, false_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/GlobalTensorCutoffLimit.lean:70:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'KLS.DeterministicBridgeIntegration.tensorCutoffJet_smoothCutoff_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.eLpNorm_tensorCutoffJet_smoothCutoff_sub_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

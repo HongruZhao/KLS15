@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.integral_weightedCompactTest_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

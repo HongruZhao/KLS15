@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.weightedPolyharmonicAdjointTest_real_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.real_weighted_weak_equation_complexifies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

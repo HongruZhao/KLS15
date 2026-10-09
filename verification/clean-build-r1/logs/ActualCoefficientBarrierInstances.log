@@ -1,0 +1,12 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCoefficientBarrierInstances.lean:58:68: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.DeterministicBridgeNext.cubicCoefficientInductionBarrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.quinticCoefficientInductionBarrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.exists_coefficientInductionBarrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

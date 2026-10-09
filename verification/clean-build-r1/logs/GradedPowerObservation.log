@@ -1,0 +1,2 @@
+'KLSBelow25.GradedHilbert.power_observation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.GradedHilbert.norm_power_observation_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

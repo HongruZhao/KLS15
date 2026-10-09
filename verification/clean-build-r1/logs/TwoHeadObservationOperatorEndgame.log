@@ -1,0 +1,9 @@
+'KLSBelow25.CoupledEnergy.operator_norm_sq_le_rate_mul_two_head_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.CoupledEnergy.canonical_operator_endpoint_two_head_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.RealHilbertComplexification.real_canonical_operator_endpoint_two_head_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

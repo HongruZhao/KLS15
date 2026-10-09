@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.tensorAuxiliaryCurvatureForm_eq_rank_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorAuxiliaryCurvatureForm_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

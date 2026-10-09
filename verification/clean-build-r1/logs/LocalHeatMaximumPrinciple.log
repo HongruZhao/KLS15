@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.localHeatGenerator_nonpos_of_localMax' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.localHeatGenerator_linear_combination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

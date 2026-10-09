@@ -1,0 +1,3 @@
+'KLSBelow25.retained_square_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.retained_square_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.sharp_scalar_two_slot_four' depends on axioms: [propext, Classical.choice, Quot.sound]

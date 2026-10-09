@@ -1,0 +1,12 @@
+'KLS.DeterministicBridgeIntegration.gaussianSmoothedPotential_translate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.iteratedFDeriv_norm_sq_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.iteratedFDeriv_gaussianSmoothedPotential_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.norm_iteratedFDeriv_gaussianSmoothedPotential_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.actual_symmetric_centered_cubic_joint_unit_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_appell_joint_cubic_seed_symmetric_245' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

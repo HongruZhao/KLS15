@@ -1,0 +1,47 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:19:8: warning: automatically included section variable(s) unused in theorem `KLSBelow25.spectralShift_apply`:
+  [CompleteSpace H]
+  [Nontrivial H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] [Nontrivial H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:22:0: warning: automatically included section variable(s) unused in theorem `KLSBelow25.spectralShift_sub_norm`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:71:20: warning: This simp argument is unused:
+  Real.norm_eq_abs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, abs_of_pos (inv_pos.mpr hxpos), ne_of_gt hxpos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:71:37: warning: This simp argument is unused:
+  abs_of_pos (inv_pos.mpr hxpos)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, Real.norm_eq_abs, ne_of_gt hxpos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:85:43: warning: This simp argument is unused:
+  Real.norm_eq_abs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, hvnorm, c, abs_of_pos (inv_pos.mpr hxpos)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:85:60: warning: This simp argument is unused:
+  abs_of_pos (inv_pos.mpr hxpos)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [norm_smul, hvnorm, c, Real.norm_eq_abs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundaryApproximateEigenvectors.lean:61:33: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLSBelow25.exists_unit_residual_lt_of_mem_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.exists_approximate_eigenvectors_of_mem_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.exists_maximal_modulus_approximate_eigenvectors' depends on axioms: [propext, Classical.choice, Quot.sound]

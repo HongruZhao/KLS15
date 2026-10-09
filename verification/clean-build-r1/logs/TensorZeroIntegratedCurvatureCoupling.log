@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.tensorCurvatureZero_integrated_test_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

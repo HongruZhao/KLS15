@@ -1,0 +1,10 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BoundedDegreePolynomialPairs.lean:58:36: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'KLS.DeterministicBridgeNext.boundedDegreePolynomial_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.isCompact_boundedDegree_normalizedPolynomialPairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

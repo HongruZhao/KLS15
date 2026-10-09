@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.compact_tower_weighted_polyharmonic_local_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compact_tower_weighted_polyharmonic_local_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

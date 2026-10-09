@@ -1,0 +1,32 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FirstOrderMatrixGraphCore.lean:18:0: warning: automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.finiteMatrixLp_tendsto`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FirstOrderMatrixGraphCore.lean:35:10: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FirstOrderMatrixGraphCore.lean:37:10: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FirstOrderMatrixGraphCore.lean:40:10: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/FirstOrderMatrixGraphCore.lean:30:0: warning: automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.matrixFirstOrder_continuous`:
+  [Fintype ρ]
+  [DecidableEq ι]
+  [DecidableEq ρ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ρ] [DecidableEq ι] [DecidableEq ρ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.DeterministicBridgeIntegration.compact_matrix_graph_mem_closure_compact_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.matrix_maximal_graph_mem_closure_compact_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

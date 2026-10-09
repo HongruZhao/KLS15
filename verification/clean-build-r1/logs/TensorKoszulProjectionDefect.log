@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.tensorOneFormProjection_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorOneFormProjection_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'Quintic24886.limitingMargin_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.certified_inverse_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.optimized_scalar_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

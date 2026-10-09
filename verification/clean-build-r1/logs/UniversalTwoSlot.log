@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.twoSlotFour_of_actual_strongDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.twoSlotFour_of_thirdMomentLimit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.thirdCumulant_two_slot_four_universal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,1 @@
+'KLS.DeterministicBridgeIntegration.matrix_lower_row_gram' depends on axioms: [propext, Classical.choice, Quot.sound]

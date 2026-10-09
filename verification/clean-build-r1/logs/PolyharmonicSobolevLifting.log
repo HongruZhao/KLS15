@@ -1,0 +1,52 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:16:0: warning: automatically included section variable(s) unused in theorem `KLSBelow25.tempered_fourierMultiplier_add`:
+  [CompleteSpace F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:38:4: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:39:13: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:39:13: warning: This simp argument is unused:
+  ContinuousLinearMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.id_apply, one_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:65:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:65:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:72:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:72:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:93:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/PolyharmonicSobolevLifting.lean:99:0: warning: automatically included section variable(s) unused in theorem `KLSBelow25.temperedCoordinateWord_append`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+  [CompleteSpace F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] [CompleteSpace F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLSBelow25.besselPotential_two_eq_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.tempered_sobolev_polyharmonic_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.tempered_sobolev_of_L2_coordinate_tower' depends on axioms: [propext, Classical.choice, Quot.sound]

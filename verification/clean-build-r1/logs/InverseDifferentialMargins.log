@@ -1,0 +1,18 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/InverseDifferentialMargins.lean:70:5: warning: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/InverseDifferentialMargins.lean:88:61: warning: Variable name `hz` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLSBelow25.inverse_margin_of_differential_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.inverse_common_margin_of_majorant_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.inverse_seed_margin_of_majorant_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.zero_margin_of_slope_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.sqrt_div_le_of_square_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.eight_div_sqrt_le_of_square_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]

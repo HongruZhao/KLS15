@@ -1,0 +1,15 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualRetainedSquareEnergy.lean:114:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.DeterministicBridgeIntegration.actualAppell_noise_lower_of_mixed_surplus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualAppell_generator_lower_of_mixed_surplus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualAppell_generator_lower_of_linear_surplus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.exponential_adjacent_degree_surplus_model' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

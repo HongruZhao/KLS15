@@ -1,0 +1,31 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorExteriorWeakChain.lean:18:28: warning: This simp argument is unused:
+  ← Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tensorExteriorOneDerivativeMatrix, mul_sub, sub_mul, Finset.sum_sub_distrib, Fintype.sum_prod_type,
+    and_comm]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorExteriorWeakChain.lean:28:28: warning: This simp argument is unused:
+  ← Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tensorExteriorTwoDerivativeMatrix, tensorHodgeDerivativeMatrix, mul_add, mul_sub, add_mul, sub_mul,
+    Finset.sum_add_distrib, Finset.sum_sub_distrib, and_comm]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorExteriorWeakChain.lean:28:46: warning: This simp argument is unused:
+  and_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tensorExteriorTwoDerivativeMatrix, tensorHodgeDerivativeMatrix, mul_add, mul_sub, add_mul, sub_mul,
+    Finset.sum_add_distrib, Finset.sum_sub_distrib, ← Finset.mul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.HasWeakMatrixDerivative.exterior_chain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

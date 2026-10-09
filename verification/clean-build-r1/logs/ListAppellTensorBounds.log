@@ -1,0 +1,7 @@
+'KLS.DeterministicBridgeNext.listAppellTensorField_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.listAppellTensorField_mem_centered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.listAppellTensorField_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

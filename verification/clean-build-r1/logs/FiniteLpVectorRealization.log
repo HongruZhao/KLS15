@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.finiteLpVectorLinearIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.finiteLp_exists_subsequence_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

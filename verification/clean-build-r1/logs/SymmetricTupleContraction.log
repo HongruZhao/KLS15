@@ -1,0 +1,2 @@
+'KLSBelow25.ofFn_insertNth_perm_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.symmetric_tuple_erased_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualTiltHeatCancellation.lean:33:1: warning: automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.integral_norm_sq_of_isotropic`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.DeterministicBridgeIntegration.hasDerivWithinAt_damping_eq_neg_half_laplacian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualHeatGenerator_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

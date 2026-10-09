@@ -1,0 +1,10 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/RawWeakJetTestExtension.lean:93:16: warning: This simp argument is unused:
+  Finset.sum_const_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [he] at hs
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.poweredCutoff_high_order_test_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

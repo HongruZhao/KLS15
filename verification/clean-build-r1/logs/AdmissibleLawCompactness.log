@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.admissibleMeasure_of_probability_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.isCompact_admissible_probability_laws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

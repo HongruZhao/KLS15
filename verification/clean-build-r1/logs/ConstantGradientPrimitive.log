@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.exists_weightedH1_linear_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientPrimitive_constant_value_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientPrimitive_constant_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

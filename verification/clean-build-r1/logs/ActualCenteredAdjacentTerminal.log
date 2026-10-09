@@ -1,0 +1,8 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCenteredAdjacentTerminal.lean:87:2: warning: Unused tactic linter: `norm_num only [show (4 - 2 : ℝ) - 3 = -1 by norm_num,
+  show (4 - 2 : ℝ) = 2 by norm_num] at hj` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLS.DeterministicBridgeNext.actual_adjacent_terminal_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actualAppell_centered_weighted_energy_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

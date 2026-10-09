@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.actualDampedDirectionalJet_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.differentiableWithinAt_actualDampedDirectionalJet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualDampedDirectionalJet_damping_convolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

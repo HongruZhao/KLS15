@@ -1,0 +1,1 @@
+'KLSBelow25.RadicalBarrier.toDescendingC1Barrier' depends on axioms: [propext, Classical.choice, Quot.sound]

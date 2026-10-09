@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.actual_weighted_proper_drift_degree_young_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_weighted_centered_full_drift_degree_young_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

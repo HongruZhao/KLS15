@@ -1,0 +1,29 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualWeightedAppellOptimality.lean:37:71: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualWeightedAppellOptimality.lean:73:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualWeightedAppellOptimality.lean:62:53: warning: Variable name `hν` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hν
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualWeightedAppellOptimality.lean:106:45: warning: Variable name `hν` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hν
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.DeterministicBridgeNext.actual_weighted_test_stationarity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.exists_actual_weighted_both_optimalities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

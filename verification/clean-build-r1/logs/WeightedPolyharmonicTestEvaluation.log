@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.coordinateTemperedWord_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactTensorWordTempered_apply_local_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedOrderedPolyharmonic_compact_tower_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

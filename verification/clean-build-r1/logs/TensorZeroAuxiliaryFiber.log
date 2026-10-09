@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.tensorOneFormProjection_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorTwoFormCompatible_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

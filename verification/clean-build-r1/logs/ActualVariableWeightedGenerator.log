@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actual_variable_weighted_generator_sum_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

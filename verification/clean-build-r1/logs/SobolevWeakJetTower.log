@@ -1,0 +1,8 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SobolevWeakJetTower.lean:32:31: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'KLS.DeterministicBridgeIntegration.realSobolevJet_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.eLpNorm_mollify_sobolev_jet_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

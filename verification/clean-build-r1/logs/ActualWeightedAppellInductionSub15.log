@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeNext.actual_weighted_appell_energy_small_degree_sub15' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_weighted_appell_energy_thirteen_four_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_weighted_appell_energy_thirteen_four_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

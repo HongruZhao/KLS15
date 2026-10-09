@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.compact_tower_real_weak_equation_local_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

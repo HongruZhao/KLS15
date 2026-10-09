@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.actualAppellLowerDriftTensor_terminal_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.fullClassAppellTensor_one_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

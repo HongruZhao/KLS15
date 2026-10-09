@@ -1,0 +1,5 @@
+'KLSBelow25.RealHilbertComplexification.norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.RealHilbertComplexification.realLinearIsometryEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.RealHilbertComplexification.norm_extend' depends on axioms: [propext, Classical.choice, Quot.sound]

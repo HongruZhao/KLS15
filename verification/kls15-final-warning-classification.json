@@ -1,0 +1,120 @@
+{
+  "status": "FINAL_WARNING_DIAGNOSTIC_CLASSIFICATION_PASS",
+  "checked_utc": "2026-10-09T21:38:48.096511+00:00",
+  "actual_diagnostic_headers": 910,
+  "receipt_warning_text_occurrences": 960,
+  "categories": {
+    "unused simp argument": 119,
+    "proof-irrelevant letI/haveI style": 180,
+    "unused section variable or binder": 123,
+    "redundant or unreachable tactic": 52,
+    "deprecated declaration or import": 342,
+    "redundant simp": 9,
+    "unnecessary tactic sequencing": 85
+  },
+  "unclassified": {},
+  "examples": {
+    "unused simp argument": [
+      {
+        "module": "KLS.AdaptiveFeatureTilt",
+        "message": "This simp argument is unused:"
+      },
+      {
+        "module": "FiniteNegativeSobolev",
+        "message": "This simp argument is unused:"
+      },
+      {
+        "module": "TensorCurvatureCoupling",
+        "message": "This simp argument is unused:"
+      }
+    ],
+    "proof-irrelevant letI/haveI style": [
+      {
+        "module": "KLS.AdaptiveFeatureTilt",
+        "message": "Try this:"
+      },
+      {
+        "module": "LevyStochCalc.Poisson.RandomMeasure",
+        "message": "Try this:"
+      },
+      {
+        "module": "KLS.AdaptiveCoefficients",
+        "message": "Try this:"
+      }
+    ],
+    "unused section variable or binder": [
+      {
+        "module": "FirstOrderMatrixCutoff",
+        "message": "automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.HasWeakMatrixDerivative.cutoff`:"
+      },
+      {
+        "module": "FirstOrderMatrixCutoff",
+        "message": "automatically included section variable(s) unused in theorem `KLS.DeterministicBridgeIntegration.cutoff_preserves_linear_constraint`:"
+      },
+      {
+        "module": "KLS.AdaptiveCoefficients",
+        "message": "automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.inverseSqrtCovariance_isSymm`:"
+      }
+    ],
+    "redundant or unreachable tactic": [
+      {
+        "module": "KLS.AdaptiveClippedLogDetEquation",
+        "message": "Unused tactic linter: `change"
+      },
+      {
+        "module": "FiniteNegativeSobolev",
+        "message": "Unused tactic linter: `change _ = _` does nothing"
+      },
+      {
+        "module": "KLS.LocalSmoothObservableIto",
+        "message": "Unused tactic linter: `change"
+      }
+    ],
+    "deprecated declaration or import": [
+      {
+        "module": "WeightedMatrixDerivativeOperator",
+        "message": "`ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead"
+      },
+      {
+        "module": "WeightedMatrixDerivativeOperator",
+        "message": "`ContinuousLinearMap.sum_apply` has been deprecated: Use `_root_.sum_apply` instead"
+      },
+      {
+        "module": "WeightedMatrixDerivativeOperator",
+        "message": "`ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead"
+      }
+    ],
+    "redundant simp": [
+      {
+        "module": "WeightedMatrixDerivativeOperator",
+        "message": "`simp` already closes the goal"
+      },
+      {
+        "module": "ApproximateEigenObservation",
+        "message": "`simp` already closes the goal"
+      },
+      {
+        "module": "LevyStochCalc.Probability.IndepLimit",
+        "message": "`simp` already closes the goal"
+      }
+    ],
+    "unnecessary tactic sequencing": [
+      {
+        "module": "FiniteNegativeSobolev",
+        "message": "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      },
+      {
+        "module": "ActualCoupledAppellDrift",
+        "message": "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      },
+      {
+        "module": "ActualCoefficientInductionAlgebra",
+        "message": "Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      }
+    ]
+  },
+  "proof_holes": false,
+  "endpoint_standard_axioms_only": true,
+  "build_receipt_sha256": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba",
+  "scope": "All warnings are historical linter or deprecation diagnostics, not missing proofs. They remain distinct from successful kernel compilation. This is not a warning-free build. Actual headers count910;960 receipt text occurrences also count explanatory warning: hints."
+}

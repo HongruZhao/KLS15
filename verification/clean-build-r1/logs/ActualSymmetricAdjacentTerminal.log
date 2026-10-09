@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actualAppell_centered_weighted_energy_inequality_two_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.tensorExteriorOneOperator_domain_dense' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'KLSBelow25.linear_curvature_comparison_of_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.integrationGram_isPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.integrationGram_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.scalar_curvature_comparison_of_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]

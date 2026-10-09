@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.compactPotentialAdjointOneFormL2_mem_domain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialAdjointOneFormL2_zero_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialAdjointOneFormL2_residual_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

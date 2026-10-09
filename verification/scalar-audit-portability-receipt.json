@@ -1,0 +1,41 @@
+{
+  "status": "PASS portable independent exact scalar audit and detached-copy replay",
+  "started_utc": "2026-10-09T21:07:04.199943+00:00",
+  "seconds": 0.378369292,
+  "command": [
+    "python3",
+    "verification/check_scalar_certificates.py"
+  ],
+  "exit_status": 0,
+  "checks": 399,
+  "arithmetic_checks": 369,
+  "source_provenance_checks": 30,
+  "producer_scripts_executed_or_imported": false,
+  "required_external_python_packages": [],
+  "additional_certificate_json_inputs": [],
+  "project_objects_required": false,
+  "whole_lean_build_claimed": false,
+  "detached_copy": {
+    "source_files": 10,
+    "used_only_shipped_files_and_standard_library": true,
+    "result_byte_identical": true,
+    "project_objects_present": false
+  },
+  "checker": {
+    "path": "verification/check_scalar_certificates.py",
+    "sha256": "3db870651fd4dfe06beb45656bed734e8b48bfd823e82de153e7fba96d9ada4a"
+  },
+  "result": {
+    "path": "verification/scalar-audit.json",
+    "sha256": "d1261025ba68703e5b3e47bd81aee5a4cd6c9edb038409afdf36492c3050ba3d"
+  },
+  "log": {
+    "path": "verification/scalar-audit-portability.log",
+    "sha256": "0bfb516e8da09ae399a01bb1969f6cb9222d951d08be0f56caf59bb30a72304d"
+  },
+  "source_manifest_sha256": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+  "original_frozen_audit_preserved": {
+    "checker_sha256": "205ad4ce589d7916ac362c8f58ca6a1e6a8e3aeb7b49ba39e2079fb8b380a8ef",
+    "result_sha256": "e3a388268c9491da8cf75402c1b9c7349cda5c9332dab9829a627d10a79310ab"
+  }
+}

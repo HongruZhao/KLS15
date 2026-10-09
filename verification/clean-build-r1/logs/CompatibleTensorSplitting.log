@@ -1,0 +1,18 @@
+'KLS.DeterministicBridgeIntegration.compatibleTensorPrimitive_mem_centered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleTensor_orthogonal_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleTensor_summands_disjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.orderedTensor_split_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleTensorPrimitive_constant_value_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleTensorPrimitive_constant_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

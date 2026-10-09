@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.compatibleTensorInverse_compact_divergence_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleTensorInverse_adjoint_compact_divergence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

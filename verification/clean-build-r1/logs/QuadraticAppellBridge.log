@@ -1,0 +1,7 @@
+'KLS.DeterministicBridge.quadraticAppellPrimitive_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridge.quadraticAppellPrimitive_integral_sq_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridge.quadraticAppellPrimitive_pairing_eq_Taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorMaximalCurvatureEnergy.lean:38:13: warning: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.maximal_tensorHodge_curvature_lintegral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.maximal_tensorHodge_curvature_integrable_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

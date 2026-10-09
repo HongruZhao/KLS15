@@ -1,0 +1,30 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:3:0: warning: 
+'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:19:69: warning: `Fin.coe_cast` has been deprecated: Use `Fin.val_cast` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵c̵a̵s̵t̵F̲i̲n̲.̲v̲a̲l̲_̲c̲a̲s̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:27:29: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:38:38: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:38:49: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:43:38: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/SymmetricListExtension.lean:43:49: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'KLSBelow25.symmetricListExtension_ofFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.symmetricListExtension_perm' depends on axioms: [propext, Classical.choice, Quot.sound]

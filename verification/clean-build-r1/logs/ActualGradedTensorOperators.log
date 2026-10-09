@@ -1,0 +1,10 @@
+'KLS.DeterministicBridgeIntegration.gradedTensorIntegration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.actual_graded_rational_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actual_graded_norm_twentyFive_of_analytic_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actual_graded_norm_twentyFour886_of_analytic_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

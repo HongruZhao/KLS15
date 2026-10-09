@@ -1,0 +1,114 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:38:19: warning: This simp argument is unused:
+  actualDampedNumerator
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [tiltNumerator, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:38:41: warning: This simp argument is unused:
+  tiltNumerator
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [actualDampedNumerator, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:52:19: warning: This simp argument is unused:
+  actualDampedNumerator
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [tiltNumerator, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:52:41: warning: This simp argument is unused:
+  tiltNumerator
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [actualDampedNumerator, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:63:47: warning: This simp argument is unused:
+  inv_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [actualDampedAverage, N, Z, div_eq_mul_inv, pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:75:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:77:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:100:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:115:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:130:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:145:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:186:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCovarianceHeatDrift.lean:224:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.DeterministicBridgeIntegration.actualCovarianceField_eq_mean_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.hasDerivWithinAt_actualCovarianceField_damping' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualCovarianceHeatGenerator_eq_neg_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.coordinateDerivative_actualCovarianceField' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.fderiv_actualCovarianceField' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

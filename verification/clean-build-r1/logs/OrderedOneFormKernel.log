@@ -1,0 +1,42 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/OrderedOneFormKernel.lean:80:41: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/OrderedOneFormKernel.lean:100:28: warning: This simp argument is unused:
+  ← Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tensorExteriorOneDerivativeMatrix, mul_sub, sub_mul, Finset.sum_sub_distrib, Fintype.sum_prod_type,
+    Finset.sum_ite_irrel, and_comm, ite_and]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/OrderedOneFormKernel.lean:156:41: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/OrderedOneFormKernel.lean:195:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.DeterministicBridgeIntegration.symmetricOrderedOneFormLIE' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorExteriorOneOperator_kernel_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.symmetricOrderedOneForm_kernel_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.symmetricOrderedOneForm_residual_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

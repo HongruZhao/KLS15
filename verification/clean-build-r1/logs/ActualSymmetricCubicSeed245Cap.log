@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeNext.actual_appell_energy_three_symmetric245_le_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_appell_energy_three_symmetric245_le_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

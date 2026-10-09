@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeNext.actualAppellObservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actualAppellObservation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actualAppellPolynomialLp_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actualAppellPolynomialLp_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actualAppellObservation_opNorm_le_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'KLSBelow25.SymmetricCenteredSeed245.seedV_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.SymmetricCenteredSeed245.seedSlope_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.SymmetricCenteredSeed245.seedConcavity_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.SymmetricCenteredSeed245.seedP_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.SymmetricCenteredSeed245.seedNegQ_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.SymmetricCenteredSeed245.seedDet_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.SymmetricCenteredSeed245.seedAlphaPoly_positive' depends on axioms: [propext, Classical.choice, Quot.sound]

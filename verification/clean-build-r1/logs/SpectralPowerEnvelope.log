@@ -1,0 +1,3 @@
+'KLSBelow25.geometric_bound_of_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.power_norm_bound_of_spectralRadius_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.squared_power_envelope_of_spectralRadius_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,46 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualTiltWhitening.lean:51:44: warning: This simp argument is unused:
+  Pi.star_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.smul_mulVec, Matrix.one_mulVec, smul_eq_mul, dotProduct_smul,
+    EuclideanSpace.inner_eq_star_dotProduct, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualTiltWhitening.lean:87:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualTiltWhitening.lean:88:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualTiltWhitening.lean:106:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualTiltWhitening.lean:112:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.DeterministicBridgeNext.covarianceMatrix_posDef_of_memLp_full_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.exists_local_actual_damped_whitening' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN independent exact scalar/source correspondence PASS; parent whole clean build separate",
+  "checks": 399,
+  "created_utc": "2026-10-09T20:58:33.406150+00:00",
+  "files": [
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "sha256": "4f27a2fcdc5db3fba47f36f591559ada53030880210f8a560f2795f332398de7"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/coupled20-exploration/independent_kls15_scalar_source_audit.py",
+      "sha256": "205ad4ce589d7916ac362c8f58ca6a1e6a8e3aeb7b49ba39e2079fb8b380a8ef"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/kls15-independent-scalar-source-audit.json",
+      "sha256": "e3a388268c9491da8cf75402c1b9c7349cda5c9332dab9829a627d10a79310ab"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/ActualKLS15VerifiedEndpoints.lean",
+      "sha256": "0fb27fef0526ff512c315406a585e29c38fc98ba014750e34f9c3e5d54d841f9"
+    }
+  ]
+}

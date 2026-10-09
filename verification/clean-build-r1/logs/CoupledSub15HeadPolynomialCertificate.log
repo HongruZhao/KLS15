@@ -1,0 +1,3 @@
+'KLSBelow25.CoupledEnergy.NumericsSub15.headPolynomial_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

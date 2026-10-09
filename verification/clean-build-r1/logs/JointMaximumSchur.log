@@ -1,0 +1,26 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/JointMaximumSchur.lean:36:24: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/JointMaximumSchur.lean:49:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/JointMaximumSchur.lean:72:33: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/JointMaximumSchur.lean:73:4: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/JointMaximumSchur.lean:83:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLSBelow25.joint_maximum_schur_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.joint_maximum_probe_correction' depends on axioms: [propext, Classical.choice, Quot.sound]

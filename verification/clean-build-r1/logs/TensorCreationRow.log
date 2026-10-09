@@ -1,0 +1,20 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorCreationRow.lean:64:4: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorCreationRow.lean:63:13: warning: This simp argument is unused:
+  conj_trivial
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.comp_apply, ContinuousLinearMap.smul_apply, map_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.tensorCreationRow_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCreationRow_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCreationRow_family_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

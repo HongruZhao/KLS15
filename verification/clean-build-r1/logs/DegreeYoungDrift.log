@@ -1,0 +1,1 @@
+'KLS.DeterministicBridgeNext.coupled_triangle_degree_young' depends on axioms: [propext, Classical.choice, Quot.sound]

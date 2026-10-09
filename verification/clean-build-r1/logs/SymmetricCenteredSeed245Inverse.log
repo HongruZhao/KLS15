@@ -1,0 +1,1 @@
+'KLSBelow25.SymmetricCenteredSeed245.hasDerivAt_seedPhi' depends on axioms: [propext, Classical.choice, Quot.sound]

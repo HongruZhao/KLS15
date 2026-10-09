@@ -1,0 +1,2 @@
+'KLSBelow25.scalar_tail_energy_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.scalar_finite_bootstrap_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

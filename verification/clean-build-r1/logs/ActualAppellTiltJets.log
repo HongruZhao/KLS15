@@ -1,0 +1,12 @@
+'KLS.DeterministicBridgeIntegration.actualAppellCoefficient_exponentialTilt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.hasDerivAt_actualTiltJet_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.hasDerivAt_actualTiltJet_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.hasDerivAt_actualAppellCoefficient_tilt_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

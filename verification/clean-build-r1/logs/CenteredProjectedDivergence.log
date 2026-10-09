@@ -1,0 +1,12 @@
+'KLS.DeterministicBridgeIntegration.tensorAdjointDivergenceLp_integral_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorCompactProjection_mem_centered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.centeredTensorProjection_eq_compactProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialProjectedDivergence_mem_centered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

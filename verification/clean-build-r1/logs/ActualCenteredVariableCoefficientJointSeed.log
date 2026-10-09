@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actual_centered_variable_coefficient_joint_unit_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

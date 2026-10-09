@@ -1,0 +1,17 @@
+{
+  "status": "PREFLIGHT_PASS",
+  "preflight_passed": true,
+  "full_project_source_rebuild": false,
+  "project_objects_reused": false,
+  "compilation_started": false,
+  "source_modules": 1654,
+  "rebuilt_modules": 0,
+  "endpoint_audit": null,
+  "finished_utc": "2026-10-09T21:38:18.631315+00:00",
+  "compiler_version": "4.35.0-rc3",
+  "compiler_commit": "470d5ce1400764999581fd26d5d72b00d990b0f4",
+  "compiler_sha256": "d1d9c26a539f54fe839d2aa7760bf1ac1dd76a30b26e2c9684bebf2900038fcf",
+  "expected_compiler_sha256": null,
+  "launcher_sha256": "2d8309b9ffed45d4220444034a9356191b7ac8a3f19883955bf375e7ad00d6d5",
+  "preflight_sha256": "946b27f8b2904fafa5ab45301a3098237e7995417ffbeab93b4303e085d33604"
+}

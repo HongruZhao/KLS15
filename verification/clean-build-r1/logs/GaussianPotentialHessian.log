@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.secondFrechet_gaussianSmoothedPotential_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.secondFrechet_gaussianSmoothedPotential_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.coordinateHessian_gaussianSmoothedPotential_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

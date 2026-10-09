@@ -1,0 +1,60 @@
+{
+  "status": "PASS documentation/model/license correspondence; clean build RUNNING",
+  "reviewed_files": {
+    "README.md": "0c3fb6da0bc2c95825567f2ce3aadf9fb420d2e3370472eb450df79c674c1675",
+    "formalization.yaml": "3b16c054726fd246cb972a3f8265994428b49541a8eab4430dc2f494af91e6af",
+    "NOTICE": "425a41d6b360d56fd403ed045fa5cb5d2713b412eb87eb66bf1c599022336dd5",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "verification/README.md": "5b4af382628fea1d0841104473668cb927e9e7eedff5990759bf8654723a0cbe",
+    "comparator/README.md": "dd083affb6f07c40a66490aa6e3f1eb11cda0fbb23e0b614b331637eb21fab72",
+    "third_party/openai-model/UPSTREAM.json": "449d071a581c7d77990d58975733e5c9136f64d963cbc78735ae4d1fa440ba57",
+    "third_party/openai-model/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "third_party/differential-geometry/PROVENANCE.md": "89e0154fd9ad68c24af1bd3b5c587351240fab4a88d559c37649c19bfd4dbd9d",
+    "third_party/differential-geometry/upstream-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "third_party/differential-geometry/upstream-NOTICE": "2966ba1f8cdec6fb2cf08e2dfbb581320c3588ef70f958ecd416361b4b1e16e3",
+    "third_party/differential-geometry/TauCeti-LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "third_party/differential-geometry/TauCeti-MODIFICATIONS.md": "859e4a2bc69755d0768202a07a4d85cab4da7805c969c72d3c06835fc032d075",
+    "third_party/differential-geometry/TauCeti-SOURCE_MAP.json": "d78ac0ba80977352a948deea49893be29c45ea53af818711b805957c3d15510c",
+    "third_party/statlean/LICENSE": "d5945fe0f38866a919940212b0e3b5b0c30629b923c3e26dcce026571a29cd93",
+    "verification/retained-license-manifest.json": "0b9e7ba2159bd2623d2df2d259d84a509538a5c0e2d3d1200d19fd07783b8d19"
+  },
+  "openai_model_sha256": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc",
+  "openai_pinned_revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "archived_upstream_model_byte_identical": true,
+  "openai_license_record_matches": true,
+  "license_references_resolved": true,
+  "retained_license_records": [
+    {
+      "file": "BROWNIAN_LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "original_KLS500_bytes_match": true
+    },
+    {
+      "file": "KOLMOGOROV_LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "original_KLS500_bytes_match": true
+    },
+    {
+      "file": "LEVYSTOCHCALC_LICENSE",
+      "sha256": "5a85ac902196cac985fc37cc511720eaefdba840aa3af7ebbb28f072103a1779",
+      "original_KLS500_bytes_match": true
+    },
+    {
+      "file": "ELLIPTICPDE_LICENSE",
+      "sha256": "45ce430f00a912198ec16884eadd8f79b52ab7f0c25cb215d87b4173c5d47e62",
+      "original_KLS500_bytes_match": true
+    },
+    {
+      "file": "MATHFIN_LICENSE",
+      "sha256": "1b0a8b5c5ffab53b86ee05ce1d3c09ae61bdc50549ceb28766c1d71abee14af8",
+      "original_KLS500_bytes_match": true
+    }
+  ],
+  "formalization_yaml_json_compatible": true,
+  "public_results": 5,
+  "math_format": "GitHub math fence and inline formulas consistent with Lean statement",
+  "new_clean_full_build_completion_claim": false,
+  "source_edits_performed": false,
+  "upload_or_publication_performed": false,
+  "report_sha256": "295326f6170ea22228d3826b7c056c871892fe146da36af9c68c488747c20793"
+}

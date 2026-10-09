@@ -1,0 +1,5 @@
+'VariableAlpha24.seed_endpoint_above_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.common_endpoint_above_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.seed_zero_strict_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.common_zero_strict_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.scalar_margin_positive' depends on axioms: [propext, Classical.choice, Quot.sound]

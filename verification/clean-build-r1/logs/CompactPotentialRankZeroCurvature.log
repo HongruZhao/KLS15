@@ -1,0 +1,12 @@
+'KLS.DeterministicBridgeIntegration.tensorPhysicalCurvatureForm_lower_allRanks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialCurvatureEnergy_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialDivergenceHilbert_rank_zero_curvature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialDivergenceHilbert_bochner_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,12 @@
+'KLS.DeterministicBridgeIntegration.compatibleTensorPrimitive_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleTensorPrimitive_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.existsUnique_compatibleTensorPrimitiveGraph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.exists_optimal_compatibleTensorPrimitive_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

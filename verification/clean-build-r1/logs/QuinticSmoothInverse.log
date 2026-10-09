@@ -1,0 +1,6 @@
+'Quintic24886.analyticAt_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.contDiffOn_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.hasDerivAt_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.hasDerivAt_deriv_phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.phi_strictConcaveOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.exists_uniform_phiMargin' depends on axioms: [propext, Classical.choice, Quot.sound]

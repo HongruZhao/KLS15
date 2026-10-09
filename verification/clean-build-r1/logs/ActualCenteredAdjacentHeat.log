@@ -1,0 +1,12 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualCenteredAdjacentHeat.lean:106:53: warning: Variable name `hν` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hν
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.DeterministicBridgeNext.actual_two_rank_polynomial_centered_heat_nonpos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_two_rank_polynomial_centered_heat_of_global_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

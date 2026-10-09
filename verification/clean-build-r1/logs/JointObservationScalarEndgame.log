@@ -1,0 +1,4 @@
+'KLSBelow25.CoupledEnergy.normalized_orbit_le_one_add_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.CoupledEnergy.scalar_orbit_le_rate_mul_one_add_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

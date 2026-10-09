@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.exists_global_raw_tensor_jet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

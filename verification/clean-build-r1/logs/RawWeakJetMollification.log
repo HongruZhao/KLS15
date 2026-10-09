@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.rawCutoff_classicalJet_weighted_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

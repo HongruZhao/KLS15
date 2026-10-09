@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actual_regular_poincare_sub15_of_coupled_and_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

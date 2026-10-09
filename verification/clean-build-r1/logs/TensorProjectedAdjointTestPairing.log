@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.tensorExteriorOne_adjoint_distributional_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

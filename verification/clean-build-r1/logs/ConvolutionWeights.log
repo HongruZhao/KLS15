@@ -1,0 +1,6 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ConvolutionWeights.lean:89:41: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+'ConvolutionWeights.exact_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConvolutionWeights.exact_sum_three' depends on axioms: [propext, Classical.choice, Quot.sound]

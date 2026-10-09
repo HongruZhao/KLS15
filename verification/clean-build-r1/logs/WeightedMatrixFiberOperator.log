@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.weightedMatrixFiberOperator_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

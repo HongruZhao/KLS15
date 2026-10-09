@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actual_symmetric_quadratic_generator_coefficients_nonpos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

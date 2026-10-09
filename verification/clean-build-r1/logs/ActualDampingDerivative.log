@@ -1,0 +1,18 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualDampingDerivative.lean:47:109: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualDampingDerivative.lean:47:109: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualDampingDerivative.lean:98:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ActualDampingDerivative.lean:98:30: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.DeterministicBridgeIntegration.hasDerivWithinAt_damping_numerator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.hasDerivWithinAt_quadratic_damping_average' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

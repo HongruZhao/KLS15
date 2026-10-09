@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.compactPotentialAdjointDivergence_bochner_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialProjectedDivergence_bochner_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.compactPotentialProjectedDivergence_zero_eq_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

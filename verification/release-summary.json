@@ -1,0 +1,17 @@
+{
+  "status": "CLEAN_BUILD_AND_INDEPENDENT_BINDING_PASS",
+  "constant": 15,
+  "source_modules": 1654,
+  "project_objects_reused": false,
+  "external_mathlib_sources_rebuilt": false,
+  "finished_utc": "2026-10-09T21:37:36.033900+00:00",
+  "clean_build_receipt_sha256": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba",
+  "source_manifest_sha256": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+  "endpoint_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "public_source_sha256": "26d10583adad4373cd1e446891b1eedc737e206f4fd026a682b63123aa6b7c57",
+  "challenge_sha256": "0f4130e23bb36d7c5978f1fe0b29487b3316d51000c4bdba58e5112ccb5e217b"
+}

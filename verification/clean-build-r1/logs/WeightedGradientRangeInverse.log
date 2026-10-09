@@ -1,0 +1,21 @@
+'KLS.DeterministicBridgeIntegration.weightedGradientPrimitive_gradient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientProjection_selfAdjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientRange_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientPrimitive_value_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.existsUnique_weightedGradientPrimitive_of_mem_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.exists_optimal_weightedGradientPrimitive_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedH1Gradient_distributionally_curlFree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

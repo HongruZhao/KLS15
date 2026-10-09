@@ -1,0 +1,3 @@
+'Quintic24886.barrier_residual_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.barrier_residual_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.scalar_margin_positive' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,54 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:37:5: warning: This simp argument is unused:
+  LineDeriv.lineDerivOp_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [TemperedDistribution.lineDerivOp_apply_apply, map_neg, neg_neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:74:51: warning: This simp argument is unused:
+  Fin.tail_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.consEquiv_apply, List.ofFn_succ, Fin.cons_zero, Fin.cons_succ, List.cons_append,
+    coordinateTemperedWord_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:103:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:103:74: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:104:32: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:104:91: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:141:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:141:84: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:158:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:159:48: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeightedPolyharmonicLocalization.lean:184:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.DeterministicBridgeIntegration.weighted_polyharmonic_commutator_memSobolev' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.polyharmonic_cutoff_commutator_memSobolev' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weighted_polyharmonic_local_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weighted_polyharmonic_local_lift_of_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

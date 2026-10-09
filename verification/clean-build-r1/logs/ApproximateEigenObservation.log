@@ -1,0 +1,17 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ApproximateEigenObservation.lean:16:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ApproximateEigenObservation.lean:24:12: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ApproximateEigenObservation.power_residual_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ApproximateEigenObservation.observation_residual_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ApproximateEigenObservation.observation_limit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ApproximateEigenObservation.approximate_eigenvalue_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ApproximateEigenObservation.curvature_limit_positive' depends on axioms: [propext, Classical.choice, Quot.sound]

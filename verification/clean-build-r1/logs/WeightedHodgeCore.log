@@ -1,0 +1,15 @@
+'KLS.DeterministicBridgeIntegration.integral_weightedDerivativeTest_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.integral_weightedVectorDivergence_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.integral_weightedHodge_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.integral_weightedHodge_core_coercive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.integral_weightedHodge_core_L2_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'KLSBelow25.GradedHilbert.weighted_joint_adjoint_observation_le_of_blocks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,21 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarNormalization.lean:34:23: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarNormalization.lean:89:21: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarNormalization.lean:52:17: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarNormalization.lean:76:17: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarNormalization.lean:34:23: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ScalarNormalization.lean:89:21: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLSBelow25.scalar_orbit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.scalar_orbit_bound_25' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.scalar_orbit_bound_24886' depends on axioms: [propext, Classical.choice, Quot.sound]

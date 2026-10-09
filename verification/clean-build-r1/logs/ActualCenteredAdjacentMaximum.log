@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actual_adjacent_quotient_centered_heat_nonpos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

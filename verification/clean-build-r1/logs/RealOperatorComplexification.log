@@ -1,0 +1,13 @@
+'KLSBelow25.RealHilbertComplexification.extend_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.RealHilbertComplexification.extend_realCanonicalIntegrationResolvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.RealHilbertComplexification.rationalIntegrationComparison_extend' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.RealHilbertComplexification.real_canonical_operator_endpoint_twentyFive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSBelow25.RealHilbertComplexification.real_canonical_operator_endpoint_twentyFour886' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

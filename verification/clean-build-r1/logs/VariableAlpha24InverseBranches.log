@@ -1,0 +1,2 @@
+'VariableAlpha24.hasDerivAt_seedPhi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.hasDerivAt_commonPhi' depends on axioms: [propext, Classical.choice, Quot.sound]

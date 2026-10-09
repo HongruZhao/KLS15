@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.compact_potential_orthogonality_weak_equation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

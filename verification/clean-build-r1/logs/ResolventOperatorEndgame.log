@@ -1,0 +1,6 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/ResolventOperatorEndgame.lean:46:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLSBelow25.operator_norm_sq_le_of_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.resolvent_operator_endpoint_twentyFive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.resolvent_operator_endpoint_twentyFour886' depends on axioms: [propext, Classical.choice, Quot.sound]

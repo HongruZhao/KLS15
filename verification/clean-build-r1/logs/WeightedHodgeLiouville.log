@@ -1,0 +1,4 @@
+'KLS.DeterministicBridgeIntegration.finite_lagrange_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedHodge_kernel_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

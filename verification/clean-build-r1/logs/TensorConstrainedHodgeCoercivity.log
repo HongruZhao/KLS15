@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.tensorConstrainedHodgeEnergy_lower_gradient_curvature' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorConstrainedHodgeEnergy_coercive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

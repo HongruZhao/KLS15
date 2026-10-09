@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN portable independent scalar checker/result/receipt; proof sources unchanged",
+  "files": [
+    {
+      "path": "verification/check_scalar_certificates.py",
+      "sha256": "3db870651fd4dfe06beb45656bed734e8b48bfd823e82de153e7fba96d9ada4a"
+    },
+    {
+      "path": "verification/scalar-audit.json",
+      "sha256": "d1261025ba68703e5b3e47bd81aee5a4cd6c9edb038409afdf36492c3050ba3d"
+    },
+    {
+      "path": "verification/scalar-audit-portability.log",
+      "sha256": "0bfb516e8da09ae399a01bb1969f6cb9222d951d08be0f56caf59bb30a72304d"
+    },
+    {
+      "path": "verification/scalar-audit-portability-receipt.json",
+      "sha256": "8ecc4f8dda5ef67435488d7c050aa4e9b70d6ae776841a4d1f59f214702ef282"
+    },
+    {
+      "path": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "sha256": "e173c55e0d2717f6d71dd87163c42ed8faf54ec77ecb9a3c7c1b31a3c047c663"
+    }
+  ]
+}

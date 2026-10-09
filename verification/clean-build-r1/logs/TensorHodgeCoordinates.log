@@ -1,0 +1,47 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorHodgeCoordinates.lean:32:52: warning: This simp argument is unused:
+  ← Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tensorTwoFormConstraintMatrix, mul_add, mul_sub, add_mul, sub_mul, Finset.sum_add_distrib,
+    Finset.sum_sub_distrib]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorHodgeCoordinates.lean:49:50: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorHodgeCoordinates.lean:78:52: warning: This simp argument is unused:
+  ← Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixFirstOrder, matrixDifferential, matrixZeroth, tensorHodgeDerivativeMatrix, tensorHodgeDriftMatrix,
+    mul_add, mul_sub, add_mul, sub_mul, Finset.sum_add_distrib, Finset.sum_sub_distrib, Finset.sum_ite_irrel, and_comm]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorHodgeCoordinates.lean:79:4: warning: This simp argument is unused:
+  Finset.sum_ite_irrel
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixFirstOrder, matrixDifferential, matrixZeroth, tensorHodgeDerivativeMatrix, tensorHodgeDriftMatrix,
+    mul_add, mul_sub, add_mul, sub_mul, Finset.sum_add_distrib, Finset.sum_sub_distrib, ← Finset.mul_sum, and_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TensorHodgeCoordinates.lean:79:26: warning: This simp argument is unused:
+  and_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixFirstOrder, matrixDifferential, matrixZeroth, tensorHodgeDerivativeMatrix, tensorHodgeDriftMatrix,
+    mul_add, mul_sub, add_mul, sub_mul, Finset.sum_add_distrib, Finset.sum_sub_distrib, ← Finset.mul_sum,
+    Finset.sum_ite_irrel]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.mem_tensorTwoFormFiber_iff_compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorHodge_firstOrder_curl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

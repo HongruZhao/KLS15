@@ -1,0 +1,4 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/BrownianMotion/Auxiliary/NNReal.lean:3:0: warning: 
+'Mathlib.Data.NNReal.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.NNReal.Basic

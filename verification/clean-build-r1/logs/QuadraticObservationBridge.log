@@ -1,0 +1,4 @@
+'KLS.DeterministicBridge.quadratic_observation_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridge.quadratic_observation_finite_family_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

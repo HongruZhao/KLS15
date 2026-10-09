@@ -1,0 +1,41 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeakMomentMapTwoSlot.lean:88:29: warning: This simp argument is unused:
+  Matrix.mul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hessianCongruence, Matrix.smul_mul, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeakMomentMapTwoSlot.lean:88:46: warning: This simp argument is unused:
+  Matrix.smul_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hessianCongruence, Matrix.mul_smul, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeakMomentMapTwoSlot.lean:100:8: warning: This simp argument is unused:
+  Matrix.mul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.smul_mul, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeakMomentMapTwoSlot.lean:100:25: warning: This simp argument is unused:
+  Matrix.smul_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_smul, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/WeakMomentMapTwoSlot.lean:118:27: warning: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MomentMap.coordinateVector, EuclideanSpace.inner_single_right, RCLike.conj_to_real]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.integral_hessianCongruence_mul_gradient_eq_half_cubic_C11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.thirdCumulant_two_slot_bound_weak_uniform_momentMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

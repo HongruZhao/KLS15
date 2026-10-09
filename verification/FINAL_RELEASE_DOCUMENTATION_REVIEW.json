@@ -1,0 +1,168 @@
+{
+  "status": "PASS final release documentation, endpoint semantics and completed evidence binding",
+  "checked_utc": "2026-10-09T21:42:51.914809+00:00",
+  "reviewed_docs": [
+    "README.md",
+    "formalization.yaml",
+    "verification/README.md"
+  ],
+  "source_modules": 1654,
+  "source_manifest_current_hashes_rechecked": 1654,
+  "completed_full_build": true,
+  "full_build_receipt_sha256": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba",
+  "five_type_queries": 5,
+  "five_nonempty_standard_axiom_reports": 5,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "retained_warning_text_occurrences": 960,
+  "classified_diagnostic_headers": 910,
+  "project_objects_reused": false,
+  "external_mathlib_sources_rebuilt": false,
+  "executed_and_future_launchers_distinguished": true,
+  "future_launcher_full_build_run": false,
+  "future_launcher_scheduler_and_endpoint_audit_unchanged": true,
+  "future_launcher_new_final_receipt_metadata": true,
+  "future_launcher_linux_windows_tested": false,
+  "openai_model_byte_pin_preserved": true,
+  "original_class_preserved": true,
+  "conditional_physical_gate": false,
+  "released_constant": 15,
+  "underlying_exact_constant": "149963/10000",
+  "scalar_audit_checks": 399,
+  "paper_primary_cached_text": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/paper-extracted.txt",
+  "paper_primary_cached_text_sha256": "f2cb9d2788a30d2e2b1a54458f2183233b0877c7e612687c448b14e2643847f4",
+  "paper_link_live_fetched_in_this_review": false,
+  "local_markdown_links_checked": [
+    {
+      "source": "README.md",
+      "target": "KLS15.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "Challenge.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualSymmetricQuadraticNoise.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualCenteredAdjacentHeat.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualCenteredAdjacentTerminal.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualSymmetricCenteredCubicSeed245.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualSymmetricCubicSeed245Cap.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualWeightedAppellInductionSub15.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "TwoHeadObservationOperatorEndgame.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "CoupledSub15Numerics.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "ActualKLS149963Endpoints.lean"
+    },
+    {
+      "source": "README.md",
+      "target": "verification/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSE"
+    },
+    {
+      "source": "README.md",
+      "target": "NOTICE"
+    },
+    {
+      "source": "verification/README.md",
+      "target": "clean-build-r1/receipt.json"
+    },
+    {
+      "source": "verification/README.md",
+      "target": "CLEAN_BUILD_FINAL_CORRESPONDENCE.md"
+    },
+    {
+      "source": "verification/README.md",
+      "target": "source-manifest.json"
+    },
+    {
+      "source": "verification/README.md",
+      "target": "SCALAR_CERTIFICATE_AUDIT.md"
+    },
+    {
+      "source": "verification/README.md",
+      "target": "clean-build-r1/executed-rebuild.py"
+    },
+    {
+      "source": "verification/README.md",
+      "target": "execution-script-binding.json"
+    },
+    {
+      "source": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "target": "scalar-audit.json"
+    },
+    {
+      "source": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "target": "scalar-audit-portability-receipt.json"
+    }
+  ],
+  "missing_local_links": [],
+  "material_issues": [],
+  "license_provenance_matches": true,
+  "Comparator_lean4export_Nanoda_run": false,
+  "independent_human_peer_review_claimed": false,
+  "artifact_hashes": {
+    "README.md": "1b211c1e007c5f938b11f79034c6956167fdbaed5d24d289b409ce348f88ee8c",
+    "formalization.yaml": "c0eec182c2338bc0a0df98f765a0043ac92041e54c3efdc1a799ccea015fcd24",
+    "verification/README.md": "d4c572d54bd330773b277659b20cbd643a4adf3ef6461a9963f691bafe784821",
+    "KLS15.lean": "26d10583adad4373cd1e446891b1eedc737e206f4fd026a682b63123aa6b7c57",
+    "Challenge.lean": "0f4130e23bb36d7c5978f1fe0b29487b3316d51000c4bdba58e5112ccb5e217b",
+    "ActualKLS15VerifiedEndpoints.lean": "0fb27fef0526ff512c315406a585e29c38fc98ba014750e34f9c3e5d54d841f9",
+    "OAI/Analysis/KLS/Model.lean": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc",
+    "third_party/openai-model/UPSTREAM.json": "449d071a581c7d77990d58975733e5c9136f64d963cbc78735ae4d1fa440ba57",
+    "verification/source-manifest.json": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+    "verification/clean-build-r1/receipt.json": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba",
+    "verification/clean-build-r1/EndpointAudit.lean": "928b92ca059a9ee75eded4ba9c9e4b15ea0fe9a0e5030c9ef80b6fc8b6f89c29",
+    "verification/clean-build-r1/EndpointAudit.log": "29b166670187d2cb79c7c6c8de5065567aa481486c0f659dd114352200ee3fd9",
+    "verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md": "3b2fb40598c27c100078f47ce073089218acab925f8bac975f0f9d312c7b4163",
+    "verification/clean-build-final-correspondence.json": "814c2c2fa621ef53c917db4aed2df3f74d6f8c157f4ca14a44a7b40e798aebc2",
+    "verification/clean-build-r1/executed-rebuild.py": "016f676311bb954594bb49834efe6bf164778232d9c37bfac1f5c7f3e5361a24",
+    "verification/rebuild.py": "2d8309b9ffed45d4220444034a9356191b7ac8a3f19883955bf375e7ad00d6d5",
+    "verification/execution-script-binding.json": "858bc0e86854eec029b560dda45e122229fe1e347919da1904522210f04825b6",
+    "verification/portable-launcher-test-receipt.json": "300e10a3609a2e766ddb80f48893e57bba5b61ef812a77100cfd57500828e0d9",
+    "verification/launcher-preflight-final/receipt.json": "8f0d596cb83be790e38e6920dd725c300a035229c8e2c75cff773517fc912cdb",
+    "verification/release-summary.json": "ba524be950ff526b3ed4ce4465749890e9308bbd2009d5b3229055952cdef4df",
+    "verification/kls15-final-warning-classification.json": "0cc1a6f81edce8ef7a8864dd7e4b5b601f8331f72d60fa5019d425c37e078077",
+    "verification/SCALAR_CERTIFICATE_AUDIT.md": "e173c55e0d2717f6d71dd87163c42ed8faf54ec77ecb9a3c7c1b31a3c047c663",
+    "verification/scalar-audit.json": "d1261025ba68703e5b3e47bd81aee5a4cd6c9edb038409afdf36492c3050ba3d",
+    "verification/scalar-audit-portability-receipt.json": "8ecc4f8dda5ef67435488d7c050aa4e9b70d6ae776841a4d1f59f214702ef282",
+    "verification/retained-license-manifest.json": "0b9e7ba2159bd2623d2df2d259d84a509538a5c0e2d3d1200d19fd07783b8d19",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "NOTICE": "425a41d6b360d56fd403ed045fa5cb5d2713b412eb87eb66bf1c599022336dd5"
+  },
+  "report_sha256": "e915b2f8be9ba07734ca5738aad17ea1ce5cdae599296a1eed23e59f6f07b47e",
+  "proof_sources_manifest_launcher_docs_or_historical_evidence_edited": false,
+  "new_files_only": [
+    "verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+    "verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.json"
+  ]
+}

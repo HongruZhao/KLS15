@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.actualTiltMean_word_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualAppellHeatCoefficientGenerator_eq_drift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

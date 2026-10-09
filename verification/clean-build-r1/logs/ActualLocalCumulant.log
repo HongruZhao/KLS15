@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.actualAppellCoefficient_inner_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

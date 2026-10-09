@@ -1,0 +1,1 @@
+'KLS.DeterministicBridgeNext.orthogonal_tensor_top_weak_form' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/AdjointOrbitRecurrence.lean:31:31: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+'AdjointOrbitRecurrence.observation_adjoint_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdjointOrbitRecurrence.energy_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdjointOrbitRecurrence.energy_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

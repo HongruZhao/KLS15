@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeNext.integral_exp_mul_neg_weightedDerivativeTest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.weightedDerivativeTest_exponentialTilt_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actualAppellCoefficient_weightedDerivativeTest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

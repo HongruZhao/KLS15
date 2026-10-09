@@ -1,0 +1,65 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:13:46: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:13:93: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:13:39: warning: Unused tactic linter: `ext t` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:13:46: warning: Unused tactic linter: `norm_num [W, Wp] <;> ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:21:46: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:21:97: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:21:39: warning: Unused tactic linter: `ext t` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:21:46: warning: Unused tactic linter: `norm_num [Wp, Wpp] <;> ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:25:25: warning: This simp argument is unused:
+  x
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:25:32: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:25:32: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:30:54: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:30:101: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:30:47: warning: Unused tactic linter: `ext t` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:30:54: warning: Unused tactic linter: `norm_num [U, Up] <;> ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:34:73: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:34:124: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:34:66: warning: Unused tactic linter: `ext t` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticInterval24886.lean:34:73: warning: Unused tactic linter: `norm_num [Up, Upp] <;> ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'Quintic24886.hasDerivAt_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.U_branch_has_all_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.strict_barrier_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.finite_degree_correction_positive' depends on axioms: [propext, Classical.choice, Quot.sound]

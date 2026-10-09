@@ -1,0 +1,5 @@
+'KLS.DeterministicBridgeIntegration.orderedTensorSlices_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.compatibleSymmetricTensorSubspace_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensor_symmetry_swap' depends on axioms: [propext, Classical.choice, Quot.sound]

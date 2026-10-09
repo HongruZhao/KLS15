@@ -1,0 +1,19 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticConvolution.lean:44:46: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticConvolution.lean:88:46: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticConvolution.lean:158:42: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/QuinticConvolution.lean:189:28: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'Quintic24886.coefficientH_ge_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.convolution_term_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.coefficientD_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.coefficientD_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Quintic24886.all_degree_scalar_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]

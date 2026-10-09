@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.integral_gradient_cubic_eq_hessian_pairings_C11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.integral_hessian_mul_gradient_eq_half_cubic_C11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

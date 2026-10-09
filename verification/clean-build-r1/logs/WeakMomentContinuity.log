@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.tendsto_integral_of_uniform_sq_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

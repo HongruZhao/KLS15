@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeNext.actual_repeated_observation_field' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_repeated_observation_block_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_repeated_observation_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

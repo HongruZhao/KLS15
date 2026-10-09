@@ -1,0 +1,6 @@
+'KLS.DeterministicBridgeIntegration.actualDampingResponse_jet_convolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.hasDerivWithinAt_actualDampedDirectionalJet_response' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

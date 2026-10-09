@@ -1,0 +1,7 @@
+'KLSBelow25Fast.bootstrap248764_a_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25Fast.bootstrap248764_b_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25Fast.bootstrap248764_a_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25Fast.bootstrap248764_b_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25Fast.bootstrap248764_a_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25Fast.bootstrap248764_b_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25Fast.bootstrap248764_final_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+'KLS.DeterministicBridgeIntegration.weightedCurlTestLp_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeIntegration.mem_weightedCurlFreeSubspace_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedCurlFreeSubspace_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientRange_le_curlFreeSubspace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.weightedGradientProjection_mem_curlFreeSubspace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.exists_actual_joint_maximizer_stationarity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

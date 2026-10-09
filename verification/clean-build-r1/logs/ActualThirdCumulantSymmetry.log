@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeNext.actualThirdCumulant_swap_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actualThirdCumulant_swap_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.DeterministicBridgeNext.actualThirdCumulant_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]

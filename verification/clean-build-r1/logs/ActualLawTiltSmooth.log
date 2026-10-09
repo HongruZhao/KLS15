@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.exists_ball_contDiffOn_normalized_tilt_average' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.contDiffAt_normalized_tilt_average' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.actualAppellCoefficient_eq_factorial_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

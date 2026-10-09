@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.affine_quadraticDamping_paperRegularDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.eventually_admissible_paperRegularDensity_whitened_damping' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.mem_poincareConstants_of_paperRegularDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

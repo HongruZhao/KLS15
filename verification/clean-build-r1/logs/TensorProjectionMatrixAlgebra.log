@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.tensorOneFormProjectionMatrix_symm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorOneFormProjectionMatrix_idempotent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.tensorOneFormConstraintMatrix_column_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

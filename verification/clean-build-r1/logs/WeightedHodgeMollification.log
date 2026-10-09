@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.DistributionallyCurlFree.scalarConvolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.WeakWeightedDivergenceFree.scalarConvolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.WeakWeightedDivergenceFree.mollify' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,1 @@
+'KLSBelow25.CoupledEnergy.factorial_weight_energy_shift' depends on axioms: [propext, Classical.choice, Quot.sound]

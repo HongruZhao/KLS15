@@ -1,0 +1,37 @@
+{
+  "status": "INDEPENDENT_READ_ONLY_FINAL_CLEAN_BUILD_PASS",
+  "checked_utc": "2026-10-09T21:37:58.809005+00:00",
+  "source_modules": 1654,
+  "rebuilt_modules": 1654,
+  "all_module_sources_objects_logs_rehashed": true,
+  "all_source_hashes_match_manifest": true,
+  "all_results_unique_and_successful": true,
+  "project_objects_reused": false,
+  "pinned_external_caches_reused": true,
+  "full_original_historical_project_rebuilt": false,
+  "complete_shipped_project_source_rebuild": true,
+  "external_mathlib_sources_rebuilt": false,
+  "endpoint_declaration_queries": 5,
+  "endpoint_axiom_reports": 5,
+  "endpoint_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "endpoint_types_preserved": true,
+  "all_printed_axiom_reports": 2189,
+  "all_printed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "proof_hole_log_messages": false,
+  "actual_warning_diagnostic_headers": 910,
+  "receipt_warning_text_occurrences": 960,
+  "source_manifest_sha256": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+  "build_receipt_sha256": "efa3f0278c315ee132b2df845d9253aaa2156d6bfdce7c0bb93dfa75637856ba",
+  "rebuild_script_sha256": "016f676311bb954594bb49834efe6bf164778232d9c37bfac1f5c7f3e5361a24",
+  "endpoint_audit_source_sha256": "928b92ca059a9ee75eded4ba9c9e4b15ea0fe9a0e5030c9ef80b6fc8b6f89c29",
+  "endpoint_audit_log_sha256": "29b166670187d2cb79c7c6c8de5065567aa481486c0f659dd114352200ee3fd9",
+  "scope": "Kernel compilation/receipt integrity for the shipped minimal self-contained KLS15 project. Original-class/OpenAI source correspondence is separately audited. This does not claim an all-dimensional bound below14 or a Mathlib source rebuild."
+}

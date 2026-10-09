@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.centeredTensor_eq_zero_of_raw_jet_smooth_tests' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

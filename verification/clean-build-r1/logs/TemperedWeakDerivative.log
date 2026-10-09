@@ -1,0 +1,17 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TemperedWeakDerivative.lean:50:13: warning: `SchwartzMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵neg_apply
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/TemperedWeakDerivative.lean:50:65: warning: This simp argument is unused:
+  Complex.neg_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [SchwartzMap.neg_apply, hdγ, hγ, neg_mul, Complex.neg_re, Complex.mul_re, Complex.ofReal_re,
+    Complex.ofReal_im, zero_mul, sub_zero] at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.DeterministicBridgeIntegration.exists_weakCoordinateDerivative_of_memSobolev_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

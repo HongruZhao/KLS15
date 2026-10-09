@@ -1,0 +1,3 @@
+'KLSBelow25.CoupledEnergy.NumericsSub15.finite_energy_sum_lt_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

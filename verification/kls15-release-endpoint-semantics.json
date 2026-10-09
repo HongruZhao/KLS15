@@ -1,0 +1,81 @@
+{
+  "status": "PASS focused endpoint semantics/source and historical receipt correspondence",
+  "endpoint": "KLS15Verified.openaiKLS15",
+  "companion_endpoint": "KLS15Verified.poincare15",
+  "constant": 15,
+  "positive_dimensions": "all n>=1",
+  "original_class": "admissibleMeasure, no extra gate",
+  "test_class": "all locally Lipschitz L2; OpenAI compact C-infinity",
+  "historical_replay_sources": 1,
+  "historical_type_queries": 5,
+  "historical_nonempty_standard_three_axiom_reports": 5,
+  "historical_dependency_closure_reused": true,
+  "new_clean_full_rebuild": "PENDING separate root receipt",
+  "new_full_build_completion_claim": false,
+  "private": true,
+  "upload_or_publication_performed": false,
+  "sharpness_or_extremizer_claim": false,
+  "literal_Cheeger_KLSConjecture_proved_by_this_leaf": false,
+  "files": [
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/ActualKLS15VerifiedEndpoints.lean",
+      "sha256": "0fb27fef0526ff512c315406a585e29c38fc98ba014750e34f9c3e5d54d841f9"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-fifteen-checkpoint/ActualKLS15VerifiedEndpoints.lean",
+      "sha256": "0fb27fef0526ff512c315406a585e29c38fc98ba014750e34f9c3e5d54d841f9"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-fifteen-checkpoint/independent-audit/ActualKLS15VerifiedEndpoints.olean",
+      "sha256": "858a730a34e81bcfacf2fe020348dbaeb080173eb2fe09d1cbcad8d05708fabf"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-fifteen-checkpoint/independent-audit/ActualKLS15VerifiedEndpoints.log",
+      "sha256": "6eafdd28438d59fcf5ba6f5e6578c75bb350fedbce9dca077ff2485aef3091e4"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-fifteen-checkpoint/independent-audit/receipt.json",
+      "sha256": "1b72bd4e02e1d9150d8ad573c5e551aba98c17d87385b59527a80d5194c3c20c"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-fifteen-checkpoint/source-manifest.json",
+      "sha256": "7d4eb4ae323627a2b6b0023c387e1c6cebdcaf43b4b3899a0f50604b1b768647"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/ActualKLS149963Endpoints.lean",
+      "sha256": "d8d5aed4a4234c582db6f4f424a7c44c2fdcf7c9bbeb8b298a2731a236c2f6d4"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/ActualRegularEndpointSub15.lean",
+      "sha256": "5b7b310d23ad43160105266c51231862e3afc71347c13799ed9c67e5cf54adcf"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/ActualWeightedAppellInductionSub15.lean",
+      "sha256": "849721af01e654d302264a14d92c202223a87b304aa0daf06d0cefa4a2e4c28b"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/paper-local20/ActualSymmetricCubicSeed245Cap.lean",
+      "sha256": "7e8ef38ca889401f11d2838dd4f05eec43aa22ce04d0b6ce112e256c267bcaa1"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-round/lean-bridge/PaperRegularApproximation.lean",
+      "sha256": "6ab46b7add3ad96b475c8cef561a3f922c18e597291c1b62f1801be82fdd0385"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/Definitions.lean",
+      "sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/OpenAIKLSBridge.lean",
+      "sha256": "d42df6c228db99dd2122807dff494358d12bad348ca6fcdd079cf2d7ea272d16"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/OAI/Analysis/KLS/Model.lean",
+      "sha256": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc"
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/kls-below25-20261008/integration-next/upper11/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "sha256": "21fc4c53816b0a16e8e9c1a1267988bf8b4559844871339c28f33a9352591bb8"
+    }
+  ]
+}

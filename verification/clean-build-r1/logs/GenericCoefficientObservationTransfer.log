@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeNext.actualAppellEnergy_factorial_scheme_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_observation_factorial_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeNext.actual_observation_factorial_envelope_of_scalar_barriers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

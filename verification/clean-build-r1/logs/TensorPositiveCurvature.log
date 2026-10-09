@@ -1,0 +1,3 @@
+'KLS.DeterministicBridgeIntegration.tensorTwoFormCurvatureCorrection_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

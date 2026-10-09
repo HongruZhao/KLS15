@@ -1,0 +1,9 @@
+'KLS.DeterministicBridgeIntegration.tensorAdjointDivergenceLp_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.projectedTensorDivergence_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.DeterministicBridgeIntegration.projectedTensorDivergence_graph_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

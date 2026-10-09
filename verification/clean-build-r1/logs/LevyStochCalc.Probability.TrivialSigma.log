@@ -1,0 +1,6 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/LevyStochCalc/Probability/TrivialSigma.lean:59:6: warning: Unused tactic linter: `change (ω ∈ f ⁻¹' S) = (ω ∈ (Set.univ : Set Ω))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/github/KLS15/LevyStochCalc/Probability/TrivialSigma.lean:65:6: warning: Unused tactic linter: `change (ω ∈ f ⁻¹' S) = (ω ∈ (∅ : Set Ω))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

@@ -1,0 +1,24 @@
+'VariableAlpha24.IntegerBernsteinCertificates.seedV_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.seedSlope_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.seedConcavity_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.seedP_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.seedNegQ_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.seedDet_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.seedAlphaPoly_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonV_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonSlope_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonConcavity_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonP_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonNegQ_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonDet_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VariableAlpha24.IntegerBernsteinCertificates.commonAlphaPoly_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

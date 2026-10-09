@@ -1,0 +1,2 @@
+'KLSBelow25.no_growth_above_exponential_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSBelow25.scalar_initial_gap_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
