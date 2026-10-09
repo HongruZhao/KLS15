@@ -23,9 +23,22 @@ The proof builds on the improved deterministic method of [Krishnakumar Balasubra
 
 The following changes lead to 15. For the coefficient comparisons, fix the **same** measure $\mu$ and test function $f$ with $\lVert f\rVert_{L^2(\mu)}=1$, and write $b_d=b_d(\mu,f)=\lVert B_d^\mu(f)\rVert/d!$ and $E_d=(d!)^2b_d^2$. The paper defines $c_d(\mu)=\sup_{\lVert f\rVert_2=1}b_d(\mu,f)$ and $c_d=\sup_\mu c_d(\mu)$, where $\mu$ ranges over admissible laws in the fixed dimension $n$; the table writes the resulting bounds for this same $b_d$ in both columns.
 
+For the first row, [equation (3.14), page 11](https://arxiv.org/pdf/2610.07728v2#page=11) is specialized to $j=2$. Both columns compare the loss $L_\beta$ in the same inequality:
+
+```math
+\mathcal D E_2\ge\beta E_3-L_\beta E_2-2\langle B_2,R_2\rangle.
+```
+
+Here $\mathcal D$ acts on the covariance-normalized tilt energies at the isotropic base point, and $R_2$ is the full lower-cumulant drift tensor. Keeping the paper's parameter $\beta$, its coefficient is
+
+```math
+A_\beta=\frac{4}{1-\beta}-2,\qquad
+4A_\beta+2(A_\beta-3)=6A_\beta-6=\frac{24}{1-\beta}-18.
+```
+
 | Estimate and paper v2 location | Paper v2 | This Lean release |
 |---|---|---|
-| Rank-two generator loss, (3.14), on $1/3\le\alpha<1$ | $24/(1-\alpha)-18$ | $64/[3(1-\alpha)]-18$, using full cubic symmetry. [Proof](ActualSymmetricQuadraticNoise.lean). |
+| Rank-two loss $L_\beta$: (3.14) specialized to $j=2$, on $1/3\le\beta<1$ | $24/(1-\beta)-18$ | $64/[3(1-\beta)]-18$, using full cubic symmetry. [Proof](ActualSymmetricQuadraticNoise.lean). |
 | Adjacent terminal cost at the quotient maximum, §3.4 and Proposition 3.1 | $2x(1+uq)$ | $x(1+uq)$, using variance centering. [Heat inequality](ActualCenteredAdjacentHeat.lean) and [cancellation](ActualCenteredAdjacentTerminal.lean). |
 | Cubic coefficient, Theorem 4.1 proof, (4.2)–(4.3) | $b_3^2\le121/4=30.25$ | $b_3^2\le49/2=24.5$, using a centered joint barrier. [Seed](ActualSymmetricCenteredCubicSeed245.lean) and [cap](ActualSymmetricCubicSeed245Cap.lean). |
 | Graded integration operator, Proposition 7.3 applied to $J$ | $\lVert J\rVert^2\le24$ | $\lVert J\rVert^2\le139963/10000=13.9963$, retaining separate quadratic and cubic observation caps. [Endgame](TwoHeadObservationOperatorEndgame.lean) and [parameters](CoupledSub15Numerics.lean). |
