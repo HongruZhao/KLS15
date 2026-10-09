@@ -21,9 +21,9 @@ The final theorem has exactly the unchanged [OpenAI `KLSStatement`](https://gith
 
 The proof builds on the improved deterministic method of [Krishnakumar Balasubramanian and Shiva Kasiviswanathan, *A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures*, v2](https://arxiv.org/abs/2610.07728v2). Their Theorem 1.1 states the upper bound 25, twenty times smaller than the earlier 500 in KLS500. Hongru Zhao's further quantitative refinements, developed with GPT-6.1 Sol (Ultra) assistance and verified in Lean 4, give the integer bound **15**, a further **40% reduction** from 25. Model attribution is an author-provided acknowledgement; the verification evidence concerns the Lean statements and proofs.
 
-The following changes lead to 15. For the coefficient comparisons, fix the **same** measure $\mu$ and test function $f$ with $\lVert f\rVert_{L^2(\mu)}=1$, and write $b_d=b_d(\mu,f)=\lVert B_d^\mu(f)\rVert/d!$ and $E_d=(d!)^2b_d^2$. The paper defines $c_d(\mu)=\sup_{\lVert f\rVert_2=1}b_d(\mu,f)$ and $c_d=\sup_\mu c_d(\mu)$, where $\mu$ ranges over admissible laws in the fixed dimension $n$; the table writes the resulting bounds for this same $b_d$ in both columns.
+The following changes lead to 15. The coefficient comparison uses the paper's [normalized operator norms (§1.3, page 3)](https://arxiv.org/pdf/2610.07728v2#page=3): $c_d(\mu)=\frac{1}{d!}\sup_{\lVert f\rVert_{L^2(\mu)}=1}\lVert B_d^\mu(f)\rVert$ and $c_d=\sup_{\mu\in\mathcal C_n}c_d(\mu)$, where $\mathcal C_n$ is the class of isotropic log-concave laws in the fixed dimension $n$.
 
-For the first row, [equation (3.14), page 11](https://arxiv.org/pdf/2610.07728v2#page=11) is specialized to $j=2$. Both columns compare the loss $L_\beta$ in the same inequality:
+For the first row, [equation (3.14), page 11](https://arxiv.org/pdf/2610.07728v2#page=11) is specialized to $j=2$, with $E_d=\lVert B_d^\mu(f)\rVert^2$ at the isotropic base point. Both columns compare the loss $L_\beta$ in the same inequality:
 
 ```math
 \mathcal D E_2\ge\beta E_3-L_\beta E_2-2\langle B_2,R_2\rangle.
@@ -40,15 +40,17 @@ A_\beta=\frac{4}{1-\beta}-2,\qquad
 |---|---|---|
 | Rank-two loss $L_\beta$: (3.14) specialized to $j=2$, on $1/3\le\beta<1$ | $24/(1-\beta)-18$ | $64/[3(1-\beta)]-18$, using full cubic symmetry. [Proof](ActualSymmetricQuadraticNoise.lean). |
 | Adjacent terminal cost at the quotient maximum: [Proposition 3.1 proof, §3.6, page 14](https://arxiv.org/pdf/2610.07728v2#page=14) | $2x(1+uq)$ | $x(1+uq)$, using variance centering. [Heat inequality](ActualCenteredAdjacentHeat.lean) and [cancellation](ActualCenteredAdjacentTerminal.lean). |
-| Cubic coefficient, Theorem 4.1 proof, (4.2)–(4.3) | $b_3^2\le121/4=30.25$ | $b_3^2\le49/2=24.5$, using a centered joint barrier. [Seed](ActualSymmetricCenteredCubicSeed245.lean) and [cap](ActualSymmetricCubicSeed245Cap.lean). |
+| Cubic operator norm: [Theorem 4.1, (4.1), page 14](https://arxiv.org/pdf/2610.07728v2#page=14) | $c_3^2\le121/4=30.25$ | $c_3^2\le49/2=24.5$, using a centered joint barrier. [Seed](ActualSymmetricCenteredCubicSeed245.lean) and [cap](ActualSymmetricCubicSeed245Cap.lean). |
 | Graded integration operator, Proposition 7.3 applied to $J$ | $\lVert J\rVert^2\le24$ | $\lVert J\rVert^2\le139963/10000=13.9963$, retaining separate quadratic and cubic observation caps. [Endgame](TwoHeadObservationOperatorEndgame.lean) and [parameters](CoupledSub15Numerics.lean). |
 | Poincaré constant, Theorem 1.1 | $C_P(\mu)\le25$ | $C_P(\mu)\le149963/10000<15$. [Endpoint](ActualKLS149963Endpoints.lean). |
+
+The paper also states $c_3^2\le B$ explicitly at the end of “The Cubic Coefficient” on [page 15](https://arxiv.org/pdf/2610.07728v2#page=15), after (4.3), with $B=121/4$ from (4.1). The Lean cap gives $\lVert B_3^\mu(f)\rVert^2\le36(49/2)\lVert f\rVert_2^2$ for every law and test; dividing by $(3!)^2=36$ and taking the same suprema gives the displayed $c_3^2\le49/2$.
 
 The terminal-cost row refers to the **unnumbered display** immediately after “We obtain” and before “Divide by $x>0$” in the [proof on page 14](https://arxiv.org/pdf/2610.07728v2#page=14). Its signed term is $-2x(1+uq)$; the table records the positive cost $2x(1+uq)$. The centered Lean inequality has $-x(1+uq)$. In the cubic specialization, $x=E_3$, $u=E_2/8$ and $q=-\phi'(u)/\phi(u)$ for the adjacent barrier $\phi$.
 
 In the operator row, $J$ denotes the same centered graded integration operator in both columns.
 
-The all-degree estimates have different forms and are therefore stated separately. The paper's Theorem 4.1 and (4.1) give the individual bounds $b_d^2\le(121/4)(223/10)^{d-3}$ for $d\ge3$. Exact triangular contractions and degree-dependent Young allocations instead give the following [joint bound](ActualWeightedAppellInductionSub15.lean), for the same unit test function and every finite $N$:
+The all-degree estimates have different forms and are therefore stated separately. The paper's Theorem 4.1 and (4.1) give the individual operator bounds $c_d^2\le(121/4)(223/10)^{d-3}$ for $d\ge3$. For the joint estimate, write $b_d(\mu,f)=\lVert B_d^\mu(f)\rVert/d!$ for one fixed measure and test function. Exact triangular contractions and degree-dependent Young allocations give the following [joint bound](ActualWeightedAppellInductionSub15.lean), with $\lVert f\rVert_2=1$ and the **same** $f$ in every summand, for every finite $N$:
 
 ```math
 \sum_{d=2}^{N}\frac{b_d(\mu,f)^2}{(67/5)^d}
