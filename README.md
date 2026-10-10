@@ -2,7 +2,7 @@
 
 This project continues [KLS500](https://github.com/HongruZhao/KLS500), which recorded the earlier upper bound 500.
 
-Zenodo archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815) (reserved DOI; publication pending).
+Zenodo archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815).
 
 Lean 4 formalization of the Poincaré formulation of the **Kannan–Lovász–Simonovits (KLS) conjecture**, with the explicit dimension-free constant **15**. For every isotropic log-concave probability measure $\mu$ on $\mathbb{R}^n$, $n\ge1$:
 
