@@ -1,49 +1,43 @@
-# Detailed changes from paper v2
+<a name="detailed-changes-from-paper-v2" id="detailed-changes-from-paper-v2"></a>
+# Changes in version 3.0.0
 
-[Back to the main README](README.md).
+[Main README](README.md) · [Preserved v2 comparison with the paper](lean_15/DETAILED_CHANGES.md)
 
-The proof builds on the improved deterministic method of [Krishnakumar Balasubramanian and Shiva Kasiviswanathan, *A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures*, v2](https://arxiv.org/abs/2610.07728v2). Their Theorem 1.1 states the upper bound 25, twenty times smaller than the earlier 500 in KLS500. Hongru Zhao's further quantitative refinements, developed with GPT-6.1 Sol (Ultra) assistance and verified in Lean 4, give the integer bound **15**, a further **40% reduction** from 25. Model attribution is an author-provided acknowledgement; the verification evidence concerns the Lean statements and proofs.
+The new release proves the universal upper bound **13.810833 < 14**, improving the preserved v2 endpoint **14.9963 < 15**. Both statements cover the original isotropic log-concave probability laws in every positive finite dimension and locally Lipschitz L² tests. The proof builds on the deterministic compatible-field, curvature and approximation framework of [Balasubramanian and Kasiviswanathan](https://arxiv.org/abs/2610.07728v2). The quantitative refinements below extend that framework.
 
-The following changes lead to 15. The coefficient comparison uses the paper's [normalized operator norms (§1.3, page 3)](https://arxiv.org/pdf/2610.07728v2#page=3): $c_d(\mu)=\frac{1}{d!}\sup_{\lVert f\rVert_{L^2(\mu)}=1}\lVert B_d^\mu(f)\rVert$ and $c_d=\sup_{\mu\in\mathcal C_n}c_d(\mu)$, where $\mathcal C_n$ is the class of isotropic log-concave laws in the fixed dimension $n$.
+## Sharper cubic control and coupled observations
 
-For the first row, [equation (3.14), page 11](https://arxiv.org/pdf/2610.07728v2#page=11) is specialized to $j=2$, with $E_d=\lVert B_d^\mu(f)\rVert^2$ at the isotropic base point. Both columns compare the loss $L_\beta$ in the same inequality:
+The [original-law cubic theorem](lean_14/KLSConstantImprovement/OriginalCubic4013023465.lean) gives the raw cubic cap **401.3023465** with its analytic obligations discharged. The next step retains a [cubic/quartic support estimate](lean_14/KLSConstantImprovement/QuarticM48Support20261020.lean) for the **same measure and test function**. This shared-source structure matters: the proof uses a joint budget, rather than combining independently maximized observations.
 
-```math
-\mathcal D E_2\ge\beta E_3-L_\beta E_2-2\langle B_2,R_2\rangle.
-```
+The [quartic endpoint barrier](lean_14/KLSConstantImprovement/RawCubicQuarticEndpointBarrier.lean) supplies the analytic support used in the all-rank induction. The final theorem has no extra cubic or quartic estimate as an assumption.
 
-Here $\mathcal D$ acts on the covariance-normalized tilt energies at the isotropic base point, and $R_2$ is the full lower-cumulant drift tensor. Keeping the paper's parameter $\beta$, its coefficient is
+## An all-rank budget and a positive mixture
 
-```math
-A_\beta=\frac{4}{1-\beta}-2,\qquad
-4A_\beta+2(A_\beta-3)=6A_\beta-6=\frac{24}{1-\beta}-18.
-```
+For one fixed test, the proof controls a weighted sum of its Appell energies over every finite degree range. The [weighted generator](lean_14/KLSConstantImprovement/RawCubicQuarticWeightedBudget.lean) keeps the degree-dependent allocations and the coupled low-degree support.
 
-| Estimate and paper v2 location | Paper v2 | This Lean release |
-|---|---|---|
-| Rank-two loss $L_\beta$: (3.14) specialized to $j=2$, on $1/3\le\beta<1$ | $24/(1-\beta)-18$ | $64/[3(1-\beta)]-18$, using full cubic symmetry. [Proof](ActualSymmetricQuadraticNoise.lean). |
-| Adjacent terminal cost at the quotient maximum: [Proposition 3.1 proof, §3.6, page 14](https://arxiv.org/pdf/2610.07728v2#page=14) | $2x(1+uq)$ | $x(1+uq)$, using variance centering. [Heat inequality](ActualCenteredAdjacentHeat.lean) and [cancellation](ActualCenteredAdjacentTerminal.lean). |
-| Cubic operator norm: [Theorem 4.1, (4.1), page 14](https://arxiv.org/pdf/2610.07728v2#page=14) | $c_3^2\le121/4=30.25$ | $c_3^2\le49/2=24.5$, using a centered joint barrier. [Seed](ActualSymmetricCenteredCubicSeed245.lean) and [cap](ActualSymmetricCubicSeed245Cap.lean). |
-| Abstract operator norm: [Proposition 7.3, page 28](https://arxiv.org/pdf/2610.07728v2#page=28) | $\lVert R\rVert^2\le24$ | $\lVert R\rVert^2\le139963/10000=13.9963$, retaining separate quadratic and cubic observation caps. [Endgame](TwoHeadObservationOperatorEndgame.lean) and [parameters](CoupledSub15Numerics.lean). |
-| Poincaré constant, Theorem 1.1 | $C_P(\mu)\le25$ | $C_P(\mu)\le149963/10000<15$. [Endpoint](ActualKLS149963Endpoints.lean). |
+The final [mixed budget](lean_14/KLSConstantImprovement/AcceptedMix96Weighted.lean) is an exact positive combination of two proved original-law budgets, after rescaling to a common parameter. The combination uses actual energies of the same test. Truncating its positive remainder produces the final retained profile and a constant infinite tail. It adds no restriction to the admissible laws.
 
-The paper also states $c_3^2\le B$ explicitly at the end of “The Cubic Coefficient” on [page 15](https://arxiv.org/pdf/2610.07728v2#page=15), after (4.3), with $B=121/4$ from (4.1). The Lean cap gives $\lVert B_3^\mu(f)\rVert^2\le36(49/2)\lVert f\rVert_2^2$ for every law and test; dividing by $(3!)^2=36$ and taking the same suprema gives the displayed $c_3^2\le49/2$.
+## Exact-cap Bellman certificates and the infinite tail
 
-The terminal-cost row refers to the **unnumbered display** immediately after “We obtain” and before “Divide by $x>0$” in the [proof on page 14](https://arxiv.org/pdf/2610.07728v2#page=14). Its signed term is $-2x(1+uq)$; the table records the positive cost $2x(1+uq)$. The centered Lean inequality has $-x(1+uq)$. At the maximizing pair normalized by $g=\lVert f\rVert_2^2=1$, the cubic choice $k=2$, $h_2=8$ gives $x=E_3$, $u=E_2/8$ and $q(u)=-\phi'(u)/\phi(u)$; see the [quotient definitions, §3.4, page 12](https://arxiv.org/pdf/2610.07728v2#page=12), the [definition of q, Proposition 3.1, page 13](https://arxiv.org/pdf/2610.07728v2#page=13) and the [cubic step, page 15](https://arxiv.org/pdf/2610.07728v2#page=15). Before normalization, $u=E_2/(8g)$. Each argument uses its own adjacent barrier $\phi$.
+The scalar argument retains the quadratic transition cap instead of replacing it by a chord. Its [two-variable square identities](lean_14/KLSConstantImprovement/ExactQuadraticCapBellmanCertificates.lean) and rational coefficient inequalities are checked in Lean.
 
-The operator row uses the paper's abstract $R$ in both columns, under the respective observation hypotheses of Proposition 7.3 and the Lean joint-budget endgame. The paper explicitly sets $R=J$ in [§8, proof of Theorem 1.1, page 30](https://arxiv.org/pdf/2610.07728v2#page=30), using (6.15)–(6.16), and obtains $\lVert J\rVert^2\le24$ and $C_P(\mu)\le1+\lVert J\rVert^2\le25$. The Lean [actual operator assembly](ActualRegularEndpointSub15.lean) likewise sets $R=J$, the centered graded integration operator. The applications to $J$ use regular laws; approximation extends the Poincaré bound to all isotropic log-concave laws.
+There are **95 finite Bellman stages**, covering ranks 2 through 96. These are finite algebraic payment inequalities, followed by a [proved infinite-tail payment](lean_14/KLSConstantImprovement/WeightedOrbitBellmanTail.lean). They do not truncate the all-rank theorem or leave a limiting estimate as a hypothesis. The [final data](lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightData.lean) uses exact rational constants, with no numerical optimizer supplied as a theorem premise.
 
-The all-degree estimates have different forms and are therefore stated separately. The paper's Theorem 4.1 and (4.1) give the individual operator bounds $c_d^2\le(121/4)(223/10)^{d-3}$ for $d\ge3$. For the joint estimate, write $b_d(\mu,f)=\lVert B_d^\mu(f)\rVert/d!$ for one fixed measure and test function. Exact triangular contractions and degree-dependent Young allocations give the following [joint bound](ActualWeightedAppellInductionSub15.lean), with $\lVert f\rVert_2=1$ and the **same** $f$ in every summand, for every finite $N$:
+## From the budget to the original Poincaré statement
+
+The [operator endgame](lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightOperator.lean) bounds the squared norm of the actual centered inverse-gradient operator by **12.810833**. The original-law transfer then yields
 
 ```math
-\sum_{d=2}^{N}\frac{b_d(\mu,f)^2}{(67/5)^d}
-\le\frac{6}{125}.
+C_P(\mu)\le 1+\|J\|^2
+\le \frac{13810833}{1000000}=13.810833<14.
 ```
 
-Here $K=67/5=13.4$ and $C=6/125=0.048$ are parameters of the joint estimate, not replacements in the paper's individual geometric bound. The sum contains $b_d(\mu,f)^2$, not separately maximized $c_d^2$. For general $f$, homogeneity adds the factor $\lVert f\rVert_2^2$ on the right. With $p=2089/2000$, the final [unconditional endpoint](ActualKLS149963Endpoints.lean) is
+The [endpoint module](lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean) includes the universal and OpenAI formulations. Regularization transfers the regular-law argument to the original law class. The exponential benchmark remains 4.
 
-```math
-C_P(\mu)\le1+Kp=\frac{149963}{10000}=14.9963<15.
-```
+These are upper bounds, with no claim that the universal constant or the full proof method is optimal. A sharp scalar calculation for one fixed weighted profile does not establish optimality over all profiles or produce an extremizing probability law.
 
-The compatible-field curvature and approximation framework is retained. These refinements and smaller constants are additions to the paper, and no sharp or optimal universal constant is claimed.
+## Preserved history and link compatibility
+
+The complete earlier project, including its pinned configuration and v2 proof receipts, is retained in [lean_15](lean_15/README.md). Its [original paper comparison](lean_15/DETAILED_CHANGES.md) remains available. Compatibility Markdown pages retain the earlier documentation paths and redirect their file links to the preserved project. Fixed-commit external links keep their original targets. The release migration manifest records any Markdown-only retargeting; Lean sources and historical verification receipts are preserved.
+
+See the [current verification guide](lean_14/verification/README.md) for the exact source and axiom-check scope.

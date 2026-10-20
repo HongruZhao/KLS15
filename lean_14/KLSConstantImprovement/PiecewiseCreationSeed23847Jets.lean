@@ -1,0 +1,19 @@
+import KLSConstantImprovement.PiecewiseCreationSeed23847Data
+noncomputable section
+namespace KLSBelow25.PiecewiseCreationSeed23847
+set_option maxHeartbeats 2000000
+theorem hasDerivAt_seedV (t : ℝ) : HasDerivAt seedV (seedVp t) t := by
+  have h := ((((((((((((((((((hasDerivAt_const t ((2589636810811/1000000000000) : ℝ)).add (((hasDerivAt_id' t).pow 1).const_mul ((-1080222782073/500000000000) : ℝ))).add (((hasDerivAt_id' t).pow 2).const_mul ((1451601329001/1000000000000) : ℝ))).add (((hasDerivAt_id' t).pow 3).const_mul ((-1698351992679/1000000000000) : ℝ))).add (((hasDerivAt_id' t).pow 4).const_mul ((-4030319427937/1000000000000) : ℝ))).add (((hasDerivAt_id' t).pow 5).const_mul ((106996432963971/500000000000) : ℝ))).add (((hasDerivAt_id' t).pow 6).const_mul ((-132560032726381/31250000000) : ℝ))).add (((hasDerivAt_id' t).pow 7).const_mul ((3226279109616009/62500000000) : ℝ))).add (((hasDerivAt_id' t).pow 8).const_mul ((-1641837226052147/3906250000) : ℝ))).add (((hasDerivAt_id' t).pow 9).const_mul ((4686940556636847/1953125000) : ℝ))).add (((hasDerivAt_id' t).pow 10).const_mul ((-2413920812948687/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 11).const_mul ((7298090449886661/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 12).const_mul ((-16302968493891186/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 13).const_mul ((214757974117928/1953125) : ℝ))).add (((hasDerivAt_id' t).pow 14).const_mul ((-6431257666930852/48828125) : ℝ))).add (((hasDerivAt_id' t).pow 15).const_mul ((27240002520274984/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 16).const_mul ((-15462306915978752/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 17).const_mul ((1055124380045056/48828125) : ℝ))).add (((hasDerivAt_id' t).pow 18).const_mul ((-1635759073865201/488281250) : ℝ))
+  convert h using 1
+  · ext x; norm_num [seedV]
+  · norm_num [seedVp]; ring
+theorem hasDerivAt_seedVp (t : ℝ) : HasDerivAt seedVp (seedVpp t) t := by
+  have h := (((((((((((((((((hasDerivAt_const t ((-1080222782073/500000000000) : ℝ)).add (((hasDerivAt_id' t).pow 1).const_mul ((1451601329001/500000000000) : ℝ))).add (((hasDerivAt_id' t).pow 2).const_mul ((-5095055978037/1000000000000) : ℝ))).add (((hasDerivAt_id' t).pow 3).const_mul ((-4030319427937/250000000000) : ℝ))).add (((hasDerivAt_id' t).pow 4).const_mul ((106996432963971/100000000000) : ℝ))).add (((hasDerivAt_id' t).pow 5).const_mul ((-397680098179143/15625000000) : ℝ))).add (((hasDerivAt_id' t).pow 6).const_mul ((22583953767312063/62500000000) : ℝ))).add (((hasDerivAt_id' t).pow 7).const_mul ((-1641837226052147/488281250) : ℝ))).add (((hasDerivAt_id' t).pow 8).const_mul ((42182465009731623/1953125000) : ℝ))).add (((hasDerivAt_id' t).pow 9).const_mul ((-4827841625897374/48828125) : ℝ))).add (((hasDerivAt_id' t).pow 10).const_mul ((80278994948753271/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 11).const_mul ((-195635621926694232/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 12).const_mul ((2791853663533064/1953125) : ℝ))).add (((hasDerivAt_id' t).pow 13).const_mul ((-90037607337031928/48828125) : ℝ))).add (((hasDerivAt_id' t).pow 14).const_mul ((81720007560824952/48828125) : ℝ))).add (((hasDerivAt_id' t).pow 15).const_mul ((-247396910655660032/244140625) : ℝ))).add (((hasDerivAt_id' t).pow 16).const_mul ((17937114460765952/48828125) : ℝ))).add (((hasDerivAt_id' t).pow 17).const_mul ((-14721831664786809/244140625) : ℝ))
+  convert h using 1
+  · ext x; norm_num [seedVp]
+  · norm_num [seedVpp]; ring
+theorem continuous_seedV : Continuous seedV := continuous_iff_continuousAt.mpr (fun t => (hasDerivAt_seedV t).continuousAt)
+theorem continuous_seedVp : Continuous seedVp := continuous_iff_continuousAt.mpr (fun t => (hasDerivAt_seedVp t).continuousAt)
+end KLSBelow25.PiecewiseCreationSeed23847
+#print axioms KLSBelow25.PiecewiseCreationSeed23847.hasDerivAt_seedV
+#print axioms KLSBelow25.PiecewiseCreationSeed23847.hasDerivAt_seedVp

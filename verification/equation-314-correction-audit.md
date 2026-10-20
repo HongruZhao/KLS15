@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/equation-314-correction-audit.md). Current release: [KLS14](../README.md).
+
 # Equation (3.14) README correction audit
 
 Status: **PASS — documentation-only clarification; all proof and historical evidence bytes preserved.** Checked 2026-10-09T22:03:35.223225+00:00.

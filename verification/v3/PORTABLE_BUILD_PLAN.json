@@ -1,0 +1,42 @@
+{
+  "status": "PASS_PLAN_ONLY_NO_COMPILER",
+  "mode": "entries",
+  "required_mount_present": true,
+  "source_checks": [
+    {
+      "status": "PASS",
+      "scope": "SOURCE_ONLY_NO_LEAN_INVOCATION",
+      "project": "lean_15",
+      "manifest_schema": "preserved_legacy_v2",
+      "manifest_sha256": "b1ca777bd1c45f9b98f863e0fbd26631002e9e9b0a165c6f213520f796930c17",
+      "library_source_modules": 1654,
+      "historical_auxiliary_sources": 1,
+      "registered_roots": 1654,
+      "external_import_names": 342,
+      "Lean": "leanprover/lean4:v4.35.0-rc3",
+      "Mathlib": "4beb549110aa44b87d699166cece6e3642bddf34",
+      "metadata_hashes_checked": true,
+      "failures": []
+    },
+    {
+      "status": "PASS",
+      "scope": "SOURCE_ONLY_NO_LEAN_INVOCATION",
+      "project": "lean_14",
+      "manifest_schema": "portable_v3_files",
+      "manifest_sha256": "73ef58d4048bde711b6a22828ba2c08a98e60082181beff47917ed5465a8c38a",
+      "library_source_modules": 2955,
+      "historical_auxiliary_sources": 0,
+      "registered_roots": 2955,
+      "external_import_names": 366,
+      "Lean": "leanprover/lean4:v4.35.0-rc3",
+      "Mathlib": "4beb549110aa44b87d699166cece6e3642bddf34",
+      "metadata_hashes_checked": true,
+      "failures": []
+    }
+  ],
+  "projects": [
+    "lean_15",
+    "lean_14"
+  ],
+  "execute": false
+}

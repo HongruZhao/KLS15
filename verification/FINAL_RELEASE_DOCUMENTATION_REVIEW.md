@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md). Current release: [KLS14](../README.md).
+
 # Final KLS15 release documentation review
 
 Status: **PASS — no material documentation or correspondence issue found.** This is a new final review; earlier staging and pre-build reviews remain unchanged.

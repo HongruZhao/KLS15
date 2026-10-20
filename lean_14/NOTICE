@@ -1,0 +1,16 @@
+KLS14, release 3.0.0
+Dimension-free Poincare constant 14; verified stronger upper 13810833/1000000.
+
+Project contributions are provided under the Apache License, Version 2.0.
+Existing third-party source headers, licenses and notices remain applicable.
+This notice does not change any third-party license.
+
+The unchanged OAI.Analysis.KLS.Model is from openai/math, revision
+adc7f1241b42e322a6451854ab7e4b4c146bf78a. Its original license and provenance
+are retained in third_party/openai-model/ and the Lean source. Attribution to
+the imported model does not imply authorship or endorsement of these proofs.
+
+The complete notice from the merged source project is preserved verbatim in
+provenance/MERGED_PROJECT_NOTICE.txt. Its historical headline records an earlier
+bound; the current public endpoints are in KLS14.lean. All referenced bundled
+dependency licenses, notices, source maps and modification records are retained.

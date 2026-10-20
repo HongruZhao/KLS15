@@ -1,0 +1,12 @@
+/.lake/
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+*.ir
+*.ir.sig
+*.trace
+.DS_Store
+__pycache__/
+*.py[cod]
+/verification/clean-build*/project-objects/

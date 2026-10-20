@@ -1,0 +1,1430 @@
+{
+  "status": "PASS_LEGACY_PLAN_FUTURE_CURRENT_LINKS_PENDING",
+  "source_checkout_modified": false,
+  "source_root": "/Users/hz/codex_agent2/KLS4/release-v3/KLS14",
+  "markdown_count": 15,
+  "preserved_original_relative_links": true,
+  "legacy_Lean_and_receipts_changed": false,
+  "planned_separate_root_file_copies": [
+    "LICENSE",
+    "NOTICE"
+  ],
+  "pinned_URLs_policy": "Preserve fixedcommit/tag/nonfloatingURLs byteforbyte.",
+  "manifest": [
+    {
+      "old_path": "DETAILED_CHANGES.md",
+      "original_sha256": "5d7f4f15ac91e63792a9f7ff5ebee8bd2958ce9be2a563e84ec3e1b143bc6e4f",
+      "compat_sha256": "e302b2654fab695c61dc9635b86f571f987f7643f010f0346c8b251faa121683",
+      "legacy_path": "lean_15/DETAILED_CHANGES.md",
+      "legacy_sha256": "5d7f4f15ac91e63792a9f7ff5ebee8bd2958ce9be2a563e84ec3e1b143bc6e4f",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [
+        {
+          "line": 24,
+          "old": "ActualSymmetricQuadraticNoise.lean",
+          "new": "lean_15/ActualSymmetricQuadraticNoise.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 25,
+          "old": "ActualCenteredAdjacentHeat.lean",
+          "new": "lean_15/ActualCenteredAdjacentHeat.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 25,
+          "old": "ActualCenteredAdjacentTerminal.lean",
+          "new": "lean_15/ActualCenteredAdjacentTerminal.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 26,
+          "old": "ActualSymmetricCenteredCubicSeed245.lean",
+          "new": "lean_15/ActualSymmetricCenteredCubicSeed245.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 26,
+          "old": "ActualSymmetricCubicSeed245Cap.lean",
+          "new": "lean_15/ActualSymmetricCubicSeed245Cap.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 27,
+          "old": "TwoHeadObservationOperatorEndgame.lean",
+          "new": "lean_15/TwoHeadObservationOperatorEndgame.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 27,
+          "old": "CoupledSub15Numerics.lean",
+          "new": "lean_15/CoupledSub15Numerics.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 28,
+          "old": "ActualKLS149963Endpoints.lean",
+          "new": "lean_15/ActualKLS149963Endpoints.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 34,
+          "old": "ActualRegularEndpointSub15.lean",
+          "new": "lean_15/ActualRegularEndpointSub15.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 36,
+          "old": "ActualWeightedAppellInductionSub15.lean",
+          "new": "lean_15/ActualWeightedAppellInductionSub15.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 43,
+          "old": "ActualKLS149963Endpoints.lean",
+          "new": "lean_15/ActualKLS149963Endpoints.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        }
+      ],
+      "new_release_override": true,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "README.md",
+      "original_sha256": "1b9f9510f41c9a76427267fe3ae6e07a770f44f0057f6bf8dbf9a8126a1c995a",
+      "compat_sha256": "0b4d00a6a47cf80de6ce41de1a624a87198120b0257535d16a13aa21b28daf30",
+      "legacy_path": "lean_15/README.md",
+      "legacy_sha256": "1b9f9510f41c9a76427267fe3ae6e07a770f44f0057f6bf8dbf9a8126a1c995a",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [
+        {
+          "line": 22,
+          "old": "KLS15.lean",
+          "new": "lean_15/KLS15.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 22,
+          "old": "Challenge.lean",
+          "new": "lean_15/Challenge.lean",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 37,
+          "old": "LICENSE",
+          "new": "lean_15/LICENSE",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 37,
+          "old": "NOTICE",
+          "new": "lean_15/NOTICE",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        }
+      ],
+      "new_release_override": true,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "comparator/README.md",
+      "original_sha256": "dd083affb6f07c40a66490aa6e3f1eb11cda0fbb23e0b614b331637eb21fab72",
+      "compat_sha256": "304d1677b72691ea507bd8c12cb203f668df7e33770bd39e937d39c17cda77ad",
+      "legacy_path": "lean_15/comparator/README.md",
+      "legacy_sha256": "dd083affb6f07c40a66490aa6e3f1eb11cda0fbb23e0b614b331637eb21fab72",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "third_party/differential-geometry/PROVENANCE.md",
+      "original_sha256": "89e0154fd9ad68c24af1bd3b5c587351240fab4a88d559c37649c19bfd4dbd9d",
+      "compat_sha256": "f6797f780a6e5eefca80329c677099580275de2da5025d962e936c3c21a8c921",
+      "legacy_path": "lean_15/third_party/differential-geometry/PROVENANCE.md",
+      "legacy_sha256": "89e0154fd9ad68c24af1bd3b5c587351240fab4a88d559c37649c19bfd4dbd9d",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "third_party/differential-geometry/TauCeti-MODIFICATIONS.md",
+      "original_sha256": "859e4a2bc69755d0768202a07a4d85cab4da7805c969c72d3c06835fc032d075",
+      "compat_sha256": "8689a618a84c7ac6c24b5aab5bb969efc5c30397c730bf752f5537342f7f4cc7",
+      "legacy_path": "lean_15/third_party/differential-geometry/TauCeti-MODIFICATIONS.md",
+      "legacy_sha256": "859e4a2bc69755d0768202a07a4d85cab4da7805c969c72d3c06835fc032d075",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "original_sha256": "3b2fb40598c27c100078f47ce073089218acab925f8bac975f0f9d312c7b4163",
+      "compat_sha256": "0fb0af24eb7c24be1f9ac687565a532779c71ece4781a888e9f93a5ee9ef5e3b",
+      "legacy_path": "lean_15/verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "legacy_sha256": "3b2fb40598c27c100078f47ce073089218acab925f8bac975f0f9d312c7b4163",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/ENDPOINT_CORRESPONDENCE.md",
+      "original_sha256": "0bdc96eacf56fc3051fcf7eba89b9cda9070e62250dfe031e233aef589100564",
+      "compat_sha256": "18633d8f0dbc7ea3d3743f8c435ef0e718c605d1e49efdfa66405a63a89d2fbd",
+      "legacy_path": "lean_15/verification/ENDPOINT_CORRESPONDENCE.md",
+      "legacy_sha256": "0bdc96eacf56fc3051fcf7eba89b9cda9070e62250dfe031e233aef589100564",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+      "original_sha256": "e915b2f8be9ba07734ca5738aad17ea1ce5cdae599296a1eed23e59f6f07b47e",
+      "compat_sha256": "bcae0af29d7a11d5c89a015d0be2033356dc1b921144f7d7dbcce8c813eb3bd3",
+      "legacy_path": "lean_15/verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+      "legacy_sha256": "e915b2f8be9ba07734ca5738aad17ea1ce5cdae599296a1eed23e59f6f07b47e",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "original_sha256": "21fc4c53816b0a16e8e9c1a1267988bf8b4559844871339c28f33a9352591bb8",
+      "compat_sha256": "53fb1fa00e88eb26b304ff67b73f79661ec6d0a8022799796e7109fe5913add2",
+      "legacy_path": "lean_15/verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "legacy_sha256": "21fc4c53816b0a16e8e9c1a1267988bf8b4559844871339c28f33a9352591bb8",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "original_sha256": "4f27a2fcdc5db3fba47f36f591559ada53030880210f8a560f2795f332398de7",
+      "compat_sha256": "8729f3b3f21661d2935a2be0f52d11eec710b63085cf2b34c09428562e1b1bca",
+      "legacy_path": "lean_15/verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "legacy_sha256": "4f27a2fcdc5db3fba47f36f591559ada53030880210f8a560f2795f332398de7",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/README.md",
+      "original_sha256": "d4c572d54bd330773b277659b20cbd643a4adf3ef6461a9963f691bafe784821",
+      "compat_sha256": "40ad8d4dedf6d5d2018e5d185d6c19a635c6bcdb7648af9a3449ac0cef2e3d60",
+      "legacy_path": "lean_15/verification/README.md",
+      "legacy_sha256": "d4c572d54bd330773b277659b20cbd643a4adf3ef6461a9963f691bafe784821",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [
+        {
+          "line": 7,
+          "old": "clean-build-r1/receipt.json",
+          "new": "../lean_15/verification/clean-build-r1/receipt.json",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 9,
+          "old": "source-manifest.json",
+          "new": "../lean_15/verification/source-manifest.json",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 24,
+          "old": "clean-build-r1/executed-rebuild.py",
+          "new": "../lean_15/verification/clean-build-r1/executed-rebuild.py",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 24,
+          "old": "execution-script-binding.json",
+          "new": "../lean_15/verification/execution-script-binding.json",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        }
+      ],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/RELEASE_DOCUMENTATION_REVIEW.md",
+      "original_sha256": "295326f6170ea22228d3826b7c056c871892fe146da36af9c68c488747c20793",
+      "compat_sha256": "258b146e93271982198b10cbcf6f28ed769f43d76185676c543c42178268ea11",
+      "legacy_path": "lean_15/verification/RELEASE_DOCUMENTATION_REVIEW.md",
+      "legacy_sha256": "295326f6170ea22228d3826b7c056c871892fe146da36af9c68c488747c20793",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "original_sha256": "e173c55e0d2717f6d71dd87163c42ed8faf54ec77ecb9a3c7c1b31a3c047c663",
+      "compat_sha256": "8457ad115436f8b3127331057e6fa3096d30c428ed8843ff2db360914f739335",
+      "legacy_path": "lean_15/verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "legacy_sha256": "e173c55e0d2717f6d71dd87163c42ed8faf54ec77ecb9a3c7c1b31a3c047c663",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [
+        {
+          "line": 19,
+          "old": "scalar-audit.json",
+          "new": "../lean_15/verification/scalar-audit.json",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        },
+        {
+          "line": 32,
+          "old": "scalar-audit-portability-receipt.json",
+          "new": "../lean_15/verification/scalar-audit-portability-receipt.json",
+          "reason": "local_nonmarkdown_legacy_retarget"
+        }
+      ],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/equation-314-correction-audit.md",
+      "original_sha256": "8c29b716123b3f1f5873154907b9c5ce914afbd3a53aa5eb8f3516fe8fc96a28",
+      "compat_sha256": "58bb3fc9300569f71c17e76dadb3c9161a0ef8c6efa095979d6450aba05f60b4",
+      "legacy_path": "lean_15/verification/equation-314-correction-audit.md",
+      "legacy_sha256": "8c29b716123b3f1f5873154907b9c5ce914afbd3a53aa5eb8f3516fe8fc96a28",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    },
+    {
+      "old_path": "verification/notation-correction-audit.md",
+      "original_sha256": "d65b92e4ff81ea5b7a2bd5641f3b2c9798f83b933352d8306dc71382c6b59a4a",
+      "compat_sha256": "aca6b85512ff01c0a080890d214a126dc718f2a4430bae221a68ad85600ff135",
+      "legacy_path": "lean_15/verification/notation-correction-audit.md",
+      "legacy_sha256": "d65b92e4ff81ea5b7a2bd5641f3b2c9798f83b933352d8306dc71382c6b59a4a",
+      "legacy_MD_changed": false,
+      "legacy_MD_edits": [],
+      "compat_edits": [],
+      "new_release_override": false,
+      "old_anchors_missing_from_compat": []
+    }
+  ],
+  "validation_errors": [],
+  "planned_current_project_links_not_yet_present": [
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/OriginalCubic4013023465.lean",
+      "line": 10,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/OriginalCubic4013023465.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM48Support20261020.lean",
+      "line": 10,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM48Support20261020.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/RawCubicQuarticEndpointBarrier.lean",
+      "line": 12,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/RawCubicQuarticEndpointBarrier.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/RawCubicQuarticWeightedBudget.lean",
+      "line": 16,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/RawCubicQuarticWeightedBudget.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/AcceptedMix96Weighted.lean",
+      "line": 18,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/AcceptedMix96Weighted.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/ExactQuadraticCapBellmanCertificates.lean",
+      "line": 22,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/ExactQuadraticCapBellmanCertificates.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/WeightedOrbitBellmanTail.lean",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/WeightedOrbitBellmanTail.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightData.lean",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightData.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightOperator.lean",
+      "line": 28,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightOperator.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "line": 35,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/verification/README.md",
+      "line": 43,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/verification/README.md",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/KLS14.lean",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLS14.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/Challenge.lean",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/Challenge.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/verification/README.md",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/verification/README.md",
+      "status": "missing_target"
+    }
+  ],
+  "validation_records": [
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "README.md",
+      "line": 4,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_15/DETAILED_CHANGES.md",
+      "line": 4,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/DETAILED_CHANGES.md",
+      "status": "pass"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/abs/2610.07728v2",
+      "line": 6,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/OriginalCubic4013023465.lean",
+      "line": 10,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/OriginalCubic4013023465.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM48Support20261020.lean",
+      "line": 10,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM48Support20261020.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/RawCubicQuarticEndpointBarrier.lean",
+      "line": 12,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/RawCubicQuarticEndpointBarrier.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/RawCubicQuarticWeightedBudget.lean",
+      "line": 16,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/RawCubicQuarticWeightedBudget.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/AcceptedMix96Weighted.lean",
+      "line": 18,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/AcceptedMix96Weighted.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/ExactQuadraticCapBellmanCertificates.lean",
+      "line": 22,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/ExactQuadraticCapBellmanCertificates.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/WeightedOrbitBellmanTail.lean",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/WeightedOrbitBellmanTail.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightData.lean",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightData.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightOperator.lean",
+      "line": 28,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightOperator.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "line": 35,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_15/README.md",
+      "line": 41,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/README.md",
+      "status": "pass"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_15/DETAILED_CHANGES.md",
+      "line": 41,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/DETAILED_CHANGES.md",
+      "status": "pass"
+    },
+    {
+      "source": "DETAILED_CHANGES.md",
+      "url": "lean_14/verification/README.md",
+      "line": 43,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/verification/README.md",
+      "status": "missing_target"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "README.md",
+      "line": 3,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/README.md",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/abs/2610.07728v2",
+      "line": 5,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=3",
+      "line": 7,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=11",
+      "line": 9,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualSymmetricQuadraticNoise.lean",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualSymmetricQuadraticNoise.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=14",
+      "line": 25,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualCenteredAdjacentHeat.lean",
+      "line": 25,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualCenteredAdjacentHeat.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualCenteredAdjacentTerminal.lean",
+      "line": 25,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualCenteredAdjacentTerminal.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=14",
+      "line": 26,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualSymmetricCenteredCubicSeed245.lean",
+      "line": 26,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualSymmetricCenteredCubicSeed245.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualSymmetricCubicSeed245Cap.lean",
+      "line": 26,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualSymmetricCubicSeed245Cap.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=28",
+      "line": 27,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "TwoHeadObservationOperatorEndgame.lean",
+      "line": 27,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/TwoHeadObservationOperatorEndgame.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "CoupledSub15Numerics.lean",
+      "line": 27,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/CoupledSub15Numerics.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualKLS149963Endpoints.lean",
+      "line": 28,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualKLS149963Endpoints.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=15",
+      "line": 30,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=14",
+      "line": 32,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=12",
+      "line": 32,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=13",
+      "line": 32,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=15",
+      "line": 32,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "https://arxiv.org/pdf/2610.07728v2#page=30",
+      "line": 34,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualRegularEndpointSub15.lean",
+      "line": 34,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualRegularEndpointSub15.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualWeightedAppellInductionSub15.lean",
+      "line": 36,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualWeightedAppellInductionSub15.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/DETAILED_CHANGES.md",
+      "url": "ActualKLS149963Endpoints.lean",
+      "line": 43,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/ActualKLS149963Endpoints.lean",
+      "status": "pass"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/KLS14.lean",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLS14.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/Challenge.lean",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/Challenge.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "DETAILED_CHANGES.md",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "DETAILED_CHANGES.md",
+      "status": "pass"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_14/verification/README.md",
+      "line": 13,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_14/verification/README.md",
+      "status": "missing_target"
+    },
+    {
+      "source": "README.md",
+      "url": "https://arxiv.org/abs/2610.07728v2",
+      "line": 17,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "README.md",
+      "url": "https://github.com/HongruZhao/KLS500",
+      "line": 17,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "README.md",
+      "url": "lean_15/README.md",
+      "line": 17,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/README.md",
+      "status": "pass"
+    },
+    {
+      "source": "README.md",
+      "url": "https://doi.org/10.5281/zenodo.23229033",
+      "line": 19,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "README.md",
+      "url": "https://doi.org/10.5281/zenodo.23272815",
+      "line": 19,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "README.md",
+      "url": "LICENSE",
+      "line": 21,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "LICENSE",
+      "status": "pass"
+    },
+    {
+      "source": "README.md",
+      "url": "NOTICE",
+      "line": 21,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "NOTICE",
+      "status": "pass"
+    },
+    {
+      "source": "README.md",
+      "url": "https://github.com/openai/PrimeGaps186",
+      "line": 21,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "https://github.com/HongruZhao/KLS500",
+      "line": 3,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "https://doi.org/10.5281/zenodo.23272815",
+      "line": 5,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/KLS/Model.lean#L47-L58",
+      "line": 22,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "KLS15.lean",
+      "line": 22,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/KLS15.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "Challenge.lean",
+      "line": 22,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/Challenge.lean",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "https://arxiv.org/abs/2610.07728v2",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "DETAILED_CHANGES.md",
+      "line": 26,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/DETAILED_CHANGES.md",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "verification/README.md",
+      "line": 28,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/README.md",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "LICENSE",
+      "line": 37,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/LICENSE",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "NOTICE",
+      "line": 37,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/NOTICE",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/README.md",
+      "url": "https://github.com/openai/PrimeGaps186",
+      "line": 37,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "comparator/README.md",
+      "url": "../lean_15/comparator/README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/comparator/README.md",
+      "status": "pass"
+    },
+    {
+      "source": "comparator/README.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "third_party/differential-geometry/PROVENANCE.md",
+      "url": "../../lean_15/third_party/differential-geometry/PROVENANCE.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/third_party/differential-geometry/PROVENANCE.md",
+      "status": "pass"
+    },
+    {
+      "source": "third_party/differential-geometry/PROVENANCE.md",
+      "url": "../../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "third_party/differential-geometry/PROVENANCE.md",
+      "url": "https://github.com/qinz1yang/differential-geometry",
+      "line": 3,
+      "kind": "bare_url",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "lean_15/third_party/differential-geometry/PROVENANCE.md",
+      "url": "https://github.com/qinz1yang/differential-geometry",
+      "line": 1,
+      "kind": "bare_url",
+      "rewrite_destination": true,
+      "status": "external_not_fetched"
+    },
+    {
+      "source": "third_party/differential-geometry/TauCeti-MODIFICATIONS.md",
+      "url": "../../lean_15/third_party/differential-geometry/TauCeti-MODIFICATIONS.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/third_party/differential-geometry/TauCeti-MODIFICATIONS.md",
+      "status": "pass"
+    },
+    {
+      "source": "third_party/differential-geometry/TauCeti-MODIFICATIONS.md",
+      "url": "../../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "url": "../lean_15/verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/ENDPOINT_CORRESPONDENCE.md",
+      "url": "../lean_15/verification/ENDPOINT_CORRESPONDENCE.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/ENDPOINT_CORRESPONDENCE.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/ENDPOINT_CORRESPONDENCE.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+      "url": "../lean_15/verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "url": "../lean_15/verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "url": "../lean_15/verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "../lean_15/verification/README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "../lean_15/verification/clean-build-r1/receipt.json",
+      "line": 9,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/clean-build-r1/receipt.json",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "line": 9,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "../lean_15/verification/source-manifest.json",
+      "line": 11,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/source-manifest.json",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "SCALAR_CERTIFICATE_AUDIT.md",
+      "line": 22,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "../lean_15/verification/clean-build-r1/executed-rebuild.py",
+      "line": 26,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/clean-build-r1/executed-rebuild.py",
+      "status": "pass"
+    },
+    {
+      "source": "verification/README.md",
+      "url": "../lean_15/verification/execution-script-binding.json",
+      "line": 26,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/execution-script-binding.json",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/README.md",
+      "url": "clean-build-r1/receipt.json",
+      "line": 7,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/clean-build-r1/receipt.json",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/README.md",
+      "url": "CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "line": 7,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/README.md",
+      "url": "source-manifest.json",
+      "line": 9,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/source-manifest.json",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/README.md",
+      "url": "SCALAR_CERTIFICATE_AUDIT.md",
+      "line": 20,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/README.md",
+      "url": "clean-build-r1/executed-rebuild.py",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/clean-build-r1/executed-rebuild.py",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/README.md",
+      "url": "execution-script-binding.json",
+      "line": 24,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/execution-script-binding.json",
+      "status": "pass"
+    },
+    {
+      "source": "verification/RELEASE_DOCUMENTATION_REVIEW.md",
+      "url": "../lean_15/verification/RELEASE_DOCUMENTATION_REVIEW.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/RELEASE_DOCUMENTATION_REVIEW.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/RELEASE_DOCUMENTATION_REVIEW.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "url": "../lean_15/verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "url": "../lean_15/verification/scalar-audit.json",
+      "line": 21,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/scalar-audit.json",
+      "status": "pass"
+    },
+    {
+      "source": "verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "url": "../lean_15/verification/scalar-audit-portability-receipt.json",
+      "line": 34,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/scalar-audit-portability-receipt.json",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "url": "scalar-audit.json",
+      "line": 19,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/scalar-audit.json",
+      "status": "pass"
+    },
+    {
+      "source": "lean_15/verification/SCALAR_CERTIFICATE_AUDIT.md",
+      "url": "scalar-audit-portability-receipt.json",
+      "line": 32,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/scalar-audit-portability-receipt.json",
+      "status": "pass"
+    },
+    {
+      "source": "verification/equation-314-correction-audit.md",
+      "url": "../lean_15/verification/equation-314-correction-audit.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/equation-314-correction-audit.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/equation-314-correction-audit.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/notation-correction-audit.md",
+      "url": "../lean_15/verification/notation-correction-audit.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "lean_15/verification/notation-correction-audit.md",
+      "status": "pass"
+    },
+    {
+      "source": "verification/notation-correction-audit.md",
+      "url": "../README.md",
+      "line": 1,
+      "kind": "inline",
+      "rewrite_destination": true,
+      "target": "README.md",
+      "status": "pass"
+    }
+  ],
+  "final_layout": "Independent lean_15 and lean_14 projects; root Markdown compatibility paths retained.",
+  "final_compatibility_file_hashes": {
+    "DETAILED_CHANGES.md": "e302b2654fab695c61dc9635b86f571f987f7643f010f0346c8b251faa121683",
+    "README.md": "dae7ff7e6440c6e108e1b9eab3c6a62237657e688dc641101c4d193383d5e7e9",
+    "comparator/README.md": "304d1677b72691ea507bd8c12cb203f668df7e33770bd39e937d39c17cda77ad",
+    "third_party/differential-geometry/PROVENANCE.md": "f6797f780a6e5eefca80329c677099580275de2da5025d962e936c3c21a8c921",
+    "third_party/differential-geometry/TauCeti-MODIFICATIONS.md": "8689a618a84c7ac6c24b5aab5bb969efc5c30397c730bf752f5537342f7f4cc7",
+    "verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md": "0fb0af24eb7c24be1f9ac687565a532779c71ece4781a888e9f93a5ee9ef5e3b",
+    "verification/ENDPOINT_CORRESPONDENCE.md": "18633d8f0dbc7ea3d3743f8c435ef0e718c605d1e49efdfa66405a63a89d2fbd",
+    "verification/FINAL_RELEASE_DOCUMENTATION_REVIEW.md": "bcae0af29d7a11d5c89a015d0be2033356dc1b921144f7d7dbcce8c813eb3bd3",
+    "verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md": "53fb1fa00e88eb26b304ff67b73f79661ec6d0a8022799796e7109fe5913add2",
+    "verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md": "8729f3b3f21661d2935a2be0f52d11eec710b63085cf2b34c09428562e1b1bca",
+    "verification/README.md": "5e0ebec3ce19b6ea8ca9bb1fbdae36b82f7f0219765c6b20c014857fbb3d511c",
+    "verification/RELEASE_DOCUMENTATION_REVIEW.md": "258b146e93271982198b10cbcf6f28ed769f43d76185676c543c42178268ea11",
+    "verification/SCALAR_CERTIFICATE_AUDIT.md": "8457ad115436f8b3127331057e6fa3096d30c428ed8843ff2db360914f739335",
+    "verification/equation-314-correction-audit.md": "58bb3fc9300569f71c17e76dadb3c9161a0ef8c6efa095979d6450aba05f60b4",
+    "verification/notation-correction-audit.md": "aca6b85512ff01c0a080890d214a126dc718f2a4430bae221a68ad85600ff135"
+  }
+}

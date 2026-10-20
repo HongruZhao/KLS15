@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/KLS15_RELEASE_ENDPOINT_SEMANTICS.md). Current release: [KLS14](../README.md).
+
 # KLS15 private release: endpoint semantics and verification scope
 
 Focused source correspondence: PASS. The release endpoint is the frozen

@@ -1,0 +1,19 @@
+import KLSConstantImprovement.OptimizedJointCreationSeed23849IntegerData
+
+/- Complete numerical API. The preserved original Data draft is realized by the checked integer certificate modules. No new law premise is introduced. -/
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedV_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedSlope_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedConcavity_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedP_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedDetLow_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedDetCap_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedDet_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedAlphaPoly_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seed_zero_strict_margin
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seed_endpoint_above_one
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedR_domination
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedRLow_difference
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedRLow_domination
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedRAt_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedRootMargin_positive
+#print axioms KLSBelow25.OptimizedJointCreationSeed23849.seedRLow_floor_positive

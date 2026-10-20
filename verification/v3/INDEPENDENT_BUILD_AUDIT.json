@@ -1,0 +1,199 @@
+{
+  "audit_kind": "Read-only final relocated build/public API audit; no compiler invoked by auditor",
+  "projects": [
+    {
+      "project": "lean_15",
+      "receipt_sha256": "d36bcc7d2e13971fcbfb89915da8a32172cb76a377742e0d04ead523851eed6a",
+      "source_union_count": 1654,
+      "source_matched_cache_count": 1651,
+      "fresh_module_count": 3,
+      "fresh_previously_cached_modules": [],
+      "fresh_axiom_queries": 12,
+      "fresh_modules": [
+        {
+          "module": "ActualKLS15VerifiedEndpoints",
+          "source_sha256": "0fb27fef0526ff512c315406a585e29c38fc98ba014750e34f9c3e5d54d841f9",
+          "object_sha256": "4d9e69e0ccbe3d594ee3fe338246c4fdc5dec4af602882f560db220ff2349564",
+          "log_sha256": "6eafdd28438d59fcf5ba6f5e6578c75bb350fedbce9dca077ff2485aef3091e4",
+          "axiom_queries": 5,
+          "axiom_sets": [
+            [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          ]
+        },
+        {
+          "module": "Challenge",
+          "source_sha256": "0f4130e23bb36d7c5978f1fe0b29487b3316d51000c4bdba58e5112ccb5e217b",
+          "object_sha256": "1832aa19d90c9cfca3a0578fdf0a30b7b796669dc5fdfd09ad73fed42967eaf1",
+          "log_sha256": "5b5d9916a2b04e9822441a3b8bed4b1b47b719ed05caec2c1ffae1d279bfb226",
+          "axiom_queries": 5,
+          "axiom_sets": [
+            [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          ]
+        },
+        {
+          "module": "KLS15",
+          "source_sha256": "26d10583adad4373cd1e446891b1eedc737e206f4fd026a682b63123aa6b7c57",
+          "object_sha256": "6c9b482489626e502c66ce7ccad17e0b24e4fcf0bacd831c7eb5eee2cfd22ddf",
+          "log_sha256": "4aa6eba55f70449b1d6a5179ef8067570df9ca3538fad90d82b506f009bdf825",
+          "axiom_queries": 2,
+          "axiom_sets": [
+            [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          ]
+        }
+      ],
+      "all_current_source_and_selected_current_object_hashes_match": true,
+      "object_root_resolves_to_external_ssd": true,
+      "model_sha256": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc",
+      "normal_lake_replay": {
+        "project": "lean_15",
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Challenge.lean"
+        ],
+        "exit_code": 0,
+        "log_sha256": "5b5d9916a2b04e9822441a3b8bed4b1b47b719ed05caec2c1ffae1d279bfb226",
+        "independently_observed_axiom_queries": 5
+      },
+      "issues": []
+    },
+    {
+      "project": "lean_14",
+      "receipt_sha256": "aa4f02c981a440f29fd652a01bf46305fe41695c420fa2324b94931646a3a42c",
+      "source_union_count": 2955,
+      "source_matched_cache_count": 2951,
+      "fresh_module_count": 6,
+      "fresh_previously_cached_modules": [
+        "KLSConstantImprovement.JointRouteIncrementalAudit",
+        "KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint"
+      ],
+      "fresh_axiom_queries": 3410,
+      "fresh_modules": [
+        {
+          "module": "AxiomAudit",
+          "source_sha256": "eba5b34a6fb4faca4e6fc5d665be6f840bfded1fb47eae1b23f791320b8a29c7",
+          "object_sha256": "62c2d168e4c6b556de77f5ffabf424106a4d4d5b52ef6e77de7d33c8319cefcc",
+          "log_sha256": "ed3c70538323fe6a99c17eab4f4a45593b9f350188e54a544ae424de5bc9cd27",
+          "axiom_queries": 9,
+          "axiom_sets": [
+            [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          ]
+        },
+        {
+          "module": "Challenge",
+          "source_sha256": "8741c33e04597a6688a421b2a75198b43f6a59b6053d5dcbd0214c6c1382f09b",
+          "object_sha256": "63708e0790769dd2e1b82987f7b46800b7e7ebcade4722981657c80696798617",
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "axiom_queries": 0,
+          "axiom_sets": []
+        },
+        {
+          "module": "FullAudit",
+          "source_sha256": "f435e98a719f18723777049823674f6010cbd5f10a75223b7113ce20518d0f94",
+          "object_sha256": "78730a2728f8387f9b422631d99f5c68ec86cb351751320649ba19da27d878f0",
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "axiom_queries": 0,
+          "axiom_sets": []
+        },
+        {
+          "module": "KLS14",
+          "source_sha256": "2753a0751b64489da24d79fc69a046e2ead9c24f9d5c8fe6613ab566e4dc5207",
+          "object_sha256": "0ac851d3584407855cdca578f8b284f47b72f62f07a7e5d97cac37227bf19df3",
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "axiom_queries": 0,
+          "axiom_sets": []
+        },
+        {
+          "module": "KLSConstantImprovement.JointRouteIncrementalAudit",
+          "source_sha256": "910c17b8977312810da5755ccf81907cec09c0438d6aab879aeef58271eab2ca",
+          "object_sha256": "62c6bb41cfcb9bd64606082d22d6e1430428b856d30d0b8a28602616465741fc",
+          "log_sha256": "3befe06d5566b3b0d49ccda72fba2fc028c155f1103f7cff00042c5be244cf86",
+          "axiom_queries": 3388,
+          "axiom_sets": [
+            [
+              "propext"
+            ],
+            [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          ]
+        },
+        {
+          "module": "KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint",
+          "source_sha256": "90de202256ada0a61e8be303713dd44fc090fbcba108b65516bc94953885b5ef",
+          "object_sha256": "ac2f9b5d7ca9943740f05ad1f732d8fbd0e8a098791925a542d1a71a665d81d7",
+          "log_sha256": "708a97a78c4fcbf7aff3bca76e8e5a8fc8314cf01af5247e835e6d436f1901b3",
+          "axiom_queries": 13,
+          "axiom_sets": [
+            [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          ]
+        }
+      ],
+      "all_current_source_and_selected_current_object_hashes_match": true,
+      "object_root_resolves_to_external_ssd": true,
+      "model_sha256": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc",
+      "normal_lake_replay": {
+        "project": "lean_14",
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "AxiomAudit.lean"
+        ],
+        "exit_code": 0,
+        "log_sha256": "ed3c70538323fe6a99c17eab4f4a45593b9f350188e54a544ae424de5bc9cd27",
+        "independently_observed_axiom_queries": 9
+      },
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "fresh_full_source_rebuild": false,
+  "source_and_object_hashes_independently_recomputed": true,
+  "public_api_checks": {
+    "raw_original_statement_public_type": true,
+    "explicit_positive_witness_fourteen": true,
+    "compatibility_name_is_transparent_original_statement": true,
+    "challenge_checks_raw_original_type": true,
+    "challenge_checks_compatibility_type": true,
+    "best_constant_exact": true,
+    "best_original_test_endpoint": true,
+    "fourteen_original_test_endpoint": true,
+    "best_density_endpoint": true,
+    "fourteen_density_endpoint": true,
+    "original_model_quantifiers": true
+  },
+  "fresh_axiom_queries_total": 3422,
+  "summary_sha256": "b0663579e5b843807eef7756b56e25e7c1fdfe965ee0e02bdb88cee065e44670",
+  "normal_replay_receipt_sha256": "362808e812c83b8a567405742a78bceff695ac2d6b0953daf5a496bd2ba0e6dd",
+  "scientific_scope": [
+    "Universal Poincare upper bound 13810833/1000000 = 13.810833 < 14 on the original admissible law/test class.",
+    "Original OAI statement proved with explicit witness 14; unchanged upstream model definitions.",
+    "13.068 is a scoped current-method floor, not a universal upper bound.",
+    "Reused objects are source-matched, inherited verification; only named fresh modules and recorded normal-environment replays were freshly compiled. Counts are axiom-query occurrences, not counts of distinct mathematical theorems."
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ROOT_RECEIPT_GATED_NEW_WRAPPER_AMENDMENTS",
+  "scope": "Only four new public wrappers are amendable; all 2951 inherited Lean sources remain hash-checked unchanged.",
+  "root_receipt_sha256": "b0663579e5b843807eef7756b56e25e7c1fdfe965ee0e02bdb88cee065e44670",
+  "amendments": [
+    {
+      "path": "Challenge.lean",
+      "previous_sha256": "c6c800c13ae009e46ef7392078a2c98394382a6841837213f3a27ce4a4bf3229",
+      "source_sha256": "8741c33e04597a6688a421b2a75198b43f6a59b6053d5dcbd0214c6c1382f09b",
+      "fresh_exit_code": 0
+    },
+    {
+      "path": "KLS14.lean",
+      "previous_sha256": "25dc3c93e3be3cc4f84142cc8e63e6aaa5edca7b710efd9c78ddae447f267326",
+      "source_sha256": "2753a0751b64489da24d79fc69a046e2ead9c24f9d5c8fe6613ab566e4dc5207",
+      "fresh_exit_code": 0
+    }
+  ]
+}

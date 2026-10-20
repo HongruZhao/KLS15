@@ -1,0 +1,24 @@
+[
+  {
+    "project": "lean_15",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "Challenge.lean"
+    ],
+    "exit_code": 0,
+    "log_sha256": "5b5d9916a2b04e9822441a3b8bed4b1b47b719ed05caec2c1ffae1d279bfb226"
+  },
+  {
+    "project": "lean_14",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "AxiomAudit.lean"
+    ],
+    "exit_code": 0,
+    "log_sha256": "ed3c70538323fe6a99c17eab4f4a45593b9f350188e54a544ae424de5bc9cd27"
+  }
+]

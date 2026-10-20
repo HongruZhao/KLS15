@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/ENDPOINT_CORRESPONDENCE.md). Current release: [KLS14](../README.md).
+
 # KLS15 staged endpoint correspondence
 
 PASS: all 1,654 shipped Lean sources match the staged manifest, including the

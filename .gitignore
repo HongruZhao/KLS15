@@ -1,4 +1,5 @@
-/.lake/
+# Each Lean project keeps dependencies and compilation products outside Git.
+**/.lake
 *.olean
 *.ilean
 *.olean.private
@@ -6,7 +7,9 @@
 *.ir
 *.ir.sig
 *.trace
+**/project-objects/
+*.o
+# Local execution and operating-system files.
 .DS_Store
 __pycache__/
 *.py[cod]
-/verification/clean-build*/project-objects/

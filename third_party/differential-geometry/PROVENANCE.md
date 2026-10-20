@@ -1,1 +1,3 @@
+> Archived v2 documentation. [Preserved project copy](../../lean_15/third_party/differential-geometry/PROVENANCE.md). Current release: [KLS14](../../README.md).
+
 Pinned source: https://github.com/qinz1yang/differential-geometry at `788efe97894474c032de6dfb1289d515f613d15a`. Thirty-six selected modules, original Git blobs, complete compatibility patch, root fresh replay and full semantic review are archived in `evidence/post817-integration/viscosity-distribution-backend/`. Original source headers and nested TauCeti attribution are preserved. These sources are mathematical proofs checked by the pinned Lean kernel, not theorem axioms.

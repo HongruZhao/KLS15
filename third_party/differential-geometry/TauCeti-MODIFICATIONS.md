@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../../lean_15/third_party/differential-geometry/TauCeti-MODIFICATIONS.md). Current release: [KLS14](../../README.md).
+
 # Local modifications to selected Tau Ceti source
 
 All selected originals come from commit `3358033ba2fd35f321356dceaf2372a0fd6c0bfd`; SOURCE_MAP.json records exact source hashes. Unified patches reproduce every active implementation and native split. DECLARATION_MAP.json records per-declaration origins and detailed changes.

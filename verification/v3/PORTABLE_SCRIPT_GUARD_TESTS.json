@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SOURCE_GUARD_CHECK_NO_COMPILER",
+  "normal_source_pins_unchanged": "PASS",
+  "mocked_lockfile_change_rejected_during_metadata_refresh": true,
+  "no_actual_project_mutation": true,
+  "verify_release_sha256": "52633bb64c79d79388d76b4a4b6dd5d7b4f0faf3dfa40a164e0127fdb90e0824",
+  "build_release_sha256": "380f7a2e859f608d6520b5f4aeae1a9e24c489b920c78f27354b33720a12f07a"
+}

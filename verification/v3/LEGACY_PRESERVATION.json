@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "original_tracked_files": 3376,
+  "unchanged_original_files_in_lean_15": 3376,
+  "legacy_documentation_paths": 15,
+  "all_old_markdown_heading_anchors_preserved": true,
+  "current_local_markdown_links_status": "PASS",
+  "legacy_original_sources_and_receipts_byte_identical": true,
+  "legacy_upstream_head": "fe59199e9c039a79a436daa939f79662df2596da"
+}

@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/KLS15_STRICT_SUB15_SCALAR_FINAL_AUDIT.md). Current release: [KLS14](../README.md).
+
 # Constant-15 release: independent strict-sub15 scalar audit
 
 October 9, 2026. **PASS: 399 exact arithmetic and frozen receipt checks.**

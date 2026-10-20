@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/CLEAN_BUILD_FINAL_CORRESPONDENCE.md). Current release: [KLS14](../README.md).
+
 # KLS15 clean-build final correspondence
 
 PASS: independently checked the completed clean-build receipt, all1654 shipped

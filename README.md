@@ -1,37 +1,32 @@
-# KLS15
+<a name="kls15" id="kls15"></a>
+# KLS14
 
-This project continues [KLS500](https://github.com/HongruZhao/KLS500), which recorded the earlier upper bound 500.
-
-Zenodo archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815).
-
-Lean 4 formalization of the Poincaré formulation of the **Kannan–Lovász–Simonovits (KLS) conjecture**, with the explicit dimension-free constant **15**. For every isotropic log-concave probability measure $\mu$ on $\mathbb{R}^n$, $n\ge1$:
+Lean 4 proofs of the dimension-free Poincaré bound **13.810833 < 14** for isotropic log-concave probability measures. For every such measure $\mu$ on $\mathbb R^n$, $n\ge1$, and every locally Lipschitz $L^2(\mu)$ function:
 
 ```math
-\mathrm{Var}_{\mu}(f)\le15\int\lVert\nabla f\rVert^2\,d\mu.
+\operatorname{Var}_{\mu}(f)
+\le \frac{13810833}{1000000}\int\|\nabla f\|^2\,d\mu.
 ```
 
-The inequality covers locally Lipschitz $L^2(\mu)$ functions. The constant 15 is a sufficient upper bound; optimality is not asserted.
+Version **3.0.0** continues the earlier KLS15 release. The proof retains the same law and test-function classes and verifies the original OpenAI formulation. The constant is a sufficient upper bound; no optimality is claimed.
 
-| Statement | Lean declaration |
-|---|---|
-| Poincaré bound | `KLS15.poincare15` |
-| Universal upper bound | `KLS15.universalPoincareUpper15` |
-| OpenAI formulation with witness 15 | `KLS15.openaiPoincare15` |
-| Exact upstream OpenAI KLS statement | `KLS15.openaiKLS` |
+Start with the public [KLS14 interface](lean_14/KLS14.lean) and its separately compiled [statement checks](lean_14/Challenge.lean). The [exact endpoint](lean_14/KLSConstantImprovement/QuarticM96MixTrueCapBellman20261020TightEndpoint.lean) records the stronger rational constant. See [detailed changes](DETAILED_CHANGES.md) for the mathematical route and [verification](lean_14/verification/README.md) for reproduction and proof receipts.
 
-The final theorem has exactly the unchanged [OpenAI `KLSStatement`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/KLS/Model.lean#L47-L58) as its type, with universal witness 15. See [KLS15.lean](KLS15.lean) and the separately compiled [Challenge.lean](Challenge.lean).
+The improvement combines sharper cubic estimates and a coupled cubic/quartic estimate for the same law and test, an all-rank weighted budget, and exact quadratic-cap Bellman certificates with a proved infinite tail. The operator transfer then gives the bound for the original admissible laws.
 
-The proof builds on [Krishnakumar Balasubramanian and Shiva Kasiviswanathan, *A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures*, v2](https://arxiv.org/abs/2610.07728v2).
+This work builds on [Krishnakumar Balasubramanian and Shiva Kasiviswanathan's deterministic framework](https://arxiv.org/abs/2610.07728v2) and continues [KLS500](https://github.com/HongruZhao/KLS500). The earlier proof and its verification evidence are preserved in [lean_15](lean_15/README.md).
 
-See [Detailed changes](DETAILED_CHANGES.md) for the comparison with the paper and links to the Lean refinements.
-
-The complete source closure contains 1,654 Lean modules. A fresh source rebuild passed for all 1,654 project modules, with only `propext`, `Classical.choice`, and `Quot.sound` in the final theorem axiom closures. See [verification](verification/README.md) for its exact scope and evidence.
-
-With Elan and the pinned dependencies:
+To build the current project with its pinned dependencies:
 
 ```sh
+cd lean_14
 lake exe cache get
-lake build
+lake build KLS14
+lake env lean AxiomAudit.lean
 ```
+
+The two projects build independently. See the [release verification guide](verification/RELEASE_V3.md) for external storage, exact checks, and the preserved legacy build.
+
+Archive: [version 3.0.0](https://doi.org/10.5281/zenodo.23516248) · [Zenodo, all versions](https://doi.org/10.5281/zenodo.23229033). Historical archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815).
 
 Project contributions use [Apache 2.0](LICENSE); retained third-party licenses and [notices](NOTICE) apply. The repository layout follows [OpenAI/PrimeGaps186](https://github.com/openai/PrimeGaps186).

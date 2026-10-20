@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/notation-correction-audit.md). Current release: [KLS14](../README.md).
+
 # README notation correction audit
 
 Status: **PASS — documentation correction; proof sources and verification evidence unchanged.** Checked 2026-10-09T21:57:02.932994+00:00.

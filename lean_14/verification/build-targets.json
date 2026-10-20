@@ -1,0 +1,47 @@
+{
+  "release": "3.0.0",
+  "lake_target": "KLS14",
+  "registered_source_roots": 2955,
+  "public_entry_modules": [
+    "KLS14",
+    "Challenge",
+    "AxiomAudit"
+  ],
+  "full_inherited_import": "FullAudit",
+  "public_axiom_queries": [
+    "KLS14.poincareBest_mem",
+    "KLS14.poincareBest",
+    "KLS14.universalPoincareUpperBest",
+    "KLS14.openaiPoincareBest",
+    "KLS14.poincare14_mem",
+    "KLS14.poincare14",
+    "KLS14.universalPoincareUpper14",
+    "KLS14.openaiPoincare14",
+    "KLS14.openaiKLS"
+  ],
+  "accepted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "inherited_named_count": 921,
+  "new_module_count": 4,
+  "new_modules": [
+    "KLS14",
+    "Challenge",
+    "AxiomAudit",
+    "FullAudit"
+  ],
+  "new_release_modules_compiled": false,
+  "best_universal_upper": "13810833/1000000",
+  "integer_release_upper": 14,
+  "method_family_floor_only": "3267/250",
+  "method_global_minimum_proved": false,
+  "portable_commands": [
+    "python3 verify_sources.py",
+    "lake exe cache get",
+    "lake build KLS14",
+    "lake env lean AxiomAudit.lean"
+  ],
+  "storage_note": "All source-author compilation artifacts must use the mounted external SSD. No .lake or compiled objects are bundled."
+}

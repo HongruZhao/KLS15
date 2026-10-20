@@ -1,3 +1,5 @@
+> Archived v2 documentation. [Preserved project copy](../lean_15/verification/RELEASE_DOCUMENTATION_REVIEW.md). Current release: [KLS14](../README.md).
+
 # KLS15 release documentation review
 
 PASS focused claims, mathematical formatting, pinned-model identity and retained

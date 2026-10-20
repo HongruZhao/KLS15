@@ -1,0 +1,15 @@
+KLS15Verified.poincare15_mem {n : ℕ} (hn : 1 ≤ n) {μ : Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ) :
+  15 ∈ KLS.poincareConstants μ
+KLS15Verified.poincare15 {n : ℕ} (hn : 1 ≤ n) {μ : Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ)
+  {f : KLS.Space n → ℝ} (hf : KLS.LocallyLipschitzTests μ f) : KLS.variance μ f ≤ 15 * KLS.energy μ f
+KLS15Verified.universalPoincareUpper15 : KLS.universalPoincareConstant ≤ 15
+KLS15Verified.openaiPoincare15 {n : ℕ} (hn : 1 ≤ n) {ρ : OAI.LeanBlast.KLS.Space n → ℝ}
+  (hρ : OAI.LeanBlast.KLS.IsLogConcaveDensity ρ)
+  (hiso : OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ)) :
+  OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 15
+KLS15Verified.openaiKLS15 : OAI.LeanBlast.KLS.KLSStatement
+'KLS15Verified.poincare15_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15Verified.poincare15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15Verified.universalPoincareUpper15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15Verified.openaiPoincare15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15Verified.openaiKLS15' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'KLS15.poincare15_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15.poincare15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15.universalPoincareUpper15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15.openaiPoincare15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS15.openaiKLS' depends on axioms: [propext, Classical.choice, Quot.sound]

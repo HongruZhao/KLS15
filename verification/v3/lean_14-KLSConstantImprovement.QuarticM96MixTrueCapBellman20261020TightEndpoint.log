@@ -1,0 +1,41 @@
+KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.universal_poincare_lt_fourteen :
+  KLS.universalPoincareConstant < 14
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.regular_poincare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.original_poincare_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.original_poincare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.universal_poincare_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.bound_lt_fourteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.universal_poincare_lt_fourteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.openai_poincare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.best_current_original_class' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.current_universal_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.current_openai_poincare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.exponential_benchmark_original_class' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.current_bound_lt_previous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLSConstantImprovement.QuarticM96MixTrueCapBellman20261020TightEndpoint.current_bound_gap_fourteen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

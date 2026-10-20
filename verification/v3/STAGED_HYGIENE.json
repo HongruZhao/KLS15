@@ -1,0 +1,398 @@
+{
+  "status": "PASS_WITH_PRESERVED_INHERITED_WHITESPACE",
+  "scope": "Git whitespace diagnostics only; proof and original-source hashes remain unchanged. These inherited formatting warnings are preserved to keep source/receipt identity.",
+  "inherited_whitespace_diagnostics": 65,
+  "new_release_source_whitespace_errors": 0,
+  "diagnostics": [
+    {
+      "path": "lean_14/ActualKLS14452512512Endpoints.lean",
+      "line": 105,
+      "message": "new blank line at EOF.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ActualProjectionExpandedProfileOperatorEndgame.lean",
+      "line": 33,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ActualProjectionExpandedProfileOperatorEndgame.lean",
+      "line": 58,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ActualProjectionExpandedProfileOperatorEndgame.lean",
+      "line": 66,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ActualProjectionThreeHeadRefinedOperatorEndgame.lean",
+      "line": 33,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ActualProjectionThreeHeadRefinedOperatorEndgame.lean",
+      "line": 58,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ActualProjectionThreeHeadRefinedOperatorEndgame.lean",
+      "line": 66,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/FiniteOneTwoStepGrowth.lean",
+      "line": 10,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/ActualCubicCreationJointRawSupport.lean",
+      "line": 69,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/ExtendedSyntheticDegreeBudget.lean",
+      "line": 84,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/LongPrefixThreeHeadOperatorEndgame.lean",
+      "line": 38,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/LongPrefixThreeHeadOperatorEndgame.lean",
+      "line": 63,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/LongPrefixThreeHeadOperatorEndgame.lean",
+      "line": 71,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/LongPrefixWeightedProfileData.lean",
+      "line": 279,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/M12OptimizedProfileData.lean",
+      "line": 269,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedDrift.lean",
+      "line": 53,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedDrift.lean",
+      "line": 112,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedDrift.lean",
+      "line": 117,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedDrift.lean",
+      "line": 149,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedDrift.lean",
+      "line": 224,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 166,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 194,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 200,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 225,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 291,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 311,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/PositiveEnergyWeightedGenerator.lean",
+      "line": 339,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/QuarticM20Profile20261020Data.lean",
+      "line": 281,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/QuarticM24Profile20261020Data.lean",
+      "line": 289,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/QuarticM32Profile20261020Data.lean",
+      "line": 494,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/QuarticM48Profile20261020Data.lean",
+      "line": 638,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/Raw401317Quartic13999ProfileData.lean",
+      "line": 269,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/Raw4047255Quartic141ProfileData.lean",
+      "line": 264,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/RawCubic336WeightedProfileData.lean",
+      "line": 264,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/RefinedTripleThreeHeadOperatorEndgame.lean",
+      "line": 38,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/RefinedTripleThreeHeadOperatorEndgame.lean",
+      "line": 63,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/RefinedTripleThreeHeadOperatorEndgame.lean",
+      "line": 71,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/RefinedTripleWeightedProfileData.lean",
+      "line": 259,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedReservedCanonicalDrift.lean",
+      "line": 173,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedWeightedGenerator.lean",
+      "line": 79,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedWeightedGenerator.lean",
+      "line": 122,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedWeightedGenerator.lean",
+      "line": 150,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedWeightedGenerator.lean",
+      "line": 201,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedWeightedGenerator.lean",
+      "line": 216,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/SignedWeightedGenerator.lean",
+      "line": 278,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyHarmonicPayment.lean",
+      "line": 28,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedBudgetDrift.lean",
+      "line": 39,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedBudgetDrift.lean",
+      "line": 42,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedBudgetDrift.lean",
+      "line": 56,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedCharges.lean",
+      "line": 76,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedCharges.lean",
+      "line": 81,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedCharges.lean",
+      "line": 95,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedDrift.lean",
+      "line": 41,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedDrift.lean",
+      "line": 47,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedDrift.lean",
+      "line": 56,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedGenerator.lean",
+      "line": 46,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedGenerator.lean",
+      "line": 52,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedGenerator.lean",
+      "line": 77,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedGenerator.lean",
+      "line": 165,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/KLSConstantImprovement/TriplePositiveEnergyWeightedGenerator.lean",
+      "line": 195,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ProjectionSlackFiniteAnchor.lean",
+      "line": 88,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/ProjectionThreeHeadFiniteAnchor.lean",
+      "line": 39,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_14/TwoConeActualCubicCap.lean",
+      "line": 684,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_15/ActualAppellTiltJets.lean",
+      "line": 111,
+      "message": "trailing whitespace.",
+      "preserved_inherited_source": true
+    },
+    {
+      "path": "lean_15/BrownianMotion/StochasticIntegral/Cadlag.lean",
+      "line": 189,
+      "message": "new blank line at EOF.",
+      "preserved_inherited_source": true
+    }
+  ]
+}
