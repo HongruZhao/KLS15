@@ -1412,7 +1412,7 @@
   "final_layout": "Independent lean_15 and lean_14 projects; root Markdown compatibility paths retained.",
   "final_compatibility_file_hashes": {
     "DETAILED_CHANGES.md": "e302b2654fab695c61dc9635b86f571f987f7643f010f0346c8b251faa121683",
-    "README.md": "dae7ff7e6440c6e108e1b9eab3c6a62237657e688dc641101c4d193383d5e7e9",
+    "README.md": "f2c847af636d4c7191198f264bcd96a6e905c4134f382936ddaaf3cbbd236435",
     "comparator/README.md": "304d1677b72691ea507bd8c12cb203f668df7e33770bd39e937d39c17cda77ad",
     "third_party/differential-geometry/PROVENANCE.md": "f6797f780a6e5eefca80329c677099580275de2da5025d962e936c3c21a8c921",
     "third_party/differential-geometry/TauCeti-MODIFICATIONS.md": "8689a618a84c7ac6c24b5aab5bb969efc5c30397c730bf752f5537342f7f4cc7",

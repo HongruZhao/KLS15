@@ -1,6 +1,6 @@
 # Changelog
 
-## 3.0.0 — 20 October 2026
+## 3.0.0 — in preparation
 
 - Prove the universal Poincaré upper bound **13.810833 < 14**, with the original law and locally Lipschitz L² test classes.
 - Add the public `KLS14` interface and the unchanged OpenAI statement with explicit witness 14.

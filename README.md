@@ -1,10 +1,12 @@
-<a name="kls15" id="kls15"></a>
-# KLS14
+<a name="kls14" id="kls14"></a>
+# KLS15
+
+The repository keeps its original **KLS15** name and address. The current proof is in `lean_14`; the previous proof is preserved in `lean_15`.
 
 Lean 4 proofs of the dimension-free Poincaré bound **13.810833 < 14** for isotropic log-concave probability measures. For every such measure $\mu$ on $\mathbb R^n$, $n\ge1$, and every locally Lipschitz $L^2(\mu)$ function:
 
 ```math
-\operatorname{Var}_{\mu}(f)
+\mathrm{Var}_{\mu}(f)
 \le \frac{13810833}{1000000}\int\|\nabla f\|^2\,d\mu.
 ```
 
@@ -27,6 +29,6 @@ lake env lean AxiomAudit.lean
 
 The two projects build independently. See the [release verification guide](verification/RELEASE_V3.md) for external storage, exact checks, and the preserved legacy build.
 
-Archive: [version 3.0.0](https://doi.org/10.5281/zenodo.23516248) · [Zenodo, all versions](https://doi.org/10.5281/zenodo.23229033). Historical archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815).
+Published archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815) · [Zenodo, all versions](https://doi.org/10.5281/zenodo.23229033). Version 3.0.0 is being prepared and remains unpublished.
 
 Project contributions use [Apache 2.0](LICENSE); retained third-party licenses and [notices](NOTICE) apply. The repository layout follows [OpenAI/PrimeGaps186](https://github.com/openai/PrimeGaps186).
