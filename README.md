@@ -29,6 +29,6 @@ lake env lean AxiomAudit.lean
 
 The two projects build independently. See the [release verification guide](verification/RELEASE_V3.md) for external storage, exact checks, and the preserved legacy build.
 
-Published archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815) · [Zenodo, all versions](https://doi.org/10.5281/zenodo.23229033). Version 3.0.0 is being prepared and remains unpublished.
+Zenodo archive: [version 3.0.0](https://doi.org/10.5281/zenodo.23516248) · [all versions](https://doi.org/10.5281/zenodo.23229033). Historical archive: [version 2.0](https://doi.org/10.5281/zenodo.23272815).
 
 Project contributions use [Apache 2.0](LICENSE); retained third-party licenses and [notices](NOTICE) apply. The repository layout follows [OpenAI/PrimeGaps186](https://github.com/openai/PrimeGaps186).

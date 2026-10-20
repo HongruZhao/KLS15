@@ -2,7 +2,7 @@
   "status": "PASS",
   "root": ".",
   "markdown_count": 37,
-  "link_occurrences": 126,
+  "link_occurrences": 127,
   "external_links_fetched": false,
   "legacy_paths_and_anchors": [
     {
@@ -13529,7 +13529,7 @@
   ],
   "documents": {
     "CHANGELOG.md": {
-      "sha256": "8d37392d099365b8547961ae3eff8e006bcea9efbc745b1929f309348222a330",
+      "sha256": "bf3470f11ec6b511fc341969d03c0603c5d30f130d0cfe0b12c479a191597276",
       "links": [
         {
           "url": "lean_15/README.md",
@@ -13705,7 +13705,7 @@
       ]
     },
     "README.md": {
-      "sha256": "f2c847af636d4c7191198f264bcd96a6e905c4134f382936ddaaf3cbbd236435",
+      "sha256": "7b7063f7d7e9c06aa0a4a8fd87b8ac799a4709a72ed27b5b5fd307c14461dfb4",
       "links": [
         {
           "url": "lean_14/KLS14.lean",
@@ -13778,7 +13778,7 @@
           "status": "pass"
         },
         {
-          "url": "https://doi.org/10.5281/zenodo.23272815",
+          "url": "https://doi.org/10.5281/zenodo.23516248",
           "line": 32,
           "kind": "inline",
           "rewrite_destination": true,
@@ -13786,6 +13786,13 @@
         },
         {
           "url": "https://doi.org/10.5281/zenodo.23229033",
+          "line": 32,
+          "kind": "inline",
+          "rewrite_destination": true,
+          "status": "external_not_fetched"
+        },
+        {
+          "url": "https://doi.org/10.5281/zenodo.23272815",
           "line": 32,
           "kind": "inline",
           "rewrite_destination": true,
