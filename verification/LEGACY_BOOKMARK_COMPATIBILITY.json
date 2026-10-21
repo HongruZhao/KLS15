@@ -1,0 +1,176 @@
+{
+  "purpose": "Preserve the former direct GitHub and raw Lean source URLs referenced by the pre-v3 Markdown documentation.",
+  "repository_url": "https://github.com/HongruZhao/KLS15",
+  "zenodo_version": "3.0.0",
+  "zenodo_record": "https://zenodo.org/records/23516248",
+  "archived_git_commit": "b41dd13b1907f98740cf9c0018a49f5cdfeeca92",
+  "archive_scope": "The published archive is the immutable snapshot at the archived Git commit. This later compatibility change only adds exact historical source copies and this manifest; no archived file is modified.",
+  "canonical_projects": [
+    "lean_15",
+    "lean_14"
+  ],
+  "build_instructions": "Build from lean_15 or lean_14 as documented in verification/RELEASE_V3.md. Root compatibility copies preserve source URLs and do not constitute a separate Lake project.",
+  "files": [
+    {
+      "legacy_path": "ActualCenteredAdjacentHeat.lean",
+      "canonical_path": "lean_15/ActualCenteredAdjacentHeat.lean",
+      "sha256": "d399edc7a3bba7147b953b8bc366eb280b09c0d5d9570aeee307608c1e6bc3c8",
+      "bytes": 8560,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 25,
+          "original_url": "ActualCenteredAdjacentHeat.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualCenteredAdjacentTerminal.lean",
+      "canonical_path": "lean_15/ActualCenteredAdjacentTerminal.lean",
+      "sha256": "898c601e862897f64a94ef7350365b6d2f15efdc5b66036c328de5ee6d9cbb52",
+      "bytes": 5805,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 25,
+          "original_url": "ActualCenteredAdjacentTerminal.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualKLS149963Endpoints.lean",
+      "canonical_path": "lean_15/ActualKLS149963Endpoints.lean",
+      "sha256": "d8d5aed4a4234c582db6f4f424a7c44c2fdcf7c9bbeb8b298a2731a236c2f6d4",
+      "bytes": 4177,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 28,
+          "original_url": "ActualKLS149963Endpoints.lean"
+        },
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 43,
+          "original_url": "ActualKLS149963Endpoints.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualRegularEndpointSub15.lean",
+      "canonical_path": "lean_15/ActualRegularEndpointSub15.lean",
+      "sha256": "5b7b310d23ad43160105266c51231862e3afc71347c13799ed9c67e5cf54adcf",
+      "bytes": 3941,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 34,
+          "original_url": "ActualRegularEndpointSub15.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualSymmetricCenteredCubicSeed245.lean",
+      "canonical_path": "lean_15/ActualSymmetricCenteredCubicSeed245.lean",
+      "sha256": "37b0cc26e576a320a402f860b0b2b59f092100be5323b32ed65c707671850193",
+      "bytes": 10376,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 26,
+          "original_url": "ActualSymmetricCenteredCubicSeed245.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualSymmetricCubicSeed245Cap.lean",
+      "canonical_path": "lean_15/ActualSymmetricCubicSeed245Cap.lean",
+      "sha256": "7e8ef38ca889401f11d2838dd4f05eec43aa22ce04d0b6ce112e256c267bcaa1",
+      "bytes": 3171,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 26,
+          "original_url": "ActualSymmetricCubicSeed245Cap.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualSymmetricQuadraticNoise.lean",
+      "canonical_path": "lean_15/ActualSymmetricQuadraticNoise.lean",
+      "sha256": "abe21cb1a0f9bf8e326e092e0f4e6fe86a1050b88d3eed14acf731c835ab9a32",
+      "bytes": 8046,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 24,
+          "original_url": "ActualSymmetricQuadraticNoise.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "ActualWeightedAppellInductionSub15.lean",
+      "canonical_path": "lean_15/ActualWeightedAppellInductionSub15.lean",
+      "sha256": "849721af01e654d302264a14d92c202223a87b304aa0daf06d0cefa4a2e4c28b",
+      "bytes": 6238,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 36,
+          "original_url": "ActualWeightedAppellInductionSub15.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "Challenge.lean",
+      "canonical_path": "lean_15/Challenge.lean",
+      "sha256": "0f4130e23bb36d7c5978f1fe0b29487b3316d51000c4bdba58e5112ccb5e217b",
+      "bytes": 693,
+      "historical_references": [
+        {
+          "original_source": "README.md",
+          "line": 22,
+          "original_url": "Challenge.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "CoupledSub15Numerics.lean",
+      "canonical_path": "lean_15/CoupledSub15Numerics.lean",
+      "sha256": "ae2bbac9418e373f1a693873903cd0a2d0c2221d9d1ae59667d01a3306c72c7f",
+      "bytes": 6026,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 27,
+          "original_url": "CoupledSub15Numerics.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "KLS15.lean",
+      "canonical_path": "lean_15/KLS15.lean",
+      "sha256": "26d10583adad4373cd1e446891b1eedc737e206f4fd026a682b63123aa6b7c57",
+      "bytes": 1361,
+      "historical_references": [
+        {
+          "original_source": "README.md",
+          "line": 22,
+          "original_url": "KLS15.lean"
+        }
+      ]
+    },
+    {
+      "legacy_path": "TwoHeadObservationOperatorEndgame.lean",
+      "canonical_path": "lean_15/TwoHeadObservationOperatorEndgame.lean",
+      "sha256": "4ce335ea029581d3b223d6168c89e65edffc8c2451fba65aff30398681d49abf",
+      "bytes": 7356,
+      "historical_references": [
+        {
+          "original_source": "DETAILED_CHANGES.md",
+          "line": 27,
+          "original_url": "TwoHeadObservationOperatorEndgame.lean"
+        }
+      ]
+    }
+  ]
+}
